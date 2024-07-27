@@ -2,4 +2,4 @@
 
 Website for Madison Clojure.
 
-![Madison Clojure](images/madclj-logo.jpg)
+![Madison Clojure](static/images/madclj-logo.jpg)
