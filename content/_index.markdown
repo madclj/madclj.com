@@ -2,22 +2,20 @@
 title: Home
 ---
 
-[<img src="https://simpleicons.org/icons/github.svg" style="max-width:15%;min-width:40px;float:right;" alt="Github repo" />](https://github.com/yihui/hugo-xmin)
+# Madison Clojure
 
-# Madison Clojure Group
+![Madison Clojure](images/madclj-logo.jpg)
 
-We are a 
+## Upcoming
 
-## Upcoming events
-
-| Date | Speaker  |
+| Date | Event  |
 | ------------- | ------------- |
-| August 7th 2024 |  Ambrose Bonnaire-Sergeant |
-| September ? |  TBD |
-| October 2nd 2024 | TBD |
-| October 25th 2024 | Clojure/conj Community Day |
-| November 6th 2024 | TBD |
-| December 4th 2024 | TBD |
+| 2024-08-07 | Talk: Reconsidering Malli Scope, by Ambrose Bonnaire-Sergeant |
+| 2024-09-11 | Talk: The Wonders of Abstraction, Eric Normand |
+| 2024-10-02 | TBD |
+| 2024-11-25 | Clojure/conj Community Day |
+| 2024-11-06 | TBD |
+| 2024-12-04 | TBD |
 
 ## Members
 
