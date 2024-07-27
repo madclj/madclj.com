@@ -1,0 +1,4 @@
+baseURL = 'https://madclj.com'
+languageCode = 'en-us'
+title = 'Madison Clojure'
+theme = 'xmin'
