@@ -23,7 +23,9 @@ title: Home
 
 ![Madison Clojure](images/madclj-logo.jpg)
 
-## Clojure/conj Day
+## Clojure/conj 2024 Community Day
+
+[RSVP](https://www.meetup.com/madison-clojure-meetup/events/301052487/)
 
 ### 8:00 am CT → 10 min
 Welcome - Rich Hickey
