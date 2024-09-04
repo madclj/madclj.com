@@ -27,6 +27,10 @@ title: Home
 
 ## Clojure/conj 2024 Community Day
 
+Friday, October 25th 2024
+
+8am-4pm Central Time
+
 [RSVP](https://www.meetup.com/madison-clojure-meetup/events/301052487/)
 
 ### 8:00 am CT → 10 min
