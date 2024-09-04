@@ -60,7 +60,7 @@ This presentation will share our journey from initial explorations in leveraging
 
 Finally, we will demo some tools that we've explored that have the potential to enhance your engineering experience.
 
-#### 9:40 am CT → 40 min
+### 9:40 am CT → 40 min
 
 *Talk*: Scientific Clojure, a bird's-eye view
 
@@ -72,7 +72,7 @@ Whether natural or digital, a language takes a strong community to survive. Scic
 
 Data science with clojure might seem like an eccentric undertaking, but as we highlight the current state of SciCloj, the key people involved, documentation and reasources, the challenges and outlook for 2025 will also become clear. Whether that means a lab jacket or a straitjacket however, the community is data.
 
-#### 12:00 pm CT → 10 min
+### 12:00 pm CT → 10 min
 
 *Talk*: Architecting Threat Intelligence with Clojure in Cybersecurity Detection & Response
 
@@ -80,7 +80,7 @@ Data science with clojure might seem like an eccentric undertaking, but as we hi
 
 In this session, discover how Clojure can revolutionize cybersecurity through advanced threat intelligence modeling and ingestion. Learn about our open-source repositories designed to populate an Elasticsearch document database with JSON data, imported using Clojure. Get an inside look as to how we use these tools to service a powerful Extended Detection & Response platform. Further, we'll explore how these transformers streamline threat intelligence management, making our platform both simple and powerful. We will be walking through real-world production applications, best practices, and how you can enhance your cybersecurity infrastructure and stay ahead of emerging threats.
 
-#### 12:15 pm CT → 40 min
+### 12:15 pm CT → 40 min
 
 *Title*: Getting 50,000 Companies on Board with Clojure
 
@@ -88,7 +88,7 @@ In this session, discover how Clojure can revolutionize cybersecurity through ad
 
 Clojure transformed Metabase from a tiny startup to a global open-source BI powerhouse used by over 50,0000 companies every day! Here are some insider tips and lessons from a decade of real-world Clojure usage. Don’t miss out on this deep dive into success with Clojure and the invaluable lessons learned along the way.
 
-#### 1:00 pm CT → 40 min
+### 1:00 pm CT → 40 min
 
 *Title*: Teaching Clojure Together
 
@@ -99,7 +99,7 @@ Clojure transformed Metabase from a tiny startup to a global open-source BI powe
 Being an expert in Clojure doesn’t make one an expert in teaching Clojure. Whether you are trying to onboard new Clojurians at work, mentoring a family member, or wrangling some “free-range learners”, understanding the basics of pedagogy can go a long way at making you a better teacher. In this talk, two of the founders of Clojure Camp will share how they’ve been applying lessons from cognitive psychology, instructional design, inclusivity, and community organization to create effective learning experiences and foster a new generation of Clojurians.
 
 
-#### 2:00 pm CT → 40 min
+### 2:00 pm CT → 40 min
 
 *Title*: Enhancing LLM-Powered Development with Clojure's REPL
 
@@ -108,7 +108,7 @@ Being an expert in Clojure doesn’t make one an expert in teaching Clojure. Whe
 Anyone who has tried to use a Large Language Model (LLM) for development has discovered that it's an iterative process, with many parallels to how we use our REPLs when working with Clojure. In this talk, we'll explore how to enhance this experience through a deep integration with our editor via the REPL. We'll leverage the editor to provide relevant, project-specific context to improve AI-assisted coding. Clojure's REPL serves as the perfect interface for this development style, allowing us to interactively guide and refine LLM responses before integrating them back into the project. You'll see many examples of practical techniques for augmenting the coding process with AI, while maintaining the interactive and flexible development experience we all know and love.
 
 
-#### 2:45 pm CT → 40 min
+### 2:45 pm CT → 40 min
 
 *Title*: TBD
 
