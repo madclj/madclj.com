@@ -19,7 +19,9 @@ title: Home
 
 ## Members
 
-[Ambrose Bonnaire-Sergeant](https://ambrosebs.com/)
+- [Ambrose Bonnaire-Sergeant](https://ambrosebs.com/)
+
+[Add yourself here](https://github.com/madclj/madclj.com)
 
 ![Madison Clojure](images/madclj-logo.jpg)
 
