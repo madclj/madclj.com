@@ -6,9 +6,9 @@ title: Home
 
 | Date | Event  |
 | ------------- | ------------- |
-| Nov 13th 2024 | TBD |
-| Dec 11th 2024 | TBD |
-| Jan 15th 2025 | TBD |
+| Nov 13th 2024 | [TBD](https://www.meetup.com/madison-clojure-meetup/events/304256352) |
+| Dec 11th 2024 | [TBD](https://www.meetup.com/madison-clojure-meetup/events/304256369) |
+| Jan 15th 2025 | [TBD](https://www.meetup.com/madison-clojure-meetup/events/304256375) |
 
 <!--
 | Oct 25th 2024 | (Past) [Clojure/conj Community Day](https://www.meetup.com/madison-clojure-meetup/events/301052487/) ([agenda in Central time](#clojureconj-2024-community-day)) |
