@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App" id="app">
       <ICal src={{
-        url: 'https://madclj.com/events.ics',
+        url: '../events.ics',
         format: 'ics'
       }} />
     </div>

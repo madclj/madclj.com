@@ -26,10 +26,10 @@
    ["PRODID" "-//hacksw/handcal//NONSGML v1.0//EN"]
    ["X-WR-CALNAME" "Madison Clojure Events"]
    (for [{:keys [full-title start end summary description url rsvp id location]} events
-         :let [ical-description (cond-> ""
-                                  (not= full-title summary) (str full-title "\n\n")
-                                  :always (str description "\n\n" "RSVP: " rsvp)
-                                  :escape (str/replace #"\n" "\\\\n"))]]
+         :let [ical-description (-> ""
+                                    (cond-> (not= full-title summary) (str full-title "\n\n"))
+                                    (str description "\n\n" "RSVP: " rsvp)
+                                    (str/replace #"\n" "\\\\n"))]]
      [["BEGIN" "VEVENT"]
       ["UID" rsvp]
       ["DTSTART" (render-datetime start)]

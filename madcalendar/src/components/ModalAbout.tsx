@@ -18,7 +18,7 @@ export default function ModalAbout(props: {
       <p>
         This is a web-only preview of the calendar located {link(
           "here",
-          "https://madclj.com/feeds/events.ics"
+          "../events.ics"
         )}. The calendar can also be shown by mobile phone calendar.
       </p>
       <h3>Authors</h3>
