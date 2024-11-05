@@ -52,6 +52,7 @@ jobs:
         with:
           node-version: 20
           cache: 'npm'
+          cache-subdirectory-path: 'cljcalendar/package-lock.json'
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Install clojure tools

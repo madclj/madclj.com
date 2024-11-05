@@ -10,6 +10,10 @@ title: Home
 | Dec 11th 2024 | [Celebrating A Year of (Madison) Clojure](https://github.com/orgs/madclj/discussions/7) |
 | Jan 15th 2025 | [TBD](https://www.meetup.com/madison-clojure-meetup/events/304256375) |
 
+[Web Calendar](calendar/)
+
+[Download Calendar (.ics)](events.ics)
+
 <!--
 | Oct 25th 2024 | (Past) [Clojure/conj Community Day](https://www.meetup.com/madison-clojure-meetup/events/301052487/) ([agenda in Central time](#clojureconj-2024-community-day)) |
 | Sep 11th 2024 | (Past) [Talk: The Wonders of Abstraction, Eric Normand](https://www.meetup.com/madison-clojure-meetup/events/301041832/) |
