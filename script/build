@@ -2,8 +2,11 @@
 
 set -xe
 
-export TZ=America/Chicago
+./script/gen-calendar
 
+mv events.ics static
+
+export TZ=America/Chicago
 hugo \
   --gc \
   --minify \

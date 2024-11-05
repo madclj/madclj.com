@@ -6,7 +6,7 @@
   (->> events
        ical/ical-doc
        ical/render-ical-doc
-       (spit "../events.ical")))
+       (spit "../events.ics")))
 
 (comment
   (-main)
