@@ -1,9 +1,6 @@
 (ns madison-clojure.events
-  (:require [clojure.string :as str]))
-
-(defn madison-time [^String local-dt]
-  (.atZone (java.time.LocalDateTime/parse local-dt)
-           (java.time.ZoneId/of "America/Chicago")))
+  (:require [clojure.string :as str]
+            [madison-clojure.helpers :refer [madison-time]]))
 
 (def startingblock "StartingBlock Madison, 821 E Washington Ave 2nd floor, Madison, WI")
 

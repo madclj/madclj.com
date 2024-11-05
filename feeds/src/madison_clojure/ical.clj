@@ -1,41 +1,22 @@
 (ns madison-clojure.ical
   (:require [clojure.string :as str]
             [clojure.edn :as edn]
-            [tick.core :as t]))
+            [tick.core :as t])
+  (:import [java.time ZonedDateTime ZoneId]))
 
 (def event-time-re #"(\d{4}-\d{2}-\d{2}T\d{2}:\d{2})(?:--(\d{2}:\d{2}))?")
 
-(defmulti assoc-event-start-end (fn [event]
-                                  (cond
-                                    (contains? event :time) :time
-                                    :else :start-end)))
 (comment
   (def dt "2020-12-08T18:30Z ([local time](https://time.is/18:30_8_DECEMBER_2020_in_UTC))")
   (def dt2 "2020-12-08T18:30+01:00 ([local time](https://time.is/18:30_8_DECEMBER_2020_in_UTC))")
   (def dt3 "2020-12-08T18:30-01:00 ([local time](https://time.is/18:30_8_DECEMBER_2020_in_UTC))")
 
-
-  (t/zoned-date-time "2020-12-04T12:30+01:00")
+  (render-datetime (t/zoned-date-time "2020-12-04T12:30+01:00"))
   )
-(defmethod assoc-event-start-end :time
-  [{time :time :as event}]
-  (let [[_ from to]      (re-find event-time-re time)
-        default-duration (t/new-duration 2 :hours)
-        start            (t/parse-time from)
-        end              (if to (t/on (t/time to) start) (t/+ start default-duration))
-        end              (if (t/< end start) (t/+ end (t/new-duration 1 :days)) end)]
-    (assoc event :start start :end end)))
 
-(defmethod assoc-event-start-end :start-end
-  [{start-str :start end-str :end :as event}]
-  (let [start-end-re #"(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(?:Z|[+-]\d{2}:\d{2}))"
-        parse-dt     #(as-> %  $ (re-find start-end-re $) (second $) (t/zoned-date-time $) (t/in $ "UTC"))
-        start        (parse-dt start-str)
-        end          (parse-dt end-str)]
-    (assoc event :start start :end end)))
-
-(defn- render-datetime [dt]
-  (let [formatter (fn [fmt] #(t/format (t/formatter fmt) %))
+(defn render-datetime [^ZonedDateTime dt]
+  (let [dt (.withZoneSameInstant dt (ZoneId/of "UTC"))
+        formatter (fn [fmt] #(t/format (t/formatter fmt) %))
         [date time] ((juxt (formatter "uuuuMMdd") (formatter "HHmm")) dt)]
     (format "%sT%s00Z" date time)))
 

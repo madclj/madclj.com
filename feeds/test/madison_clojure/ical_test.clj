@@ -2,13 +2,19 @@
   (:require [clojure.test :refer [deftest is]]
             [clojure.string :as str]
             [tick.core :as t]
+            [madison-clojure.helpers :as h]
             [madison-clojure.ical :as sut]))
 
 (def example-event-1 {:full-title "Foo"
                       :rsvp "https://github.com/orgs/madclj/discussions/6"
                       :location " Foo"
-                      :start (t/zoned-date-time "2020-12-04T12:30+01:00")
-                      :end (t/zoned-date-time "2020-12-04T13:30+01:00")})
+                      :start (h/madison-time "2020-12-04T18:30")
+                      :end   (h/madison-time "2020-12-04T21:00")})
+
+(deftest render-datetime-test
+  (is (= "20201205T003000Z"
+         (sut/render-datetime
+           (h/madison-time "2020-12-04T18:30")))))
 
 (deftest ical-doc-test
   (is (= [["BEGIN" "VCALENDAR"]
