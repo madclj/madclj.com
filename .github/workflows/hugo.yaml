@@ -76,11 +76,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
-      - working-directory: ./cljcalendar
-        run: |
-          npm install
-          npm run build
-          rm -rf public/ && mv build public
 
   # Deployment job
   deploy:
