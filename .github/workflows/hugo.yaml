@@ -52,7 +52,7 @@ jobs:
         with:
           node-version: 23
           cache: 'npm'
-          cache-dependency-path: 'cljcalendar/package-lock.json'
+          cache-dependency-path: 'madcalendar/package-lock.json'
       - name: Install clojure tools
         uses: DeLaGuardo/setup-clojure@0747838008cdc5720c17ad794adce74e9caf9456
         with:

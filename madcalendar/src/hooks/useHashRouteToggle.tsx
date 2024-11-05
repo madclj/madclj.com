@@ -5,7 +5,7 @@ function urlMatches(modalId: string) {
   return results !== null && results.length > 0
 }
 
-const prevUrlAttrName = "cljcalendarPrevUrl"
+const prevUrlAttrName = "madcalendarPrevUrl"
 
 // Source: https://stackoverflow.com/a/60879586
 export default function useHashRouteToggle<T>(

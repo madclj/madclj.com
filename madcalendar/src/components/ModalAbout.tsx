@@ -23,7 +23,13 @@ export default function ModalAbout(props: {
       </p>
       <h3>Authors</h3>
       <p>
-        Web UI ({link(
+        MadCalendar Web UI ({link(
+          "Source code",
+          "https://github.com/madclj/madclj.com/tree/main/madcalendar"
+        )}): Ambrose Bonnaire-Sergeant
+      </p>
+      <p>
+        Derived from CljCalendar ({link(
           "Source code",
           "https://gitlab.com/invertisment/cljcalendar/"
         )}): Martynas Maciulevičius
