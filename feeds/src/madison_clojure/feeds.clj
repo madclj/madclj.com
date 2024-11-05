@@ -1,4 +1,4 @@
-(ns clojurians-zulip.feeds
+(ns madison-clojure.feeds
   (:require [clojure.data.json :as json]
             [clojure.data.xml :as xml]
             [clojure.java.io :as io]
