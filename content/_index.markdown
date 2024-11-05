@@ -6,8 +6,8 @@ title: Home
 
 | Date | Event  |
 | ------------- | ------------- |
-| Nov 13th 2024 | [Clojure Conference Takeaways and Inspirations](https://www.meetup.com/madison-clojure-meetup/events/304256352) |
-| Dec 11th 2024 | [Celebrating A Year of (Madison) Clojure](https://www.meetup.com/madison-clojure-meetup/events/304256369) |
+| Nov 13th 2024 | [Clojure Conference Takeaways and Inspirations](https://github.com/orgs/madclj/discussions/6) |
+| Dec 11th 2024 | [Celebrating A Year of (Madison) Clojure](https://github.com/orgs/madclj/discussions/7) |
 | Jan 15th 2025 | [TBD](https://www.meetup.com/madison-clojure-meetup/events/304256375) |
 
 <!--
