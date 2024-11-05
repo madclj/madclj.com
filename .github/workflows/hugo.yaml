@@ -82,10 +82,6 @@ jobs:
           npm run build
           rm -rf public/ && mv build public
 
-      - uses: borales/actions-yarn@v3.0.0
-        with:
-          cmd: build # will run `yarn build` command
-
   # Deployment job
   deploy:
     environment:
