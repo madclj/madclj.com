@@ -1,29 +1,12 @@
-{:paths ["src" "resources"]
- :deps  {org.clojure/clojure                     {:mvn/version "1.12.0"}
-         org.clojure/data.xml                    {:mvn/version "0.0.8"}
-         org.clojure/data.json                   {:mvn/version "1.0.0"}
-         tick/tick                               {:mvn/version "1.0"}
-         markdown-clj/markdown-clj               {:mvn/version "1.10.4"}
-         net.sourceforge.htmlcleaner/htmlcleaner {:mvn/version "2.6"}
-         com.github.kyleburton/clj-xpath         {:mvn/version "1.4.3"}
-         clojure.java-time/clojure.java-time     {:mvn/version "1.0.0"}
-         clj-http/clj-http                       {:mvn/version "3.10.0"}}
+{:paths ["src"]
+ :deps  {org.clojure/clojure {:mvn/version "1.12.0"}
+         tick/tick {:mvn/version "1.0"}}
  :aliases
- {;; cli's
-  :cli/feeds
-  {:main-opts ["-m" "inclined.main" "--ns" "clojurians-zulip.feeds" "--"]}
-
-  :cli/events
-  {:main-opts ["-m" "inclined.main" "--ns" "clojurians-zulip.events" "--"]}
-
-  :test    {:extra-paths ["test"]
+ {:test    {:extra-paths ["test"]
             :extra-deps  {org.clojure/test.check {:mvn/version "1.0.0"}}}
   :runner
   {:extra-deps {com.cognitect/test-runner
                 {:git/url "https://github.com/cognitect-labs/test-runner"
                  :sha     "f7ef16dc3b8332b0d77bc0274578ad5270fbfedd"}}
    :main-opts  ["-m" "cognitect.test-runner"
-                "-d" "test"]}
-  :uberjar {:extra-deps {seancorfield/depstar {:mvn/version "1.0.94"}}
-            :main-opts  ["-m" "hf.depstar.uberjar" "feeds.jar"
-                         "-C" "-m" "clojurians-zulip.feeds"]}}}
+                "-d" "test"]}}}

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hacksw/handcal//NONSGML v1.0//EN
+X-WR-CALNAME:Madison Clojure Events
+BEGIN:VEVENT
+UID:https://github.com/orgs/madclj/discussions/6
+DTSTART:20241113T183000Z
+DTEND:20241113T210000Z
+SUMMARY:
+LOCATION:StartingBlock Madison, 821 E Washington Ave 2nd floor, Madison, WI
+DESCRIPTION:Clojure Conference Takeaways and Inspirations\n\n\n\nRSVP: https://github.com/orgs/madclj/discussions/6
+URL:https://github.com/orgs/madclj/discussions/6
+END:VEVENT
+BEGIN:VEVENT
+UID:https://github.com/orgs/madclj/discussions/7
+DTSTART:20241211T183000Z
+DTEND:20241211T210000Z
+SUMMARY:
+LOCATION:StartingBlock Madison, 821 E Washington Ave 2nd floor, Madison, WI
+DESCRIPTION:Celebrating A Year of (Madison) Clojure\n\n\n\nRSVP: https://github.com/orgs/madclj/discussions/7
+URL:https://github.com/orgs/madclj/discussions/7
+END:VEVENT
+END:VCALENDAR

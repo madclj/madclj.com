@@ -1,0 +1,6 @@
+#!/bin/bash
+
+set -xe
+
+cd feeds
+bb -f src/madison_clojure/gen.clj

@@ -1,5 +1,6 @@
 (ns madison-clojure.ical
   (:require [clojure.string :as str]
+            [clojure.edn :as edn]
             [tick.core :as t]))
 
 (def event-time-re #"(\d{4}-\d{2}-\d{2}T\d{2}:\d{2})(?:--(\d{2}:\d{2}))?")
@@ -73,6 +74,13 @@
   (render-ical-doc (ical-doc [{:full-title "Foo"
                                :rsvp "https://github.com/orgs/madclj/discussions/6"
                                :location " Foo"
-                               :start (t/zoned-date-time "2020-12-04T12:30+01:00")
+                               :start (t/zoned-date-time "2018-03-25T03:05+02:00[America/Chicago]")
                                :end (t/zoned-date-time "2020-12-04T13:30+01:00")}]))
+  (prn (t/zoned-date-time "2020-12-04T12:30+01:00"))
+  (binding [*read-eval* false]
+    (read-string (slurp "events.clj")))
+  (filter #(.startsWith % "America/") (java.time.ZoneId/getAvailableZoneIds))
+  (.atZone (t/date-time "2018-03-25T03:05")
+           (java.time.ZoneId/of "America/Chicago"))
+
 )
