@@ -1,0 +1,10 @@
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: normal;
+  font-size: calc(5px + 3vmin);
+  min-height: 100vh;
+  margin: 3px;
+}

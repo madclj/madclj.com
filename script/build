@@ -6,6 +6,11 @@ set -xe
 
 mv events.ics static
 
+cd cljcalendar/
+./build.sh
+rm -fr ../static/calendar
+mv build ../static/calendar
+
 export TZ=America/Chicago
 hugo \
   --gc \

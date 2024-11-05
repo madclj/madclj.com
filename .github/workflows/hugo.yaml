@@ -48,6 +48,10 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Install clojure tools
@@ -73,6 +77,15 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
+      - working-directory: ./cljcalendar
+        run: |
+          npm install
+          npm run build
+          rm -rf public/ && mv build public
+
+      - uses: borales/actions-yarn@v3.0.0
+        with:
+          cmd: build # will run `yarn build` command
 
   # Deployment job
   deploy:
