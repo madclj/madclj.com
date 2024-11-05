@@ -2,6 +2,8 @@
 
 set -xe
 
+export TZ=America/Chicago
+
 ./script/gen-calendar
 
 mv events.ics static
@@ -11,7 +13,7 @@ cd cljcalendar/
 rm -fr ../static/calendar
 mv build ../static/calendar
 
-export TZ=America/Chicago
+cd ..
 hugo \
   --gc \
   --minify \
