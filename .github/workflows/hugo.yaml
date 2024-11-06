@@ -67,7 +67,10 @@ jobs:
             ~/.deps.clj
           key: cljdeps-${{ hashFiles('deps.edn', 'bb.edn') }}
           restore-keys: cljdeps-
-      - run: ./script/test
+      - name: Run Clojure tests
+        run: |
+          cd madcalendar
+          ./script/test
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
