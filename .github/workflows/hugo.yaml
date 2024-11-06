@@ -72,7 +72,7 @@ jobs:
       - name: Run Clojure tests
         run: |
           cd madcalendar
-          ./script/test
+          ./scripts/test
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
