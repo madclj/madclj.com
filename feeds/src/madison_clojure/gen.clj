@@ -1,3 +1,5 @@
+#!/usr/bin/env bb
+
 (ns madison-clojure.gen
   (:require [madison-clojure.events :refer [events]]
             [madison-clojure.ical :as ical]))
