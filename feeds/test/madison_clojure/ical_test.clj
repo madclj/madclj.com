@@ -6,6 +6,7 @@
             [madison-clojure.ical :as sut]))
 
 (def example-event-1 {:full-title "Foo"
+                      :uid "uid"
                       :rsvp "https://github.com/orgs/madclj/discussions/6"
                       :location " Foo"
                       :start (h/madison-time "2020-12-04T18:30")
@@ -22,9 +23,8 @@
           ["PRODID" "-//hacksw/handcal//NONSGML v1.0//EN"]
           ["X-WR-CALNAME" "Madison Clojure Events"]
           [[["BEGIN" "VEVENT"]
-            ["UID" "https://github.com/orgs/madclj/discussions/6"]
-            ["DTSTART" "20201204T123000Z"]
-            ["DTEND" "20201204T133000Z"]
+            ["UID" "uid"]
+            ["DTSTART" "20201205T003000Z"] ["DTEND" "20201205T030000Z"]
             ["SUMMARY" nil]
             ["LOCATION" " Foo"]
             ["DESCRIPTION" "Foo\\n\\n\\n\\nRSVP: https://github.com/orgs/madclj/discussions/6"]
@@ -39,9 +39,9 @@
           "PRODID:-//hacksw/handcal//NONSGML v1.0//EN"
           "X-WR-CALNAME:Madison Clojure Events"
           "BEGIN:VEVENT"
-          "UID:https://github.com/orgs/madclj/discussions/6"
-          "DTSTART:20201204T123000Z"
-          "DTEND:20201204T133000Z"
+          "UID:uid"
+          "DTSTART:20201205T003000Z"
+          "DTEND:20201205T030000Z"
           "SUMMARY:"
           "LOCATION: Foo"
           "DESCRIPTION:Foo\\n\\n\\n\\nRSVP: https://github.com/orgs/madclj/discussions/6"

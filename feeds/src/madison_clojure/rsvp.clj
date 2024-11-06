@@ -6,6 +6,15 @@
 (def rsvp-emojis #{"THUMBS_UP"})
 
 (defn rsvps-for-pinned-discussions []
+  {:post [(or (assert (and (map? %)
+                           (every? string? (keys %))
+                           (every? #(every? (every-pred (comp string? :name)
+                                                        (comp string? :url)
+                                                        (comp string? :avatarUrl))
+                                            %)
+                                   (vals %)))
+                      (pr-str %))
+              true)]}
   (-> (:out (proc/shell
               {:out :string
                :err :string}
@@ -36,3 +45,13 @@
                                                     :url "https://github.com/frenchy64",
                                                     :avatarUrl "https://avatars.githubusercontent.com/u/287396?u=2aa22e9ddcc23256939aa36dbd3ca60f3e260e69&v=4"}]}
   )
+
+(defn add-rsvps-to-events [rsvps events]
+  (mapv (fn [{:keys [rsvp] :as event}]
+          (if-some [users (get rsvps rsvp)]
+            (update event :description str "\n\nAttendees:"
+                    (apply str (map (fn [{:keys [name url avatarUrl]}]
+                                      (format "\n- [%s](%s)" name url))
+                                    (sort-by :name users))))
+            event))
+        events))

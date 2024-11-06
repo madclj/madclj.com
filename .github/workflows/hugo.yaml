@@ -56,6 +56,7 @@ jobs:
       - name: Install clojure tools
         uses: DeLaGuardo/setup-clojure@0747838008cdc5720c17ad794adce74e9caf9456
         with:
+          cli: 1.12.0.1479
           bb: 1.12.194
       - name: Cache clojure dependencies
         uses: actions/cache@v4
@@ -66,6 +67,7 @@ jobs:
             ~/.deps.clj
           key: cljdeps-${{ hashFiles('deps.edn', 'bb.edn') }}
           restore-keys: cljdeps-
+      - run: ./script/test
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
