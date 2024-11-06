@@ -19,4 +19,4 @@
            :description "desc1\n\nAttendees:\n- [Ambrose Bonnaire-Sergeant](https://github.com/frenchy64)"}
           {:summary "2", :uid "2", :rsvp "https://github.com/orgs/madclj/discussions/7",
            :description "desc2\n\nAttendees:\n- [User 2](https://github.com/user2)"}]
-         (sut/add-rsvps-to-events dummy-rsvps dummy-events))))
+         (sut/add-rsvps-to-events dummy-events dummy-rsvps))))

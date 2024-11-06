@@ -46,7 +46,7 @@
                                                     :avatarUrl "https://avatars.githubusercontent.com/u/287396?u=2aa22e9ddcc23256939aa36dbd3ca60f3e260e69&v=4"}]}
   )
 
-(defn add-rsvps-to-events [rsvps events]
+(defn add-rsvps-to-events [events rsvps]
   (mapv (fn [{:keys [rsvp] :as event}]
           (if-some [users (get rsvps rsvp)]
             (update event :description str "\n\nAttendees:"

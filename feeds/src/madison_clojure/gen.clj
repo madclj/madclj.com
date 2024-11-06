@@ -5,11 +5,6 @@
             [madison-clojure.ical :as ical]
             [madison-clojure.rsvp :as rsvp]))
 
-
-(comment
-  (add-rsvps-to-events  (rsvp/rsvps-for-pinned-discussions) (do events))
-  )
-
 (defn -main []
   (-> events
       (rsvp/add-rsvps-to-events (rsvp/rsvps-for-pinned-discussions))

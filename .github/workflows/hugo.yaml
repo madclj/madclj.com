@@ -79,6 +79,7 @@ jobs:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
           BASE_URL: ${{ steps.pages.outputs.base_url }}
+          # TODO this might not work for a PR build
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: ./script/build
       - name: Upload artifact
