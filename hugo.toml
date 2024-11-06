@@ -2,3 +2,9 @@ baseURL = 'https://madclj.com/'
 languageCode = 'en-us'
 title = 'Madison Clojure'
 theme = 'xmin'
+#https://stackoverflow.com/a/63206852
+# for inlining avatars in rsvps
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
