@@ -3,6 +3,8 @@
     [babashka.process :as proc]
     [cheshire.core :as json]))
 
+(def rsvp-emojis #{"THUMBS_UP"})
+
 (defn rsvps-for-pinned-discussions []
   (-> (:out (proc/shell
               {:out :string
@@ -20,7 +22,7 @@
       ;;TODO figure out how to filter and select in graphql
       (get-in [:data :repository :pinnedDiscussions :nodes])
       (->> (into {} (map (fn [{{:keys [url reactions]} :discussion}]
-                           [url (into [] (keep #(when (= (:content %) "THUMBS_UP")
+                           [url (into [] (keep #(when (rsvp-emojis (:content %))
                                                   (:user %)))
                                       (:nodes reactions))]))))))
 

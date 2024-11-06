@@ -71,6 +71,7 @@ jobs:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
           BASE_URL: ${{ steps.pages.outputs.base_url }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: ./script/build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

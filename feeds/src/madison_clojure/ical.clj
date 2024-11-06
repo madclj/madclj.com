@@ -29,9 +29,10 @@
          :let [ical-description (-> ""
                                     (cond-> (not= full-title summary) (str full-title "\n\n"))
                                     (str description "\n\n" "RSVP: " rsvp)
-                                    (str/replace #"\n" "\\\\n"))]]
+                                    (str/replace #"\n" "\\\\n"))
+               _ (assert uid (pr-str uid))]]
      [["BEGIN" "VEVENT"]
-      ["UID" (doto uid assert)]
+      ["UID" uid]
       ["DTSTART" (render-datetime start)]
       ["DTEND" (render-datetime end)]
       ["SUMMARY" summary]
