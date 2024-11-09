@@ -1,7 +1,8 @@
 (ns madison-clojure.rsvp
   (:require
     [babashka.process :as proc]
-    [cheshire.core :as json]))
+    [cheshire.core :as json]
+    [clojure.set :as set]))
 
 (def rsvp-emojis #{"THUMBS_UP"})
 
@@ -31,8 +32,11 @@
       (get-in [:data :repository :pinnedDiscussions :nodes])
       (->> (into {} (map (fn [{{:keys [url reactions]} :discussion}]
                            [url (into [] (keep #(when (rsvp-emojis (:content %))
-                                                  (:user %)))
-                                      (:nodes reactions))]))))))
+                                                  (-> (:user %)
+                                                      (set/rename-keys {:avatarUrl :avatar-url}))))
+                                      (:nodes reactions))]))))
+      (doto prn)
+      ))
 
 (comment
   (rsvps-for-pinned-discussions)

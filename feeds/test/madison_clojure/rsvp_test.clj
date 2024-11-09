@@ -12,7 +12,7 @@
                                                     :avatar-url "https://avatars.githubusercontent.com/u/287396?u=2aa22e9ddcc23256939aa36dbd3ca60f3e260e69&v=4"}],
    "https://github.com/orgs/madclj/discussions/7" [{:name "User 2",
                                                     :url "https://github.com/user2",
-                                                    :avatar-url "avatarurl"}]})
+                                                    :avatar-url "avatar-url"}]})
 
 (deftest add-rsvps-to-event-test
   (is (= [{:summary "1", :uid "1", :rsvp "https://github.com/orgs/madclj/discussions/6",
@@ -24,5 +24,5 @@
            :description "desc2\n\nAttendees:\n- [User 2](https://github.com/user2)"
            :attendees [{:name "User 2",
                         :url "https://github.com/user2",
-                        :avatar-url "avatarurl"}]}]
+                        :avatar-url "avatar-url"}]}]
          (sut/add-rsvps-to-events dummy-events dummy-rsvps))))

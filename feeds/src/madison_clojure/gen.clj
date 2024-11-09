@@ -25,30 +25,41 @@
   )
 
 (defn md-table [events]
-  (prn "events" events)
   (let [extra-events ["| Jan 15th 2025 | [TBD](https://www.meetup.com/madison-clojure-meetup/events/304256375) |"]]
     (-> ["| Date | Event RSVP | Attendees |"
          "| ------------- | ------------- | ------------- |"]
         (into (map (fn [{:keys [start full-title summary rsvp attendees]}]
-                     (str/join "|"
-                               (into []
-                                     (mapv #(str/escape % {\| "\\|"})
-                                           )
-                                     (interpose))
-                               [(pr-str start) ;;TODO print madison time
-                                (format "[%s](%s)" full-title rsvp)
-                                ])))
-              (sort-by (juxt :start :end :full-title :uid) events)
-              )
+                     (assert (not (str/includes? rsvp "(")))
+                     (assert (not (str/includes? rsvp ")")))
+                     (str "|"
+                          (str/join "|"
+                                    (eduction (map #(str/escape % {\| "\\|"}))
+                                              [(str start) ;;TODO print madison time
+                                               (format "[%s](%s)"
+                                                       (str/escape full-title {\[ "\\[" \] "\\]"})
+                                                       rsvp)
+                                               (str/join (mapcat
+                                                           (fn [{:keys [name url avatar-url]}]
+                                                             (assert (not (str/includes? name "\"")))
+                                                             (assert (not (str/includes? avatar-url "\"")))
+                                                             (assert (not (str/includes? url "\"")))
+                                                             [(format "<a href=\"%s\" title=\"%s\">" url name)
+                                                              (format "<img src=\"%s\" alt=\"%s\" style=\"%s\"/>"
+                                                                      avatar-url
+                                                                      name
+                                                                      "height:3em;display: inline-block; position: relative; overflow: hidden; border-radius: 50%;")
+                                                              "</a>"])
+                                                           attendees))]))
+                          "|")))
+              (sort-by (juxt :start :end :full-title :uid) events))
         (into extra-events)
-        (doto prn)
         (->> (str/join "\n")))))
 
 (defn gen-table [events]
   (-> index-md
       slurp
-      (replace-between "◊(events-table" "events-table◊)" (md-table events))
-      (->> (prn #_spit index-md))))
+      (replace-between "◊(events-table" "events-table)◊" (md-table events))
+      (->> (spit index-md))))
 
 (defn -main []
   (let [events (rsvp/add-rsvps-to-events e/events (rsvp/rsvps-for-pinned-discussions))]
