@@ -10,7 +10,7 @@
                            (every? string? (keys %))
                            (every? #(every? (every-pred (comp string? :name)
                                                         (comp string? :url)
-                                                        (comp string? :avatarUrl))
+                                                        (comp string? :avatar-url))
                                             %)
                                    (vals %)))
                       (pr-str %))
@@ -25,8 +25,7 @@
                    nodes {discussion {url reactions(first: 10) {nodes {user {name url avatarUrl} content}}}}
                   }
                 }
-              }'"
-              ))
+              }'"))
       (json/parse-string true)
       ;;TODO figure out how to filter and select in graphql
       (get-in [:data :repository :pinnedDiscussions :nodes])
@@ -40,18 +39,21 @@
   ;=>
   {"https://github.com/orgs/madclj/discussions/6" [{:name "Ambrose Bonnaire-Sergeant",
                                                     :url "https://github.com/frenchy64",
-                                                    :avatarUrl "https://avatars.githubusercontent.com/u/287396?u=2aa22e9ddcc23256939aa36dbd3ca60f3e260e69&v=4"}],
+                                                    :avatar-url "https://avatars.githubusercontent.com/u/287396?u=2aa22e9ddcc23256939aa36dbd3ca60f3e260e69&v=4"}],
    "https://github.com/orgs/madclj/discussions/7" [{:name "Ambrose Bonnaire-Sergeant",
                                                     :url "https://github.com/frenchy64",
-                                                    :avatarUrl "https://avatars.githubusercontent.com/u/287396?u=2aa22e9ddcc23256939aa36dbd3ca60f3e260e69&v=4"}]}
+                                                    :avatar-url "https://avatars.githubusercontent.com/u/287396?u=2aa22e9ddcc23256939aa36dbd3ca60f3e260e69&v=4"}]}
   )
 
 (defn add-rsvps-to-events [events rsvps]
   (mapv (fn [{:keys [rsvp] :as event}]
-          (if-some [users (get rsvps rsvp)]
-            (update event :description str "\n\nAttendees:"
-                    (apply str (map (fn [{:keys [name url avatarUrl]}]
-                                      (format "\n- [%s](%s)" name url))
-                                    (sort-by :name users))))
+          (if-some [attendees (get rsvps rsvp)]
+            (let [attendees (sort-by (juxt :name :url) attendees)]
+              (-> event
+                  (assoc :attendees attendees)
+                  (update :description str "\n\nAttendees:"
+                          (apply str (map (fn [{:keys [name url avatar-url]}]
+                                            (format "\n- [%s](%s)" name url))
+                                          attendees)))))
             event))
         events))

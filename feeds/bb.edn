@@ -1,2 +1,2 @@
-{:paths ["src"]
+{:paths ["src" "test"]
  :deps {tick/tick {:mvn/version "1.0"}}}
