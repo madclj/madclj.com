@@ -28,15 +28,11 @@
   (-> e/events first keys)
   )
 
-(defn format-event-time [^ZonedDateTime start]
-  (assert (h/madison-time? start) (class start))
-  (format (.format start (DateTimeFormatter/ofPattern "MMM '%s' yyyy" Locale/US))
-          (let [d (.getDayOfMonth start)]
-            (str d (case d
-                     (1 21 31) "st"
-                     (2 22) "nd";
-                     (3 23) "rd";
-                     "th")))))
+(defn format-event-time [^ZonedDateTime t]
+  (assert (h/madison-time? t) (class t))
+  (-> t
+      (.format (DateTimeFormatter/ofPattern "MMM '%s' yyyy" Locale/US))
+      (format (h/format-day-of-month t))))
 
 (defn md-table [events]
   (let [extra-events ["| Jan 15th 2025 | [TBD](https://www.meetup.com/madison-clojure-meetup/events/304256375) |"]]
