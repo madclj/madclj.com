@@ -4,7 +4,11 @@
   (:require [clojure.string :as str]
             [madison-clojure.events :as e]
             [madison-clojure.ical :as ical]
-            [madison-clojure.rsvp :as rsvp]))
+            [madison-clojure.rsvp :as rsvp]
+            [madison-clojure.helpers :as h])
+  (:import [java.util Locale]
+           [java.time ZonedDateTime]
+           [java.time.format DateTimeFormatter]))
 
 (def index-md "../content/_index.markdown")
 (def events-ics "../events.ics")
@@ -24,6 +28,16 @@
   (-> e/events first keys)
   )
 
+(defn format-event-time [^ZonedDateTime start]
+  (assert (h/madison-time? start) (class start))
+  (format (.format start (DateTimeFormatter/ofPattern "MMM '%s' yyyy" Locale/US))
+          (let [d (.getDayOfMonth start)]
+            (str d (case d
+                     (1 21 31) "st"
+                     (2 22) "nd";
+                     (3 23) "rd";
+                     "th")))))
+
 (defn md-table [events]
   (let [extra-events ["| Jan 15th 2025 | [TBD](https://www.meetup.com/madison-clojure-meetup/events/304256375) |"]]
     (-> ["| Date | Event RSVP | Attendees |"
@@ -34,7 +48,7 @@
                      (str "|"
                           (str/join "|"
                                     (eduction (map #(str/escape % {\| "\\|"}))
-                                              [(str start) ;;TODO print madison time
+                                              [(format-event-time start)
                                                (format "[%s](%s)"
                                                        (str/escape full-title {\[ "\\[" \] "\\]"})
                                                        rsvp)
