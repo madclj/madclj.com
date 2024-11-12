@@ -12,7 +12,7 @@ title: Home
 | Jan 15th 2025 | [TBD](https://www.meetup.com/madison-clojure-meetup/events/304256375) |
 <!--events-table)◊-->
 
-[Web Calendar](calendar/)
+[Web Calendar (Settings -> Madison Clojure -> Enable)](https://invertisment.gitlab.io/cljcalendar/)
 
 [Download Calendar (.ics)](events.ics)
 
