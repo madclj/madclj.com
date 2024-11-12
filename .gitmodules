@@ -4,3 +4,6 @@
 [submodule "themes/xmin"]
 	path = themes/xmin
 	url = https://github.com/yihui/hugo-xmin.git
+[submodule "madcalendar"]
+	path = madcalendar
+	url = git@github.com:madclj/madcalendar.git

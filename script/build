@@ -9,7 +9,8 @@ export TZ=America/Chicago
 mv events.ics static
 
 cd madcalendar/
-./build.sh
+npm install
+npm run build
 rm -fr ../static/calendar
 mv build ../static/calendar
 
