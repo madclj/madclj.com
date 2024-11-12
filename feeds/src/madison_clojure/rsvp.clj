@@ -54,8 +54,8 @@
               (-> event
                   (assoc :attendees attendees)
                   (update :description
-                          str "\n\nAttendees:"
-                          " " (count attendees)
+                          str "\n\nRSVPs:"
+                          (str " " (count attendees))
                           #_(apply str (map (fn [{:keys [name url avatar-url]}]
                                               (format "\n- [%s](%s)" name url))
                                             attendees)))))

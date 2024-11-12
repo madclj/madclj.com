@@ -33,7 +33,7 @@
 
 (defn md-table [events]
   (let [extra-events ["| Jan 15th 2025 | [TBD](https://www.meetup.com/madison-clojure-meetup/events/304256375) |"]]
-    (-> ["| Date | Event RSVP | Attendees |"
+    (-> ["| Date | Link | RSVPs |"
          "| ------------- | ------------- | ------------- |"]
         (into (map (fn [{:keys [start full-title summary rsvp attendees]}]
                      (assert (not (str/includes? rsvp "(")))

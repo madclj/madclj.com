@@ -8,7 +8,7 @@ title: Home
 "/> 
 
 <!--◊(events-table-->
-| Date | Event RSVP | Attendees |
+| Date | Link | RSVPs |
 | ------------- | ------------- | ------------- |
 |Nov 13th 2024|[Clojure Conference Takeaways and Inspirations](https://github.com/orgs/madclj/discussions/6)|4|
 |Dec 11th 2024|[Celebrating A Year of (Madison) Clojure](https://github.com/orgs/madclj/discussions/7)|2|
