@@ -34,9 +34,7 @@
                            [url (into [] (keep #(when (rsvp-emojis (:content %))
                                                   (-> (:user %)
                                                       (set/rename-keys {:avatarUrl :avatar-url}))))
-                                      (:nodes reactions))]))))
-      (doto prn)
-      ))
+                                      (:nodes reactions))]))))))
 
 (comment
   (rsvps-for-pinned-discussions)
