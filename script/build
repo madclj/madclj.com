@@ -1,15 +1,6 @@
 #!/bin/bash
-
 set -xe
-
 export TZ=America/Chicago
-
 ./script/gen-calendar
-
 mv events.ics static
-
-cd ..
-hugo \
-  --gc \
-  --minify \
-  --baseURL "${BASE_URL:-https://madclj.com}/"
+hugo --gc --minify --baseURL "${BASE_URL:-https://madclj.com}/"
