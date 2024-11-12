@@ -2,7 +2,10 @@
 title: Home
 ---
 
-# Madison Clojure
+<h1 style="text-align: center;">Madison Clojure</h1>
+
+<img src="images/madclj-logo.jpg" style="height:15em; display: block; margin-left: auto; margin-right: auto;   padding-bottom: 1em;
+"/> 
 
 <!--◊(events-table-->
 | Date | Event RSVP | Attendees |
@@ -27,10 +30,4 @@ title: Home
 | 2024-12-04 | TBD |
 -->
 
-## Members
-
-- [Ambrose Bonnaire-Sergeant](https://ambrosebs.com/)
-
-[Add yourself here](https://github.com/madclj/madclj.com)
-
-![Madison Clojure](images/madclj-logo.jpg)
+<!-- ![Madison Clojure](images/madclj-logo.jpg) -->
