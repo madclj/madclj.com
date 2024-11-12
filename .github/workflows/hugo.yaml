@@ -68,7 +68,7 @@ jobs:
             ~/.m2/repository
             ~/.gitlibs
             ~/.deps.clj
-          key: cljdeps-${{ hashFiles('deps.edn', 'bb.edn') }}
+          key: cljdeps-${{ hashFiles('**/deps.edn', '**/bb.edn') }}
           restore-keys: cljdeps-
       - name: Run Clojure tests
         run: |
