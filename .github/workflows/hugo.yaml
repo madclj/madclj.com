@@ -30,6 +30,9 @@ defaults:
   run:
     shell: bash
 
+env:
+  ACTIONS_CACHE_VERSION: v1
+
 jobs:
   # Build job
   build:
@@ -68,8 +71,8 @@ jobs:
             ~/.m2/repository
             ~/.gitlibs
             ~/.deps.clj
-          key: cljdeps-${{ hashFiles('**/deps.edn', '**/bb.edn') }}
-          restore-keys: cljdeps-
+          key: ${{ env.ACTIONS_CACHE_VERSION }}-cljdeps-${{ hashFiles('**/deps.edn', '**/bb.edn') }}
+          restore-keys: ${{ env.ACTIONS_CACHE_VERSION }}-cljdeps-
       - name: Run Clojure tests
         run: |
           cd feeds
