@@ -10,8 +10,8 @@ title: Home
 <!--◊(events-table-->
 | Date | Event RSVP | Attendees |
 | ------------- | ------------- | ------------- |
-|Nov 13th 2024|[Clojure Conference Takeaways and Inspirations](https://github.com/orgs/madclj/discussions/6)|<img src="https://avatars.githubusercontent.com/u/287396?u=2aa22e9ddcc23256939aa36dbd3ca60f3e260e69&v=4" style="height:3em;display: inline-block; position: relative; overflow: hidden; border-radius: 50%;"/><img src="https://avatars.githubusercontent.com/u/1110?v=4" style="height:3em;display: inline-block; position: relative; overflow: hidden; border-radius: 50%;"/><img src="https://avatars.githubusercontent.com/u/30735158?u=9a45262cf6923c0571e20d5680d9d9b54b1f6219&v=4" style="height:3em;display: inline-block; position: relative; overflow: hidden; border-radius: 50%;"/><img src="https://avatars.githubusercontent.com/u/22117232?u=9e7b3e815b3ac091ab4b460f6344439c75ac243b&v=4" style="height:3em;display: inline-block; position: relative; overflow: hidden; border-radius: 50%;"/>|
-|Dec 11th 2024|[Celebrating A Year of (Madison) Clojure](https://github.com/orgs/madclj/discussions/7)|<img src="https://avatars.githubusercontent.com/u/287396?u=2aa22e9ddcc23256939aa36dbd3ca60f3e260e69&v=4" style="height:3em;display: inline-block; position: relative; overflow: hidden; border-radius: 50%;"/><img src="https://avatars.githubusercontent.com/u/30735158?u=9a45262cf6923c0571e20d5680d9d9b54b1f6219&v=4" style="height:3em;display: inline-block; position: relative; overflow: hidden; border-radius: 50%;"/>|
+|Nov 13th 2024|[Clojure Conference Takeaways and Inspirations](https://github.com/orgs/madclj/discussions/6)|4|
+|Dec 11th 2024|[Celebrating A Year of (Madison) Clojure](https://github.com/orgs/madclj/discussions/7)|2|
 | Jan 15th 2025 | [TBD](https://www.meetup.com/madison-clojure-meetup/events/304256375) |
 <!--events-table)◊-->
 

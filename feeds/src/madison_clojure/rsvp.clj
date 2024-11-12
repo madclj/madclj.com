@@ -53,9 +53,11 @@
             (let [attendees (sort-by (juxt :name :url) attendees)]
               (-> event
                   (assoc :attendees attendees)
-                  (update :description str "\n\nAttendees:"
-                          (apply str (map (fn [{:keys [name url avatar-url]}]
-                                            (format "\n- [%s](%s)" name url))
-                                          attendees)))))
+                  (update :description
+                          str "\n\nAttendees:"
+                          " " (count attendees)
+                          #_(apply str (map (fn [{:keys [name url avatar-url]}]
+                                              (format "\n- [%s](%s)" name url))
+                                            attendees)))))
             event))
         events))

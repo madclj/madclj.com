@@ -45,6 +45,10 @@
                                                (format "[%s](%s)"
                                                        (str/escape full-title {\[ "\\[" \] "\\]"})
                                                        rsvp)
+                                               (if (seq attendees)
+                                                 (pr-str (count attendees))
+                                                 "")
+                                               #_
                                                (str/join (mapcat
                                                            (fn [{:keys [#_name #_url avatar-url]}]
                                                              (assert (not (str/includes? avatar-url "\"")))
