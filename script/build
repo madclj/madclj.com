@@ -9,7 +9,9 @@ export TZ=America/Chicago
 mv events.ics static
 
 cd madcalendar/
-npm install
+#npm install
+# https://stackoverflow.com/a/64954722
+npm i -g npx --force
 npm run build
 rm -fr ../static/calendar
 mv build ../static/calendar
