@@ -24,9 +24,6 @@
         [before [start-tag & within]] (split-with #(not (str/includes? % start)) lines)
         after (drop-while #(not (str/includes? % end)) within)]
     (str/join "\n" (concat before [start-tag] (str/split-lines replace) after))))
-(do 
-  (-> e/events first keys)
-  )
 
 (defn format-event-time [^ZonedDateTime t]
   (assert (h/madison-time? t) (class t))
@@ -49,16 +46,15 @@
                                                        (str/escape full-title {\[ "\\[" \] "\\]"})
                                                        rsvp)
                                                (str/join (mapcat
-                                                           (fn [{:keys [name url avatar-url]}]
-                                                             (assert (not (str/includes? name "\"")))
+                                                           (fn [{:keys [#_name #_url avatar-url]}]
                                                              (assert (not (str/includes? avatar-url "\"")))
-                                                             (assert (not (str/includes? url "\"")))
-                                                             [(format "<a href=\"%s\" title=\"%s\">" url name)
-                                                              (format "<img src=\"%s\" alt=\"%s\" style=\"%s\"/>"
+                                                             ;(assert (not (str/includes? url "\"")))
+                                                             [;(format "<a href=\"%s\" title=\"%s\">" url name)
+                                                              (format "<img src=\"%s\" style=\"%s\"/>"
                                                                       avatar-url
-                                                                      name
                                                                       "height:3em;display: inline-block; position: relative; overflow: hidden; border-radius: 50%;")
-                                                              "</a>"])
+                                                              ;"</a>"
+                                                              ])
                                                            attendees))]))
                           "|")))
               (sort-by (juxt :start :end :full-title :uid) events))
