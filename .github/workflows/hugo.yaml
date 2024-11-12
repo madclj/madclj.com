@@ -55,7 +55,7 @@ jobs:
         uses: actions/configure-pages@v5
       - uses: actions/setup-node@v4
         with:
-          node-version: 23
+          node-version: 23.1.0
           cache: 'npm'
           cache-dependency-path: 'madcalendar/package-lock.json'
       - name: Install clojure tools
