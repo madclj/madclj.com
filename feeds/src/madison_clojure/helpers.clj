@@ -13,7 +13,7 @@
   (= madison-tz (.getZone t)))
 
 (defn unpost-event? [{:keys [^ZonedDateTime end]}]
-  (< 12 (.between ChronoUnit/HOURS (madison-time) end)))
+  (< 12 (.between ChronoUnit/HOURS end (madison-time))))
 
 (defn format-day-of-month [^ZonedDateTime t]
   (let [d (.getDayOfMonth t)]
