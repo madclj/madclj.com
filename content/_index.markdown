@@ -11,7 +11,7 @@ title: Home
 | Date | Link | RSVPs |
 | ------------- | ------------- | ------------- |
 |Dec 11th 2024|[Celebrating A Year of (Madison) Clojure](https://github.com/orgs/madclj/discussions/7)|2|
-| Jan 15th 2025 | [TBD](https://www.meetup.com/madison-clojure-meetup/events/304256375) |
+| Jan 15th 2025 | TBD |
 <!--events-table)◊-->
 
 [Web Calendar (Settings -> Madison Clojure -> Enable)](https://invertisment.gitlab.io/cljcalendar/)
