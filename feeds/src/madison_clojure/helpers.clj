@@ -12,8 +12,13 @@
 (defn madison-time? [^ZonedDateTime t]
   (= madison-tz (.getZone t)))
 
-(defn unpost-event? [{:keys [^ZonedDateTime end]}]
-  (< 12 (.between ChronoUnit/HOURS end (madison-time))))
+(defn unpost-event?
+  "Unpost event from homepage 12 hours after ending."
+  ([event] (unpost-event? (madison-time) event))
+  ([now {:keys [^ZonedDateTime end]}]
+   {:pre [(madison-time? now)
+          (madison-time? end)]}
+   (< 12 (.between ChronoUnit/HOURS end now))))
 
 (defn format-day-of-month [^ZonedDateTime t]
   (let [d (.getDayOfMonth t)]

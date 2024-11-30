@@ -41,3 +41,10 @@
                              30 "30th"
                              31 "31st"}]
     (is (= (dom expected) actual))))
+
+(deftest unpost-event?-test
+  (is (not (sut/unpost-event? (sut/madison-time "2024-12-10T21:00") {:end (sut/madison-time "2024-12-11T21:00")})))
+  (is (not (sut/unpost-event? (sut/madison-time "2024-12-11T21:00") {:end (sut/madison-time "2024-12-11T21:00")})))
+  (is (not (sut/unpost-event? (sut/madison-time "2024-12-12T09:00") {:end (sut/madison-time "2024-12-11T21:00")})))
+  (is (sut/unpost-event? (sut/madison-time "2024-12-12T10:00") {:end (sut/madison-time "2024-12-11T21:00")}))
+  (is (sut/unpost-event? (sut/madison-time "2024-12-11T21:00") {:end (sut/madison-time "2024-12-10T21:00")})))
