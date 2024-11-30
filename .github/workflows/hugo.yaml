@@ -35,7 +35,7 @@ defaults:
     shell: bash
 
 env:
-  ACTIONS_CACHE_VERSION: v1
+  ACTIONS_CACHE_VERSION: v2
 
 jobs:
   # Build job
