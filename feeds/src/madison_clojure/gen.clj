@@ -32,35 +32,37 @@
       (format (h/format-day-of-month t))))
 
 (defn md-table [events]
-  (let [extra-events ["| Jan 15th 2025 | [TBD](https://www.meetup.com/madison-clojure-meetup/events/304256375) |"]]
+  (let [extra-events ["| Jan 15th 2025 | TBD | |"]]
     (-> ["| Date | Link | RSVPs |"
          "| ------------- | ------------- | ------------- |"]
-        (into (map (fn [{:keys [start full-title summary rsvp attendees]}]
-                     (assert (not (str/includes? rsvp "(")))
-                     (assert (not (str/includes? rsvp ")")))
-                     (str "|"
-                          (str/join "|"
-                                    (eduction (map #(str/escape % {\| "\\|"}))
-                                              [(format-event-time start)
-                                               (format "[%s](%s)"
-                                                       (str/escape full-title {\[ "\\[" \] "\\]"})
-                                                       rsvp)
-                                               (if (seq attendees)
-                                                 (pr-str (count attendees))
-                                                 "")
-                                               #_
-                                               (str/join (mapcat
-                                                           (fn [{:keys [#_name #_url avatar-url]}]
-                                                             (assert (not (str/includes? avatar-url "\"")))
-                                                             ;(assert (not (str/includes? url "\"")))
-                                                             [;(format "<a href=\"%s\" title=\"%s\">" url name)
-                                                              (format "<img src=\"%s\" style=\"%s\"/>"
-                                                                      avatar-url
-                                                                      "height:3em;display: inline-block; position: relative; overflow: hidden; border-radius: 50%;")
-                                                              ;"</a>"
-                                                              ])
-                                                           attendees))]))
-                          "|")))
+        (into (comp
+                (remove h/unpost-event?)
+                (map (fn [{:keys [start full-title summary rsvp attendees]}]
+                       (assert (not (str/includes? rsvp "(")))
+                       (assert (not (str/includes? rsvp ")")))
+                       (str "|"
+                            (str/join "|"
+                                      (eduction (map #(str/escape % {\| "\\|"}))
+                                                [(format-event-time start)
+                                                 (format "[%s](%s)"
+                                                         (str/escape full-title {\[ "\\[" \] "\\]"})
+                                                         rsvp)
+                                                 (if (seq attendees)
+                                                   (pr-str (count attendees))
+                                                   "")
+                                                 #_
+                                                 (str/join (mapcat
+                                                             (fn [{:keys [#_name #_url avatar-url]}]
+                                                               (assert (not (str/includes? avatar-url "\"")))
+                                                               ;(assert (not (str/includes? url "\"")))
+                                                               [;(format "<a href=\"%s\" title=\"%s\">" url name)
+                                                                (format "<img src=\"%s\" style=\"%s\"/>"
+                                                                        avatar-url
+                                                                        "height:3em;display: inline-block; position: relative; overflow: hidden; border-radius: 50%;")
+                                                                ;"</a>"
+                                                                ])
+                                                             attendees))]))
+                            "|"))))
               (sort-by (juxt :start :end :full-title :uid) events))
         (into extra-events)
         (->> (str/join "\n")))))

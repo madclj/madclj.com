@@ -1,14 +1,21 @@
-(ns madison-clojure.helpers)
+(ns madison-clojure.helpers
+  (:import [java.time ZoneId LocalDateTime ZonedDateTime]
+           [java.time.temporal ChronoUnit]))
 
-(def ^java.time.ZoneId madison-tz (java.time.ZoneId/of "America/Chicago"))
+(def ^ZoneId madison-tz (ZoneId/of "America/Chicago"))
 
-(defn madison-time [^String local-dt]
-  (.atZone (java.time.LocalDateTime/parse local-dt) madison-tz))
+(defn madison-time
+  (^ZonedDateTime [] (ZonedDateTime/now madison-tz))
+  (^ZonedDateTime [^String local-dt]
+   (.atZone (LocalDateTime/parse local-dt) madison-tz)))
 
-(defn madison-time? [^java.time.ZonedDateTime t]
+(defn madison-time? [^ZonedDateTime t]
   (= madison-tz (.getZone t)))
 
-(defn format-day-of-month [^java.time.ZonedDateTime t]
+(defn unpost-event? [{:keys [^ZonedDateTime end]}]
+  (< 12 (.between ChronoUnit/HOURS (madison-time) end)))
+
+(defn format-day-of-month [^ZonedDateTime t]
   (let [d (.getDayOfMonth t)]
     (str d (case d
              (1 21 31) "st"

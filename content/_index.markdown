@@ -8,10 +8,7 @@ title: Home
 "/> 
 
 <!--◊(events-table-->
-| Date | Link | RSVPs |
-| ------------- | ------------- | ------------- |
-|Dec 11th 2024|[Celebrating A Year of (Madison) Clojure](https://github.com/orgs/madclj/discussions/7)|2|
-| Jan 15th 2025 | TBD |
+<!-- sourced from madison-clojure.events/events -->
 <!--events-table)◊-->
 
 [Web Calendar (Settings -> Madison Clojure -> Enable)](https://invertisment.gitlab.io/cljcalendar/)
