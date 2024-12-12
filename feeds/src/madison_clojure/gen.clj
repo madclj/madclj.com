@@ -32,7 +32,7 @@
       (format (h/format-day-of-month t))))
 
 (defn md-table [events]
-  (let [extra-events ["| Jan 15th 2025 | TBD | |"]]
+  (let [extra-events [#_"| <DATE> | <SUBJECT> | |"]]
     (-> ["| Date | Link | RSVPs |"
          "| ------------- | ------------- | ------------- |"]
         (into (comp
