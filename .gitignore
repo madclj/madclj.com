@@ -3,3 +3,4 @@
 /static/events.ics
 /static/calendar
 /events.ics
+.nrepl-*
