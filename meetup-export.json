@@ -1,0 +1,2249 @@
+{
+  "data": {
+    "groupByUrlname": {
+      "description": "Discuss and learn all the things regarding Clojure, ClojureScript, and functional programming",
+      "pastEvents": {
+        "count": 41,
+        "pageInfo": {
+          "endCursor": "MzA0MjU2MzY5OjE3MzM5NTk4MDAwMDA=",
+          "hasNextPage": false
+        },
+        "edges": [
+          {
+            "node": {
+              "host": {
+                "name": "Peter Schuck",
+                "id": "198143767"
+              },
+              "id": "228117711",
+              "title": "Madison Clojure Meetup: February 9",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/228117711",
+              "description": "Cliff Rodgers will present, \"Paredit: A short introduction to structural editing\". Before joining Bendyworks, a web development shop in Madison, Wisconsin, Cliff Rodgers earned a PhD in Neuroscience from University of Wisconsin-Madison. His research focused primarily on mechanisms of pain and memory. He has previously presented at the Society for Neuroscience annual meeting, the Neuropharmacology Conference on GABAergic Signaling in Health and Disease, and the International Symposium on Memory and Awareness in Anesthesia. In his spare time, he enjoys biking around Madison and the surrounding environs.\n\nUpdate: We'll have pizza and soda, and then afterwards, whoever is interested should join us for a pint at the Great Dane.",
+              "dateTime": "2016-02-09T19:00-06:00",
+              "venue": {
+                "name": "Bendyworks",
+                "lat": 43.07439,
+                "lng": -89.38068,
+                "address": "106 E Doty Street, Suite 200, Madison, WI, 53703",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [],
+              "going": 22,
+              "speakerDetails": null,
+              "comments": {
+                "count": 3,
+                "edges": [
+                  {
+                    "node": {
+                      "id": "461022974",
+                      "text": "Sorry I missed it!",
+                      "created": "2016-02-09T20:26:35-06:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/228117711/comments/461022974/",
+                      "member": {
+                        "name": "Eric Christopherson",
+                        "id": "2720104"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "461049984",
+                      "text": "A helpful and well presented introduction to Paredit, as proven by the fact that the presentation led to immediate exploration and discussion of it afterwards.",
+                      "created": "2016-02-10T13:10:45-06:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/228117711/comments/461049984/",
+                      "member": {
+                        "name": "James Elliott",
+                        "id": "135770182"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "461134238",
+                      "text": "I really enjoyed all the great conversations. Cliff's talk was really excellent as well.",
+                      "created": "2016-02-12T10:23:34-06:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/228117711/comments/461134238/",
+                      "member": {
+                        "name": "Stephen Anderson",
+                        "id": "7956339"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "Peter Schuck",
+                "id": "198143767"
+              },
+              "id": "228237546",
+              "title": "Madison Clojure Meetup: March 8",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/228237546",
+              "description": "Peter Schuck will present a talk on CLJS.\n\nPeter is a senior level developer at Bendyworks. He spent 2 years as a contractor in Iraq and recently went about improving an inefficiency in the ClojureScript hashmaps. For that, he got Kudos from Om-Next’s David Nolan and his change may be adopted into the Clojure Core. He’s been developing with Clojure for 3 years.\n\nWe'll have dinner available, and will head for a pint at the Great Dane afterwards. Hope to see you there!",
+              "dateTime": "2016-03-08T19:00-06:00",
+              "venue": {
+                "name": "Bendyworks",
+                "lat": 43.07439,
+                "lng": -89.38068,
+                "address": "106 E Doty Street, Suite 200, Madison, WI, 53703",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [],
+              "going": 11,
+              "speakerDetails": null,
+              "comments": {
+                "count": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "id": "462056793",
+                      "text": "I'm excited to hear Peter's Clojure talk in less than a week!",
+                      "created": "2016-03-03T10:19:17-06:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/228237546/comments/462056793/",
+                      "member": {
+                        "name": "Ashley Powell",
+                        "id": "194430422"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "462279889",
+                      "text": "Here's the repository for the talk and demo I'm going to give tonight\n\nhttps://github.com/spinningtopsofdoom/cljs-start",
+                      "created": "2016-03-08T10:09:57-06:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/228237546/comments/462279889/",
+                      "member": {
+                        "name": "Peter Schuck",
+                        "id": "198143767"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "host": null,
+              "id": "228761496",
+              "title": "Clojure Meetup",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/228761496",
+              "description": "Peter Schuck will be giving a talk at ClojureWest in Seattle later this month, and will be presenting it to us this Tuesday.\n\nA recent paper http://michael.steindorfer.name/publications/oopsla15.pdf\n\nhas made some great improvements to Clojure's Hash Maps which include\n\n​- 2x performance gains for iteration\n\n- 10x - 100x performance gains for equality checks\n\n- Lowers memory overhead\n\n- Removes a lot of incedential complexity\n\n​I'll be going into the details of how this accomplished\n\nAs always, join us for dinner at Bendyworks and we'll head for a pint at the Great Dane afterwards.",
+              "dateTime": "2016-04-12T19:00-05:00",
+              "venue": {
+                "name": "Bendyworks",
+                "lat": 43.07439,
+                "lng": -89.38068,
+                "address": "106 E Doty Street, Suite 200, Madison, WI, 53703",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [],
+              "going": 7,
+              "speakerDetails": null,
+              "comments": {
+                "count": 0,
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "Peter Schuck",
+                "id": "198143767"
+              },
+              "id": "229842513",
+              "title": "Presentation by James Elliott: Afterglow, Live Coding for Light Shows",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/229842513",
+              "description": "We are excited and honored to have our dear friend James Elliott give a thrilling presentation. Join us for food and fun. Afterwards, we'll head to the Great Dane for a pint.\n\nJames Elliott is a software developer who grew up hopping between continents, and got hooked on computers as a teenager in Mexico in the ’80s, to the extent of writing his own word processor in 6502 assembly language so he could turn in high school papers with proper fonts and justification long before he could afford a Mac. He’s written a few books for O’Reilly, and is now delighted to be working in Clojure professionally, helping Singlewire build platforms for mass notification. Having settled in Madison since graduate school, he has recently rekindled a passion for electronic music by discovering the fun of mixing it for an energetic crowd as Deep Symmetry.\n\nhttp://deepsymmetry.org (http://deepsymmetry.org/)\n\nAfterglow, Live Coding for Light Shows\n\nImagine being able to turn algorithmic ideas into a dazzling lightscape engulfing you and your audience. That's Afterglow, a live-coding environment for light shows.\n\nAs a software developer who creates electronic music shows as an avocation, I wanted a way to express my wildest ideas live, in harmony with music being played. Clojure was the perfect medium for building my dream tool.\n\nAfterglow has grown from a crazy notion to a hub connecting several vibrant efforts in new, interesting ways, and has been used for performances on multiple continents. It can run alone, or hosted in Cycling '74's Max, a visual environment for experimenting with music and video. Afterglow translates abstract ideas into the low-level messages that control lighting fixtures. With the help of pieces of the Overtone project it powers intuitive physical control surfaces like Ableton Push, and offers beat synchronization with DJ equipment. I couldn't have achieved this without the expressiveness, interactivity, and compatibility of the Clojure environment, connecting everything in a coherent and extensible way. Clojure is ideal for building systems that need to walk and chew gum at the same time, and Afterglow does a lot at once.\n\nI'll explain how this open-source project came together, how a Clojure functional mindset can produce streams of dazzling effects under an operator's tactile control, will demonstrate some effects with a few lights, and will provide an introduction to the architecture and implementation of the system. The demo and explanation can go in whatever directions the audience finds most interesting.",
+              "dateTime": "2016-06-14T19:00-05:00",
+              "venue": {
+                "name": "Bendyworks",
+                "lat": 43.07439,
+                "lng": -89.38068,
+                "address": "106 E Doty Street, Suite 200, Madison, WI, 53703",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [],
+              "going": 16,
+              "speakerDetails": null,
+              "comments": {
+                "count": 9,
+                "edges": [
+                  {
+                    "node": {
+                      "id": "466460766",
+                      "text": "I’m wrapping up my plans for the demonstration, and it’s going to be a lot of fun to present and explain!",
+                      "created": "2016-06-12T16:55:55-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/229842513/comments/466460766/",
+                      "member": {
+                        "name": "James Elliott",
+                        "id": "135770182"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "466536308",
+                      "text": "This is going to be such a great demonstration!!!",
+                      "created": "2016-06-14T14:17:08-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/229842513/comments/466536308/",
+                      "member": {
+                        "name": "Ashley Powell",
+                        "id": "194430422"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "466552927",
+                      "text": "Thanks for coming, everyone! Chris an I swung by the Dane as soon as we got our gear safely loaded out, around twenty to nine, but it looked like we missed the drinking group. I look forward to chatting with everyone next time!",
+                      "created": "2016-06-14T22:08:15-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/229842513/comments/466552927/",
+                      "member": {
+                        "name": "James Elliott",
+                        "id": "135770182"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "466554669",
+                      "text": "By the way, thanks for laughing at the Dysentery project name—Americans get that; Europeans, not so much! Definitely a forced pun on exploring Pioneer’s protocols, and I even linked to an image from The Oregon Trail at the bottom of the project page. ^_^ https://github.com/brunchboy/dysentery",
+                      "created": "2016-06-14T23:10:46-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/229842513/comments/466554669/",
+                      "member": {
+                        "name": "James Elliott",
+                        "id": "135770182"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "466556290",
+                      "text": "Great presentation! Really impressed by how mature this project is...interface all the things!",
+                      "created": "2016-06-15T00:28:28-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/229842513/comments/466556290/",
+                      "member": {
+                        "name": "Tianxiang Xiong",
+                        "id": "205781803"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "466565700",
+                      "text": "Amazing pesentation! So much hard work has gone into the open source projects James demo'd. Extremely cool!",
+                      "created": "2016-06-15T08:55:36-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/229842513/comments/466565700/",
+                      "member": {
+                        "name": "Stephen Anderson",
+                        "id": "7956339"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "466566612",
+                      "text": "James did a great job keeping folks interested. He was enthusiastic, well-prepared and interjected the occasional humor to please the crowd! Fantastic presenter.",
+                      "created": "2016-06-15T09:22:06-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/229842513/comments/466566612/",
+                      "member": {
+                        "name": "Dana Tassler",
+                        "id": "13963199"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "466569625",
+                      "text": "Very impressive software and excellent presentation! Obviously a bit of work to prepare for as well, so many thanks for taking the time!",
+                      "created": "2016-06-15T10:43:51-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/229842513/comments/466569625/",
+                      "member": {
+                        "name": "David Whittington",
+                        "id": "7909030"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "467006958",
+                      "text": "Thanks again, everyone, and to Bendyworks for hosting this. I’ve finally finished captioning the video; if you want to see or share it, you can find it here: https://youtu.be/mvNN0SMMZDQ\n\nLater that week I heard great news from Ableton: They want to work with me to add support for their Link synchronization protocol to “my amazing projects.” Woo hoo!\n\nAnd the following week I was contacted by an Austrian DJ who was in Ibiza and had rented some CDJs to continue experimenting with Beat Link Trigger while there, because he wanted to use it in a show this weekend. Whoa… :)",
+                      "created": "2016-06-25T16:48:19-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/229842513/comments/467006958/",
+                      "member": {
+                        "name": "James Elliott",
+                        "id": "135770182"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "Peter Schuck",
+                "id": "198143767"
+              },
+              "id": "232029398",
+              "title": "David Whittington will present Reagent and DataScript",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/232029398",
+              "description": "ClojureScript is gaining popularity for client side web development, but which of the many ways to build a ClojureScript application should you choose?\n\nThis talk will present one combination of libraries to consider — Reagent, a ClojureScript React wrapper; DataScript, an in memory Clojure/ClojureScript DB with a Datomic like interface; and Posh, a library for linking them together.\n\nDavid Whittington will describe what each library does and present an application architecture for tying them together. He will compare this architecture to other alternatives (Om, Om.next, re-frame) and show how the ClojureScript community seems to be converging on some common patterns. Finally, he will describe some of the pros and cons of the architecture presented and suggest under what circumstance you might want to use it.\n\nDavid Whittington is an independent software developer with a background in web application development, configuration management, and healthcare information technology. He was most recently employed as a Software Architect by Sentry Data Systems. While there, he led Sentry's transition from package based server provisioning to Chef, was responsible for test automation and performance improvements to Sentry's pharmacy claims processing system, and developed an ETL pipeline for a prototype data warehousing product. Following his time at Sentry, David transitioned to working in Clojure full time and is currently developing his Clojure skills by building two applications — Memocorder (http://memocorder.com/), a notes management system, and Zetawar (http://www.zetawar.com/) , an open source turn-based tactical strategy game.",
+              "dateTime": "2016-07-12T18:30-05:00",
+              "venue": {
+                "name": "Bendyworks",
+                "lat": 43.07439,
+                "lng": -89.380676,
+                "address": "106 E Doty Street, Suite 200, Madison, WI, 53703",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [],
+              "going": 9,
+              "speakerDetails": null,
+              "comments": {
+                "count": 4,
+                "edges": [
+                  {
+                    "node": {
+                      "id": "467703183",
+                      "text": "Great presentation! Your explanation of differences between Reagent and Om were very informative.",
+                      "created": "2016-07-12T21:09-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/232029398/comments/467703183/",
+                      "member": {
+                        "name": "Tianxiang Xiong",
+                        "id": "205781803"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "467704569",
+                      "text": "Thanks for coming out everyone. I had a ton of fun putting this together and presenting it. As promised, here are the links I shared at the end to help get you started with Reagent, DataScript, and Posh:\n\nReagent:\n\n- Intro - http://reagent-project.github.io/\n- News (has examples of new features) - http://reagent-project.github.io/news/index.html\n- Lein template - https://github.com/reagent-project/reagent-template\n\nDataScript/Datomic:\n\n- DataScript - \nhttps://github.com/tonsky/datascript\n- Datomic Docs - http://docs.datomic.com/\n- Simulant (example code base) - https://github.com/Datomic/simulant\n- Codeq (slightly dated example code base) - https://github.com/Datomic/codeq\n\nPosh:\n\n- https://github.com/mpdairy/posh\n\nServer side + high level view:\n\n- Datalog all the way down - https://www.youtube.com/watch?v=aI0zVzzoK_E\n- Datsys (WIP client/server framework) - https://github.com/metasoarous/datsync\n- The Web After Tomorrow - http://tonsky.me/blog/the-web-after-tomorrow/",
+                      "created": "2016-07-12T21:50:43-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/232029398/comments/467704569/",
+                      "member": {
+                        "name": "David Whittington",
+                        "id": "7909030"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "467721914",
+                      "text": "Great presentation!  Thank you!!!",
+                      "created": "2016-07-13T10:51:27-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/232029398/comments/467721914/",
+                      "member": {
+                        "name": "Ashley Powell",
+                        "id": "194430422"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "467722393",
+                      "text": "Just the right level of detail for an event like this, clearly explained, and great answers to questions.",
+                      "created": "2016-07-13T11:04:08-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/232029398/comments/467722393/",
+                      "member": {
+                        "name": "James Elliott",
+                        "id": "135770182"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "Peter Schuck",
+                "id": "198143767"
+              },
+              "id": "233764361",
+              "title": "What to Expect when you are Clojure Specing",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/233764361",
+              "description": "Peter will be going over Clojure Spec use on a real world project. He'll be going over\n\n• How to create specs and compose them\n\n• Testing with spec generators and creating custom generators\n\n• Getting useful error messages from spec validation\n\n• Current sharp edges of spec library",
+              "dateTime": "2016-09-20T19:00-05:00",
+              "venue": {
+                "name": "Bendyworks",
+                "lat": 43.07439,
+                "lng": -89.38068,
+                "address": "106 E Doty Street, Suite 200, Madison, WI, 53703",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [],
+              "going": 10,
+              "speakerDetails": null,
+              "comments": {
+                "count": 0,
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "host": null,
+              "id": "234542300",
+              "title": "Property Based Testing in Clojure",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/234542300",
+              "description": "Peter Schuck will be going over property based testing via clojure's test.check (https://github.com/clojure/test.check) Specifically\n\n- The difference between unit testing and property based testing\n\n- How to test side effecting actions\n\n- How to build generators\n\nAfter the talk we'll discuss lighting talks for the next meetup.",
+              "dateTime": "2016-10-25T18:30-05:00",
+              "venue": {
+                "name": "Bendyworks",
+                "lat": 43.07439,
+                "lng": -89.38068,
+                "address": "106 E Doty Street, Suite 200, Madison, WI, 53703",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [],
+              "going": 4,
+              "speakerDetails": null,
+              "comments": {
+                "count": 0,
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "Peter Schuck",
+                "id": "198143767"
+              },
+              "id": "236647794",
+              "title": "The Evolution of Zetawar",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/236647794",
+              "description": "Zetawar (http://www.zetawar.com/) is a turn based strategy game written in ClojureScript. In July, David Whittington gave an overview of its architecture. He will briefly review the content of that talk for those who missed it and then examine how Zetawar has evolved over the past 6 months. This will cover moving from simple callback event handlers to reified events dispatched via core.async, implementing a message based AI interface, and optimizing Reagent and DataScript. He will conclude by summarizing his future plans for Zetawar and describing how to write your own Zetawar AI.",
+              "dateTime": "2017-01-24T18:30-06:00",
+              "venue": {
+                "name": "Bendyworks",
+                "lat": 43.07439,
+                "lng": -89.38068,
+                "address": "106 E Doty Street, Suite 200, Madison, WI, 53703",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [],
+              "going": 10,
+              "speakerDetails": null,
+              "comments": {
+                "count": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "id": "475050385",
+                      "text": "Thanks, everyone, for coming to the meetup!\n\nHere are the links for the slides and project:\n\n- https://github.com/djwhitt/madison-clojure-zetawar-evolution-2017\n  - index.org = org-mode slide source file\n  - reveal.js/index.html = slides\n- https://github.com/zetawar/zetawar\n- https://twitter.com/ZetawarGame\n- http://www.zetawar.com/ - production Zetawar build\n- http://dev.zetawar.com/ - latest dev Zetawar build",
+                      "created": "2017-01-25T11:23:23-06:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/236647794/comments/475050385/",
+                      "member": {
+                        "name": "David Whittington",
+                        "id": "7909030"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "475054890",
+                      "text": "Great talk by David! Fun seeing how such elegant code drives his game.",
+                      "created": "2017-01-25T13:32:20-06:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/236647794/comments/475054890/",
+                      "member": {
+                        "name": "Stephen Anderson",
+                        "id": "7956339"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "Peter Schuck",
+                "id": "198143767"
+              },
+              "id": "238959146",
+              "title": "Learn Clojure: Installfest and Introduction",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/238959146",
+              "description": "We'll be installing Clojure and introducing people to the core concepts of the language.\n\nResources for installation:\n\n• Clojure Site: https://clojure.org/guides/getting_started\n\n• Clojure for the Brave and True: http://www.braveclojure.com/getting-started/\n\n• Clojure from the ground up: https://aphyr.com/posts/311-clojure-from-the-ground-up-logistics\n\nOnce you can get a repl up and running you can head to ClojureBridge (http://clojurebridge.github.io/community-docs/index.html) for an introduction to Clojure Concepts\n\nIf you want some sample problems head over to 4clojure (http://www.4clojure.com/problems).\n\nAt the end we'll go through some projects to work on for the next meetup.\n\nPeople are welcome to come in at anytime.",
+              "dateTime": "2017-04-18T18:30-05:00",
+              "venue": {
+                "name": "Bendyworks",
+                "lat": 43.07439,
+                "lng": -89.38068,
+                "address": "106 E Doty Street, Suite 200, Madison, WI, 53703",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [],
+              "going": 16,
+              "speakerDetails": null,
+              "comments": {
+                "count": 6,
+                "edges": [
+                  {
+                    "node": {
+                      "id": "477841829",
+                      "text": "Anyone have experience with install on the clr?",
+                      "created": "2017-04-06T07:56:54-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/238959146/comments/477841829/",
+                      "member": {
+                        "name": "Matthew daniel",
+                        "id": "22414331"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "477842760",
+                      "text": "I don't have any experience myself. Arcadia (http://arcadia-unity.github.io/) uses it to integrate with Unity",
+                      "created": "2017-04-06T08:30:23-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/238959146/comments/477842760/",
+                      "member": {
+                        "name": "Peter Schuck",
+                        "id": "198143767"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "478295321",
+                      "text": "Really wanted to make this one, but feeling too worn out. See you next time.",
+                      "created": "2017-04-18T16:07:50-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/238959146/comments/478295321/",
+                      "member": {
+                        "name": "Dustin Paluch",
+                        "id": "196190781"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "478311249",
+                      "text": "well-organized and informative",
+                      "created": "2017-04-19T03:49:59-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/238959146/comments/478311249/",
+                      "member": {
+                        "name": "Mr. Goodmann",
+                        "id": "223537668"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "478311267",
+                      "text": "Thanks to the sponsors!",
+                      "created": "2017-04-19T03:51:21-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/238959146/comments/478311267/",
+                      "member": {
+                        "name": "Mr. Goodmann",
+                        "id": "223537668"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "478362870",
+                      "text": "It was great to meet everyone! I hope you're all having fun exploring Clojure!",
+                      "created": "2017-04-20T12:31:02-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/238959146/comments/478362870/",
+                      "member": {
+                        "name": "David Whittington",
+                        "id": "7909030"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "Peter Schuck",
+                "id": "198143767"
+              },
+              "id": "239684597",
+              "title": "Intro to Clojure: Core Functions and Data Structues",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/239684597",
+              "description": "Last Month we got installed Clojure and a REPL up and running.\n\nThis month we'll be going over the core functions and data structures. The meetup have the following structure\n\nShow and Tell\n\nPeople can show the progress they have made since last month's installfest if they so desire.\n\nHere's some ideas of what you can show\n\nSolutions to 4clojure problems (http://www.4clojure.com/problems)\n\nA solution to a Project Euler problem (https://projecteuler.net/archives)\n\nA drawing using Quil (https://github.com/quil/quil). You can read the tutorial (https://github.com/ClojureBridge/workshop-projects/blob/master/drawing_project/outline/first-program.md) and cheatsheet (https://github.com/ClojureBridge/curriculum/blob/gh-pages/outline/cheatsheet-quil.md) to make a drawing from scratch or modify a working quil example (http://quil.info/examples).\n\nGuidance\n\nAfter the show and tell we'll go around the room and ask what people want guidance on for Clojure.\n\nDemonstration\n\nPeter Schuck will show how to use Clojure's Core Data Structures (lists, maps, sets, keywords) and functions to change modify and query them.\n\nHe'll then go over three simple same problems showing a solution in an Object Oriented / Imperative language then the solution in Clojure.\n\nThe problems will be\n\nScoring a Bowling Game\n\nProject Euler Problem 22 (https://projecteuler.net/problem=22)\n\nRuby Quiz Problem 114 (Housie) (http://rubyquiz.com/quiz114.html)\n\nResources\n\nClojure from the Ground posts on the Core Data Types (https://aphyr.com/posts/302-clojure-from-the-ground-up-basic-types) and Sequences (https://aphyr.com/posts/304-clojure-from-the-ground-up-sequences)\n\nThe Do Things (http://www.braveclojure.com/do-things/) chapter from Clojure for the Brave and True\n\nClojureDocs (http://clojuredocs.org/) has detailed documentation on Clojure function and a Quick Reference (http://clojuredocs.org/quickref)",
+              "dateTime": "2017-05-23T18:30-05:00",
+              "venue": {
+                "name": "Bendyworks",
+                "lat": 43.07439,
+                "lng": -89.38068,
+                "address": "106 E Doty Street, Suite 200, Madison, WI, 53703",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [],
+              "going": 14,
+              "speakerDetails": null,
+              "comments": {
+                "count": 0,
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "Peter Schuck",
+                "id": "198143767"
+              },
+              "id": "240430556",
+              "title": "Clojure Extension Points: Protocols, Multimethods, and types",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/240430556",
+              "description": "Presentation - Peter Schuck\n\nOne of Clojure's core ideas is the Alan Perlis quote \" It is better to have 100 functions operate on one data structure than 10 functions on 10 data structures. \". We go even further and say that it's better to have 100 functions that operate on one abstraction.\n\nThe sequence abstraction ( https://clojure.org/reference/sequences ) is the most well known. It works not only for all Clojure data structures but Java Collections and Java Strings.\n\nThis presentation will go through these extension points, Protocols, Multi Methods, and data types. It will show how to add on new abstractions for existing data types, create new data types that implement Clojure's abstractions, how to make a new abstraction extension point, and rules of thumb of when it's best to use the tools.\n\nAfter the presentation we'll go through some exercises making our own protocols and data types.\n\nReferences - Videos\n\nProtocol XIII: Clojure Protocols Explained - https://www.youtube.com/watch?v=kQhOlWXXl2I\n\nPurelyFunctional TV: What Problems do Clojure Protocols Solve? - https://purelyfunctional.tv/clojure-protocols/what-problems-do-clojure-protocols-solve/\n\nReferences - Online Book\n\nClojure for the Brave and True: Chapter 13 - http://www.braveclojure.com/multimethods-records-protocols/",
+              "dateTime": "2017-06-20T18:30-05:00",
+              "venue": {
+                "name": "Bendyworks",
+                "lat": 43.07439,
+                "lng": -89.38068,
+                "address": "106 E Doty Street, Suite 200, Madison, WI, 53703",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [],
+              "going": 14,
+              "speakerDetails": null,
+              "comments": {
+                "count": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "id": "480743558",
+                      "text": "Not enough sleep + busy schedule means I won't make it tonight. Have a good meetup, and see everyone next time.",
+                      "created": "2017-06-20T16:21:52-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/240430556/comments/480743558/",
+                      "member": {
+                        "name": "David Whittington",
+                        "id": "7909030"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "480745109",
+                      "text": "The code and presentation for todays meetup is located here https://github.com/spinningtopsofdoom/clojure-extensibility",
+                      "created": "2017-06-20T16:59:21-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/240430556/comments/480745109/",
+                      "member": {
+                        "name": "Peter Schuck",
+                        "id": "198143767"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "Peter Schuck",
+                "id": "198143767"
+              },
+              "id": "241976737",
+              "title": "You got JavaScript in my ClojureScript: JavaScript interop with ClojureScript",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/241976737",
+              "description": "Levi Schuck will be demonstrating how JavaScript and ClojureScript interact and communicate with each other.\n\nThere will be a live coding exercise showing how to call JavaScript from ClojureScript, call ClojureScript from JavaScript.",
+              "dateTime": "2017-08-22T18:30-05:00",
+              "venue": {
+                "name": "Bendyworks",
+                "lat": 43.07439,
+                "lng": -89.38068,
+                "address": "106 E Doty Street, Suite 200, Madison, WI, 53703",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [],
+              "going": 6,
+              "speakerDetails": null,
+              "comments": {
+                "count": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "id": "482209929",
+                      "text": "Sorry, I'll be out-of-town for the eclipse!",
+                      "created": "2017-07-28T08:08:30-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/241976737/comments/482209929/",
+                      "member": {
+                        "name": "Mr. Goodmann",
+                        "id": "223537668"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "483179305",
+                      "text": "Hello all, if you want to see the source I worked with tonight, checkout https://github.com/LeviSchuck/clojuremadison\n\nCheers,",
+                      "created": "2017-08-22T21:12:06-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/241976737/comments/483179305/",
+                      "member": {
+                        "name": "Levi Schuck",
+                        "id": "183844951"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "Peter Schuck",
+                "id": "198143767"
+              },
+              "id": "244667598",
+              "title": "Datomic: The Immutable Database",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/244667598",
+              "description": "Global mutable state is the progenitor of a thousand difficult to find bugs. Nearly all applications keep global mutable state to a minimum. There is one huge hidden source of global mutable state: the database.\n\nDatomic (http://www.datomic.com/) removes that last store of global mutable state, squashing a multitude of bugs. Testing also becomes much simpler once your database is immutable.\n\nPeter Schuck will present how Datomic works, it's use and several of it's superpowers like:\n\n• Unlimited read capabilities that don't block writes\n\n• Automatic auditing capabilities to track who made what change when\n\n• Building queries out of data structures instead of string concatenation\n\n• Speculatively updating the database to see how adding data can change queries\n\n• Navigating a database entity like an object removing most of the need for an ORM.",
+              "dateTime": "2017-11-15T18:30-06:00",
+              "venue": {
+                "name": "Bendyworks",
+                "lat": 43.07439,
+                "lng": -89.380676,
+                "address": "106 E Doty Street, Suite 200, Madison, WI, 53703",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [],
+              "going": 10,
+              "speakerDetails": null,
+              "comments": {
+                "count": 3,
+                "edges": [
+                  {
+                    "node": {
+                      "id": "486151597",
+                      "text": "Hi, Clojurians. I'd like to attend my first MC meetup, but I don't get out until 6 and work in Janesville. I'm wondering if there's a little buffer before the main event starts, like with some groups. Pizza, drinks, socializing, etc.?",
+                      "created": "2017-11-14T14:28:55-06:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/244667598/comments/486151597/",
+                      "member": {
+                        "name": "Eric Christopherson",
+                        "id": "2720104"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "486191014",
+                      "text": "Sorry, I'm coming down with something and will sit this one out.",
+                      "created": "2017-11-15T17:31:04-06:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/244667598/comments/486191014/",
+                      "member": {
+                        "name": "Beth Shimmyo",
+                        "id": "74947762"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "486213830",
+                      "text": "Good talk! Excellent presentation of Datomic's features.",
+                      "created": "2017-11-16T11:33:55-06:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/244667598/comments/486213830/",
+                      "member": {
+                        "name": "David Whittington",
+                        "id": "7909030"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "Peter Schuck",
+                "id": "198143767"
+              },
+              "id": "245436622",
+              "title": "Lumo: Clojure(Script) without the JVM",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/245436622",
+              "description": "Lumo: I heard you like ClojureScript...\n\n...so, I put some ClojureScript in your ClojureScript, so you can eval while you execute... or, something like that.\n\nThis talk is about Lumo, a self-hosted ClojureScript environment with zero JVM dependence, lightning fast load time, and easy access to the Node.js ecosystem. If you've ever been frustrated by JVM startup time or wanted to write CLI scripts in Clojure(Script), this talk is for you. Come learn about how Lumo works, how to use it, and some potential use cases.",
+              "dateTime": "2017-12-13T18:30-06:00",
+              "venue": {
+                "name": "Bendyworks",
+                "lat": 43.07439,
+                "lng": -89.38068,
+                "address": "106 E Doty Street, Suite 200, Madison, WI, 53703",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [],
+              "going": 7,
+              "speakerDetails": null,
+              "comments": {
+                "count": 4,
+                "edges": [
+                  {
+                    "node": {
+                      "id": "487036571",
+                      "text": "Slides are here: https://docs.google.com/presentation/d/1A7dDxyde_H3fma0uKiAwoJE9oL0ur0t35qhGAykwo9w/edit?usp=sharing\n\nI linkified a few more things and added a link to a git repo with a few examples at the end. I submitted an event to joind.in too, but it hasn't been accepted yet. I'll post a link when it's up so you can leave me feedback if you're interested.",
+                      "created": "2017-12-13T21:01:29-06:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/245436622/comments/487036571/",
+                      "member": {
+                        "name": "David Whittington",
+                        "id": "7909030"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "487105471",
+                      "text": "Well worth braving the bitter wind chill for!",
+                      "created": "2017-12-16T10:47:07-06:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/245436622/comments/487105471/",
+                      "member": {
+                        "name": "Mr. Goodmann",
+                        "id": "223537668"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "487105559",
+                      "text": "Informative and worth the trip!",
+                      "created": "2017-12-16T10:50:10-06:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/245436622/comments/487105559/",
+                      "member": {
+                        "name": "Mr. Goodmann",
+                        "id": "223537668"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "487165206",
+                      "text": "joined.in link is here for anyone who wants to give feedback that way: https://joind.in/event/madison-clojure-meetup---december/lumo-clojurescript-without-the-jvm",
+                      "created": "2017-12-18T13:06:42-06:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/245436622/comments/487165206/",
+                      "member": {
+                        "name": "David Whittington",
+                        "id": "7909030"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "Peter Schuck",
+                "id": "198143767"
+              },
+              "id": "247659049",
+              "title": "Dependency Heaven with tools.deps",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/247659049",
+              "description": "• What we'll do\nWith the release of Clojure 1.9.0 came an official Clojure tool to help manage dependencies and Clojure Environemts \"tools.deps\"(https://clojure.org/guides/deps_and_cli). \"tools.deps\" does not handle any building of artifacts it instead focuses on dependency resolution and downloads. See how to use this new tool from the command line and how it makes spinning up a Clojureproject easy.\n\nSchedule\n\n6:30\nFood and socialization. Help setting up a Clojure Development environmet\n\n6:50\nPresentation on \"tools.deps\"\n\n7:20\nDiscussion of topic, format and time for next meetup\n\nSome ideas for future meetups\n\nMachine Learning\nHow to use tools like \"flare\"(https://github.com/aria42/flare) or \"cortex\"(https://github.com/thinktopic/cortex)\n\nFunctional Package Managers\nFunctional ideas applied to package management. Examples are NixOs(https://nixos.org/) and Guix (https://www.gnu.org/software/guix/)\n\nAdvanced Data Navigation with Specter\nSee how navigating and modifying immutable data becomes even easier in Clojure with Specter(https://github.com/nathanmarz/specter/)\n\n7:40\nWrap up, socialization\n\n• What to bring\n\n• Important to know",
+              "dateTime": "2018-02-28T18:30-06:00",
+              "venue": {
+                "name": "Bendyworks",
+                "lat": 43.07439,
+                "lng": -89.38068,
+                "address": "106 E Doty Street, Suite 200, Madison, WI, 53703",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [],
+              "going": 3,
+              "speakerDetails": null,
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "id": "489148803",
+                      "text": "The slides are up at https://github.com/spinningtopsofdoom/depenency-heaven",
+                      "created": "2018-03-01T09:17:57-06:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/247659049/comments/489148803/",
+                      "member": {
+                        "name": "Peter Schuck",
+                        "id": "198143767"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "Peter Schuck",
+                "id": "198143767"
+              },
+              "id": "249986256",
+              "title": "Speccing with Confidence",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/249986256",
+              "description": "A case study in when, where, and how to use specs to make application development simpler and more resilient.\n\nDan Petranek will talk about using Clojure Spec to design a ClojureScript game and deal with multiple refactorings. There will be lots of opportunities for questions and discussion.\n\nSchedule\n\n6:30 - Meet and Greet and Food Arrives\n\n6:45 - Presentation Starts\n\n7:30 - Presentation Ends and Discussion of next meetup topic\n\n7:45 - Cleanup",
+              "dateTime": "2018-05-02T18:30-05:00",
+              "venue": {
+                "name": "Bendyworks",
+                "lat": 43.07439,
+                "lng": -89.38068,
+                "address": "106 E Doty Street, Suite 200, Madison, WI, 53703",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [],
+              "going": 7,
+              "speakerDetails": null,
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "id": "490891540",
+                      "text": "A great description of how Spec turned out in practical use, and an interesting project to learn about.",
+                      "created": "2018-05-03T00:12:27-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/249986256/comments/490891540/",
+                      "member": {
+                        "name": "James Elliott",
+                        "id": "135770182"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "Peter Schuck",
+                "id": "198143767"
+              },
+              "id": "251529193",
+              "title": "CRDTS: A safety net for walking the distributed system tightrope",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/251529193",
+              "description": "The world of distributed applications is a very strange place where the past can repeat itself, causality works according to the networks whims, and errors flicker into and out of existence leaving caused by the mysterious alignments of servers.\n\nProgrammers are frequenting this world more and more often driven by the pressures for speed and scalability. Even the common ecommerce websites have to deal with distributed system problems if more than two clients are ordering items at the same time.\n\nPeter Schuck will show how Commutative Replicated Data Types (CRDT's) provide a safety net for developers. CRDT's allow developers to focus on the actual application and less on the distributed aspect of it. Even when CRDT's aren't used the ideas behind them are useful guidelines for building distributed applications.\n\nSchedule\n\n6:30 - Food and socialization\n6:45 - Presentation Starts\n7:20 - Presentation Ends Q & A time\n7:35 - Discussion of next month's topic\n7:45 - Cleanup\n\nResources\n\nA CRDT Primer Part I: Defanging Order Theory:\nhttp://jtfmumm.com/blog/2015/11/17/crdt-primer-1-defanging-order-theory/\n\nBig(ger) Sets: Making CRDT Sets Scale in Riak by Russell Brown:\nhttps://www.youtube.com/watch?v=f20882ZSdkU",
+              "dateTime": "2018-06-27T18:30-05:00",
+              "venue": {
+                "name": "Bendyworks",
+                "lat": 43.07439,
+                "lng": -89.38068,
+                "address": "106 E Doty Street, Suite 200, Madison, WI, 53703",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [],
+              "going": 2,
+              "speakerDetails": null,
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "id": "492450985",
+                      "text": "The presentation is up on github at https://github.com/spinningtopsofdoom/madison-clojure-meetup-crdts",
+                      "created": "2018-06-27T18:25:52-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/251529193/comments/492450985/",
+                      "member": {
+                        "name": "Peter Schuck",
+                        "id": "198143767"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "Peter Schuck",
+                "id": "198143767"
+              },
+              "id": "251529238",
+              "title": "CRDTS: A safety net for walking the distributed system tightrope",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/251529238",
+              "description": "The world of distributed applications is a very strange place where the past can repeat itself, causality works according to the networks whims, and errors flicker into and out of existence leaving caused by the mysterious alignments of servers.\n\nProgrammers are frequenting this world more and more often driven by the pressures for speed and scalability. Even the common ecommerce websites have to deal with distributed system problems if more than two clients are ordering items at the same time.\n\nPeter Schuck will show how Commutative Replicated Data Types (CRDT's) provide a safety net for developers. CRDT's allow developers to focus on the actual application and less on the distributed aspect of it. Even when CRDT's aren't used the ideas behind them are useful guidelines for building distributed applications.\n\nSchedule\n\n6:30 - Food and socialization\n6:45 - Presentation Starts\n7:20 - Presentation Ends Q & A time\n7:35 - Discussion of next month's topic\n7:45 - Cleanup\n\nResources\n\nA CRDT Primer Part I: Defanging Order Theory:\nhttp://jtfmumm.com/blog/2015/11/17/crdt-primer-1-defanging-order-theory/\n\nBig(ger) Sets: Making CRDT Sets Scale in Riak by Russell Brown:\nhttps://www.youtube.com/watch?v=f20882ZSdkU",
+              "dateTime": "2018-06-27T18:30-05:00",
+              "venue": {
+                "name": "Bendyworks",
+                "lat": 43.07439,
+                "lng": -89.38068,
+                "address": "106 E Doty Street, Suite 200, Madison, WI, 53703",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [],
+              "going": 4,
+              "speakerDetails": null,
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "id": "492450976",
+                      "text": "The presentation is up on github at https://github.com/spinningtopsofdoom/madison-clojure-meetup-crdts",
+                      "created": "2018-06-27T18:25:40-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/251529238/comments/492450976/",
+                      "member": {
+                        "name": "Peter Schuck",
+                        "id": "198143767"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "Peter Schuck",
+                "id": "198143767"
+              },
+              "id": "266498235",
+              "title": "Advent of Code, for Clojure experts and beginners",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/266498235",
+              "description": "It's December, and that can only mean one thing: Santa needs saving again, and your coding skills can help!\n\nAfter a long hiatus, the Madison Clojure Meetup is back! We'll get together to get beginners up and running with the language and the REPL, then solve some Advent of Code puzzles. The 2019 Advent of Code puzzles will be available at the link below starting December 1st, but you can try out puzzles from past years if you want to get started early.\n\nhttps://adventofcode.com/2019\nhttps://adventofcode.com/2018\nhttps://adventofcode.com/2017\n\nFor newcomers to Clojure we'll have environment setup and language introduction resources available, as well as experienced Clojure users on hand to guide you through getting started. Feel free to run through some of the resources linked below prior to the meetup if you want a head start.\n\nExperienced Clojure users can come ready to crank out solutions to a few Advent of Code puzzles. Stay until the end when folks can share their solutions and show off any interesting Clojure features employed.\n\nBendyworks are generously providing food and drink for the event.\n\n# Environment Setup:\n\nJava & Leiningen & Atom editor setup: https://gist.github.com/bgrabow/09511315debc40918fe4b7337c139c8f\n\n# Learn Clojure:\n\nIf you're short on time: Learn Clojure in Y Minutes\nhttps://learnxinyminutes.com/docs/clojure/\n\nA more comprehensive intro: Clojure for the Brave and True\nhttp://www.braveclojure.com/getting-started/",
+              "dateTime": "2019-12-04T18:30-06:00",
+              "venue": {
+                "name": "Bendyworks",
+                "lat": 43.07439,
+                "lng": -89.38068,
+                "address": "106 E Doty Street, Suite 200, Madison, WI, 53703",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [],
+              "going": 9,
+              "speakerDetails": null,
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "id": "506739783",
+                      "text": "Food and drinks have been ordered. The entrance to the Bendyworks office space may locked, so there will be a sign on the door with a number to call to be let in.",
+                      "created": "2019-12-04T16:07:59-06:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/266498235/comments/506739783/",
+                      "member": {
+                        "name": "Peter Schuck",
+                        "id": "198143767"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "Peter Schuck",
+                "id": "198143767"
+              },
+              "id": "267778769",
+              "title": "Getting started using Clojurescript with shadow-cljs  ",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/267778769",
+              "description": "Daniel Petranek will be presenting on ClojureScript and Shadow CLJS\n\nClojurescript can provide a best-in-class experience for writing front-end code.\n- building\n- testing\n- linting\n- interactive development workflow\n- ecosystem\n\nIf you'd like to follow along, it would help to have these things installed beforehand:\n- openjdk\n- node js\n- a text editor (if you don't have one for clojure/clojurescript yet, I recommend Visual Studio Code with the Calva extension or Atom with the Chlorine extension)\"\n\nFood and Drinks will be provided by Bendyworks",
+              "dateTime": "2020-01-23T18:30-06:00",
+              "venue": {
+                "name": "Bendyworks",
+                "lat": 43.07439,
+                "lng": -89.38068,
+                "address": "106 E Doty Street, Suite 200, Madison, WI, 53703",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [],
+              "going": 9,
+              "speakerDetails": null,
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "id": "507880014",
+                      "text": "Thanks to everyone who could make it!\n\nHere's a link to the code we wrote together, if you want to fiddle with it:\nhttps://gitlab.com/dpetranek/shadow-cljs-from-scratch\n\nAnd here's a link to the towers of hanoi example:\nhttps://gitlab.com/dpetranek/hanoi",
+                      "created": "2020-01-24T20:32:15-06:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/267778769/comments/507880014/",
+                      "member": {
+                        "name": "Dan Petranek",
+                        "id": "200369461"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "Peter Schuck",
+                "id": "198143767"
+              },
+              "id": "268698750",
+              "title": "Gotta Collect them all (Clojure collection functions)",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/268698750",
+              "description": "Explore the wonders of the Clojure Collection library functions with Peter Schuck! Learn how Clojure Collections themselves are functions. Go beyond the generic flavors of map, filter, and reduce to exotic spices like partition-by, interleave, and reductions.\n\nFood and drinks will be provided by Bendyworks",
+              "dateTime": "2020-02-27T18:30-06:00",
+              "venue": {
+                "name": "Bendyworks",
+                "lat": 43.07439,
+                "lng": -89.38068,
+                "address": "106 E Doty Street, Suite 200, Madison, WI, 53703",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [],
+              "going": 6,
+              "speakerDetails": null,
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "id": "508681891",
+                      "text": "The github repository I'll be using is https://github.com/spinningtopsofdoom/clojure-collection-examples",
+                      "created": "2020-02-26T21:32:23-06:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/268698750/comments/508681891/",
+                      "member": {
+                        "name": "Peter Schuck",
+                        "id": "198143767"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "Peter Schuck",
+                "id": "198143767"
+              },
+              "id": "276811739",
+              "title": "Lightning Talks (15 minute talks)",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/276811739",
+              "description": "The Clojure meetup is back (virtually) from it's long winter hibernation.\n\nWe'll be having a virtual meetup over zoom with three 15 minute presentations\n\nPeter: Parsing Data with Clojure Spec\n\nEric: Clojure Testing Using Kaocha\n\nDan: Domain Modeling with State Machines and State Charts\n\nAfter the presentations we'll have general discussion",
+              "dateTime": "2021-03-24T18:30-05:00",
+              "venue": {
+                "name": "Online event",
+                "lat": -8.521147,
+                "lng": 179.1962,
+                "address": "",
+                "city": "",
+                "state": "",
+                "postalCode": ""
+              },
+              "onlineVenue": {
+                "url": null
+              },
+              "images": [],
+              "going": 11,
+              "speakerDetails": null,
+              "comments": {
+                "count": 4,
+                "edges": [
+                  {
+                    "node": {
+                      "id": "514020544",
+                      "text": "I've put the code I'm going to use for Parsing with Clojure Spec here https://github.com/spinningtopsofdoom/parsing-with-clojure-spec. See everyone tomorrow!",
+                      "created": "2021-03-23T21:32:55-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/276811739/comments/514020544/",
+                      "member": {
+                        "name": "Peter Schuck",
+                        "id": "198143767"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "514024136",
+                      "text": "A good idea, Peter. Here is a link to the code I'll be using tonight: https://github.com/eatobin/meetup-madison.git. See you then...",
+                      "created": "2021-03-24T08:16:14-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/276811739/comments/514024136/",
+                      "member": {
+                        "name": "Eric Tobin",
+                        "id": "9475763"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "514031741",
+                      "text": "It's kind of annoying how, when you type a URL followed by a period in a Meetup comment field, the link it generates includes the period.",
+                      "created": "2021-03-24T19:04:07-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/276811739/comments/514031741/",
+                      "member": {
+                        "name": "Eric Christopherson",
+                        "id": "2720104"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "514032651",
+                      "text": "Thanks everyone for the presentations and questions! Dan and I will be doing research into Datahike (https://github.com/replikativ/datahike/) for the next meetup presentation",
+                      "created": "2021-03-24T20:18:02-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/276811739/comments/514032651/",
+                      "member": {
+                        "name": "Peter Schuck",
+                        "id": "198143767"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "Peter Schuck",
+                "id": "198143767"
+              },
+              "id": "280791754",
+              "title": "A Datahike Game of Life",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/280791754",
+              "description": "Conway's Game of Life has been souped up with datahike (https://github.com/replikativ/datahike) an open source immutable database. Using Datahike you can easily time travel between previous steps, split off game into their own universe and perform queries comparing games across time and space.\n\nPeter Schuck will present on how Datahike enabled all the above features and the use Clojure REPL tooling like Reveal (https://vlaaad.github.io/reveal/) to help speed up development and debugging.\n\nFollow along with the development at https://github.com/spinningtopsofdoom/immutable_life",
+              "dateTime": "2021-10-13T18:30-05:00",
+              "venue": {
+                "name": "Online event",
+                "lat": -8.521147,
+                "lng": 179.1962,
+                "address": "",
+                "city": "",
+                "state": "",
+                "postalCode": ""
+              },
+              "onlineVenue": {
+                "url": null
+              },
+              "images": [],
+              "going": 8,
+              "speakerDetails": null,
+              "comments": {
+                "count": 0,
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "Peter Schuck",
+                "id": "198143767"
+              },
+              "id": "282149442",
+              "title": "Advent of Clojure",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/282149442",
+              "description": "We'll be going over solutions to Advent of Code (https://adventofcode.com/) problems\n\nAdvent of Code is site that gives two problems to solve each day of December. The problems start out easy and get harder and more complicated with each passing day. We'll be presenting our solutions to the problems and going over the techniques we used.",
+              "dateTime": "2021-12-08T19:00-06:00",
+              "venue": {
+                "name": "Online event",
+                "lat": -8.521147,
+                "lng": 179.1962,
+                "address": "",
+                "city": "",
+                "state": "",
+                "postalCode": ""
+              },
+              "onlineVenue": {
+                "url": null
+              },
+              "images": [],
+              "going": 10,
+              "speakerDetails": null,
+              "comments": {
+                "count": 0,
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "Peter Schuck",
+                "id": "198143767"
+              },
+              "id": "284479858",
+              "title": "Advent Of Code Clojure Challenges",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/284479858",
+              "description": "Well be solving the Advent of Code Day 1 Challenges (https://adventofcode.com/2021/day/1) using Clojure to demonstrate different ways of problem solving using Clojure\n\nFor extra credit you can try solving the Advent of Code Day 2 Challenges (https://adventofcode.com/2021/day/2)",
+              "dateTime": "2022-03-30T18:30-05:00",
+              "venue": {
+                "name": "Online event",
+                "lat": -8.521147,
+                "lng": 179.1962,
+                "address": "",
+                "city": "",
+                "state": "",
+                "postalCode": ""
+              },
+              "onlineVenue": {
+                "url": null
+              },
+              "images": [],
+              "going": 2,
+              "speakerDetails": null,
+              "comments": {
+                "count": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "id": "520468225",
+                      "text": "Sadly I can't make this one. I'll be on a family trip.",
+                      "created": "2022-03-16T21:22:49-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/284479858/comments/520468225/",
+                      "member": {
+                        "name": "David Whittington",
+                        "id": "7909030"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "520483829",
+                      "text": "I'm also going to be out of town that week. Have a good time!",
+                      "created": "2022-03-17T19:42:28-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/284479858/comments/520483829/",
+                      "member": {
+                        "name": "Dan Petranek",
+                        "id": "200369461"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "Peter Schuck",
+                "id": "198143767"
+              },
+              "id": "289747351",
+              "title": "Scripting Clojure with Babashka",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/289747351",
+              "description": "Tired of looking up Bash syntax? Lost your train of thought a few too many times waiting for Clojure to startup? Then this is the presentation for you!\n\nCome find out how Babashka (https://github.com/babashka/babashka) can make your life easier by replacing complex shell scripts and providing a quick-to-start Clojure REPL. We'll cover the basics of how to setup Babashka and explore a few ways you might use it. Also, if we have time, we'll explore some related tools in the \"Borkverse\"",
+              "dateTime": "2022-11-29T19:00-06:00",
+              "venue": {
+                "name": "Online event",
+                "lat": -8.521147,
+                "lng": 179.1962,
+                "address": "",
+                "city": "",
+                "state": "",
+                "postalCode": ""
+              },
+              "onlineVenue": {
+                "url": null
+              },
+              "images": [],
+              "going": 4,
+              "speakerDetails": null,
+              "comments": {
+                "count": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "id": "525406230",
+                      "text": "A bit overdue on this, but here are my slides: https://github.com/djwhitt/presentations/blob/main/docs/2022-11-29-scripting-clojure-with-babashka.md",
+                      "created": "2023-01-01T09:32:14-06:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/289747351/comments/525406230/",
+                      "member": {
+                        "name": "David Whittington",
+                        "id": "7909030"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "525406234",
+                      "text": "Also, Happy New Year!",
+                      "created": "2023-01-01T09:32:27-06:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/289747351/comments/525406234/",
+                      "member": {
+                        "name": "David Whittington",
+                        "id": "7909030"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "Peter Schuck",
+                "id": "198143767"
+              },
+              "id": "291481587",
+              "title": "Clojure Performance Discussion",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/291481587",
+              "description": "We'll be discussing Clojure(Script) performance at Central Library Study Room 201. Specific topics will include how to measure Clojure performance, the programming patterns for writing performant code in the Clojure host (the JVM or JavaScript), and how to speed up Clojure Code\n\nSome great videos talking about Clojure Performace\n\n1. [Playing Go with Clojure](https://www.youtube.com/watch?v=v5dYE0CMmHQ) (2012) Zach Tellman describes what is needed to make a Clojure AI that can play Go\n2. [LMAX Disruptor](https://www.youtube.com/watch?v=DCdGlxBbKU4) (2011) Trisha Gee & Mike Barker talk about the disruptor for messaging at LMAX. A deep dive is done on concurrency topics like cache coherency and memory barriers\n3. [Designing for Performance](https://www.youtube.com/watch?v=03GsLxVdVzU) (2016) Martin Thompson talks about a diverse range of topics like Queueing Theory and the Universal Scalability Law and how they apply to designing high speed systems\n4. [Breaking the JavaScript Speed Limit with V8](https://www.youtube.com/watch?v=UJPdhx5zTaw) (2012) Daniel Clifford goes through the internals of the V8 JavaScript engine showing what code the V8 engine can easily optimize for\n5. [John Carmack Tech Talk with UMKC-SCE](https://www.youtube.com/watch?v=lHLpKzUxjGk) (2017) John Carmack discusses getting a smooth VR experience from the hardware level\n\nFood and Drinks will be provided by [Bendyworks](https://bendyworks.com/)",
+              "dateTime": "2023-02-21T18:30-06:00",
+              "venue": {
+                "name": "Madison Public Library - Central",
+                "lat": 43.07346,
+                "lng": -89.387314,
+                "address": "201 W Mifflin St",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [],
+              "going": 7,
+              "speakerDetails": null,
+              "comments": {
+                "count": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "id": "526111808",
+                      "text": "Out of town - or I&#39;d be there...",
+                      "created": "2023-02-16T12:33:44-06:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/291481587/comments/526111808/",
+                      "member": {
+                        "name": "Eric Tobin",
+                        "id": "9475763"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "526194079",
+                      "text": "The room is Study Room 201",
+                      "created": "2023-02-21T17:35:47-06:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/291481587/comments/526194079/",
+                      "member": {
+                        "name": "Peter Schuck",
+                        "id": "198143767"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "Peter Schuck",
+                "id": "198143767"
+              },
+              "id": "293201512",
+              "title": "Fluree: an Immutable, Verifiable, Shareable Database",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/293201512",
+              "description": "Come learn about bringing immutable data to the world of system design! We'll talk about why and how you can use Fluree, an immutable graph database, to make reliable systems. Dan Petranek will be presenting on the Fluree Database\n\nFood and drinks will be provided. Notes from the meetup will be written up and then posted online\n\nBefore the presentation start we'll spend about 10 to 15 minutes about what we want the next meetup topic to be about. Some example ideas\n\\* Clojure REPL tooling showcase\n\\* Using Clojure with Large Language Models\n\\* Developing with Flutter using Clojure Dart",
+              "dateTime": "2023-06-20T19:15-05:00",
+              "venue": {
+                "name": "Madison Public Library - Central",
+                "lat": 43.07346,
+                "lng": -89.387314,
+                "address": "201 W Mifflin St",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [],
+              "going": 8,
+              "speakerDetails": null,
+              "comments": {
+                "count": 0,
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "Peter Schuck",
+                "id": "198143767"
+              },
+              "id": "294377941",
+              "title": "Bring your own REPL (BYOR)",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/294377941",
+              "description": "Show your REPL tooling and learn new techniques from other Clojure Developers. The REPL (Read Eval Print Loop) is one of Clojure's great strengths that is constantly being added onto with new tools like the [Flow Storm Debugger](https://github.com/jpmonettas/flow-storm-debugger). If you're a newcomer to Clojure stop on by to learn about all the ways you can enhance your Clojure REPL experience.\n\nFood and drinks will be provided. Notes from the meetup will be written up and then posted online\n\nBefore the presentation start we'll spend about 10 to 15 minutes about what we want the next meetup topic to be about.",
+              "dateTime": "2023-07-20T19:00-05:00",
+              "venue": {
+                "name": "Madison Public Library - Central",
+                "lat": 0,
+                "lng": 0,
+                "address": "201 W Mifflin St",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [],
+              "going": 4,
+              "speakerDetails": null,
+              "comments": {
+                "count": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "id": "528409992",
+                      "text": "Something came up and I am unable to make it tonight. I really wanted to attend. Maybe next time.",
+                      "created": "2023-07-20T18:49:08-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/294377941/comments/528409992/",
+                      "member": {
+                        "name": "Daniel Noonan",
+                        "id": "136207172"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "528410836",
+                      "text": "Whelp, sorry I forgot my bike lock and had to head back. Ironic since I reminded some others about this one. If anyone wants to see Conjure + Neovim, Malli + LSP, Portal (guessing this one is already being shown), or Mount REPL integration at some future meetup, let me know.",
+                      "created": "2023-07-20T19:49:42-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/294377941/comments/528410836/",
+                      "member": {
+                        "name": "David Whittington",
+                        "id": "7909030"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "Peter Schuck",
+                "id": "198143767"
+              },
+              "id": "295535595",
+              "title": "Clojure Game of Life: A Project's Journey",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/295535595",
+              "description": "Show how to build a small Clojure Project (the Game of Life). Head over to [https://github.com/spinningtopsofdoom/madison-clojure-example-project](https://github.com/spinningtopsofdoom/madison-clojure-example-project) read the README for instructions and then start building the Game of Life. We'll all share how the Clojure project creation process went and the way we went about building the project.\n\nSeveral examples of Clojure Game of life projects can be found at [github](https://github.com/search?q=game+of+life+language%3AClojure&type=repositories). The Game of Life does not need to be 100% completed or polished to a fine sheen. We're here to show all the different ways to start a Clojure Project and learn from each other.\n\nSnacks and Drinks will be provided. We'll be posting the [notes](https://github.com/spinningtopsofdoom/madison-clojure-example-project/blob/main/notes/01-Life-Creation.md) from the meetup to help other begin their Clojure Journey",
+              "dateTime": "2023-09-12T19:00-05:00",
+              "venue": {
+                "name": "Madison Public Library - Central",
+                "lat": 43.07346,
+                "lng": -89.387314,
+                "address": "201 W Mifflin St",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [],
+              "going": 7,
+              "speakerDetails": null,
+              "comments": {
+                "count": 4,
+                "edges": [
+                  {
+                    "node": {
+                      "id": "529201188",
+                      "text": "I&#39;ve pushed up my mvp version of getting the game of life running https://github.com/spinningtopsofdoom/madison-clojure-example-project/tree/feature/create-life-mvp",
+                      "created": "2023-09-12T14:14:02-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/295535595/comments/529201188/",
+                      "member": {
+                        "name": "Peter Schuck",
+                        "id": "198143767"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "529205082",
+                      "text": "Here&#39;s my implementation: https://github.com/djwhitt/madison-clojure-game-of-life",
+                      "created": "2023-09-12T19:30:58-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/295535595/comments/529205082/",
+                      "member": {
+                        "name": "David Whittington",
+                        "id": "7909030"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "529205177",
+                      "text": "https://github.com/hyperfiddle/rcf",
+                      "created": "2023-09-12T19:41:45-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/295535595/comments/529205177/",
+                      "member": {
+                        "name": "David Whittington",
+                        "id": "7909030"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "529205308",
+                      "text": "https://git.sr.ht/~bitscribbler/clj-meetup-gol/tree/main/item/src/com/bitscribbler/gol/core.clj",
+                      "created": "2023-09-12T19:55:01-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/295535595/comments/529205308/",
+                      "member": {
+                        "name": "Matthew Nelson",
+                        "id": "13962942"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "James Elliott",
+                "id": "135770182"
+              },
+              "id": "299428825",
+              "title": "HYBRID: Leveling Up Clojure Runtime Specs",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/299428825",
+              "description": "Clojure has a powerful selection of dynamic verification tools, including Schema, Spec, and Malli. In this talk, we will motivate the need for even more expressive runtime specifications. Repurposing familiar ideas from static types and interpreters, we will explore higher-level abstractions over runtime specs that bump up their expressivity without compromising their dynamism.\n\nThe talk will also be [streamed live](https://www.youtube.com/watch?v=2vAyJPwogSI) with a VOD later.\n\nAgenda:\n\n* 6:30pm arrive and eat (was thinking pizza), please record any dietary restrictions [here](https://forms.gle/AbzGfXPDT9AXkqAs9).\n* start stream, 7pm talk\n* 7:45pm all questions\n* 8pm end stream, offline questions\n* 8:30pm end meetup, people who want to hang out can choose from nearby bars and restaurants",
+              "dateTime": "2024-03-06T18:30-06:00",
+              "venue": {
+                "name": "StartingBlock Madison",
+                "lat": 43.081245,
+                "lng": -89.374054,
+                "address": "821 E Washington Ave 2nd floor",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [
+                {
+                  "id": "519385009",
+                  "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                  "preview": null
+                }
+              ],
+              "going": 13,
+              "speakerDetails": {
+                "name": "Ambrose Bonnaire-Sergeant",
+                "description": "Ambrose has been an active member of the Clojure community since 2011. He has participated in the development of many dynamic verification tools for Clojure, including trammel, core.contracts, dynalint, Schema, Spec, test.chuck, typed.clj.spec and Malli. He is the creator of Typed Clojure, the subject of his PhD thesis, and a maintainer of Plumatic Schema.",
+                "photo": null
+              },
+              "comments": {
+                "count": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "id": "531448918",
+                      "text": "Thanks for giving such an interesting talk, Ambrose, and thank you to everyone who was able to attend! I very much enjoyed the conversations both before and after. And the gift of pizza! We should schedule meetups to just chat even when we don’t have people ready to present something, I love getting to know our great community better.",
+                      "created": "2024-03-07T10:53:13-06:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/299428825/comments/531448918/",
+                      "member": {
+                        "name": "James Elliott",
+                        "id": "135770182"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "531529259",
+                      "text": "VOD https://www.youtube.com/watch?v=QE3PZLlefUE",
+                      "created": "2024-03-14T00:36:46-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/299428825/comments/531529259/",
+                      "member": {
+                        "name": "Ambrose Bonnaire-Sergeant",
+                        "id": "283874225"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "James Elliott",
+                "id": "135770182"
+              },
+              "id": "299793692",
+              "title": "HYBRID: Immutable Databases to Set Your Distributed System Free",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/299793692",
+              "description": "Writing software is just great until you need to get two different machines to agree on some state. Then you have to start solving some difficult problems. In Clojure we can see how immutable data makes building concurrent programs manageable -- what if we could apply those same lessons to our distributed systems? We'll talk about what an immutable database is, how it works in principle and in practice, and why you'll want to use one to make your life easier.\n\nThe talk will also be streamed live and a VOD will be posted later: [https://youtube.com/live/zx4HGVx9NR8](https://youtube.com/live/zx4HGVx9NR8)\n\nAgenda:\n\n* 6:30pm arrive, pizza served\n* 7:00pm talk\n* 7:45pm all questions\n* 8:00pm end stream, offline questions\n* 8:30pm end meetup, people who want to hang out can choose from nearby bars and restaurants",
+              "dateTime": "2024-04-10T18:30-05:00",
+              "venue": {
+                "name": "StartingBlock Madison",
+                "lat": 43.081245,
+                "lng": -89.374054,
+                "address": "821 E Washington Ave 2nd floor",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [
+                {
+                  "id": "519732038",
+                  "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                  "preview": null
+                }
+              ],
+              "going": 19,
+              "speakerDetails": {
+                "name": "Dan Petranek",
+                "description": "Daniel has been writing Clojure since 2013. He likes immutable data, conflict-free replicated data types, and aperiodic tilings. He is currently a maintainer of the free and open source immutable graph database, Fluree.",
+                "photo": null
+              },
+              "comments": {
+                "count": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "id": "531852704",
+                      "text": "Bummed I won't be able to attend this in person, but I do plan to join the livestream.",
+                      "created": "2024-04-09T15:32:52-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/299793692/comments/531852704/",
+                      "member": {
+                        "name": "Daniel Noonan",
+                        "id": "136207172"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "532223835",
+                      "text": "Video: https://www.youtube.com/watch?v=Iyr6f9n9Nm4",
+                      "created": "2024-05-09T01:13:34-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/299793692/comments/532223835/",
+                      "member": {
+                        "name": "Ambrose Bonnaire-Sergeant",
+                        "id": "283874225"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "James Elliott",
+                "id": "135770182"
+              },
+              "id": "299879262",
+              "title": "HYBRID: Clojure Virtual Threads, CSS Accessibility, and Theory of Constraints",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/299879262",
+              "description": "We have three talks this month!\n\nAgenda:\n\\- 6:30pm arrive and eat \\(pizza\\)\n\\- 7:00pm talks \\(3 x 15\\+5m\\)\n\\- 8:00pm official business ends\\, stay for informal discussion and food\n\n[Live Stream](https://www.youtube.com/watch?v=uIfynMppxcw)\n\n**Talk 1: [Eric Normand](ericnormand.me)**\n\n**Virtual Threads in Clojure**\nJDK 21 provides virtual threads which allow for much more concurrency than OS threads. In this talk, we'll see how to use them from Clojure, how they differ from OS threads, and what might change in the future.\n\n**Bio**\nEric Normand is a Clojure and functional programming teacher. He has been programming in Clojure since 2008 and teaching it since 2013. You can find him online at [ericnormand.me](http://ericnormand.me/).\n\n**Talk 2: [Sayan Sivakumaran](https://sayansivakumaran.com/)**\n\n**How does CSS affect the Accessibility Tree?**\nIt's a common misconception that HTML is the only thing that affects how assistive technologies (like screen readers) interact with the web, even though that isn't true. For example, did you know that [the CSS border styling of table cells](https://sayansivakumaran.com/posts/2023/6/browser-table-accessibility-remediation/#determining-table-ness-via-the-css-border-of-table-cells) affects whether small HTML tables are exposed as a table in the accessibility tree or not? Other types of CSS can change how the accessibility tree is exposed as well - there has been an attempt to standardize this behavior with [the CSS-AAM](https://w3c.github.io/css-aam/), although there doesn't seem to have been a lot of work in this area recently.\n\nLet's explore some of the weird, implementation-defined ways that CSS can affect the accessibility tree!\n\n**Bio**\n[Sayan Sivakumaran](https://sayansivakumaran.com/) is a developer at Singlewire that has done open source work on both Chromium accessibility and the ARIA specification suite (more specifically, the Core-AAM). While they are taking a temporary break from open source accessibility work to explore systems programming, making the web more accessible is still something that they hold close to their heart!\n\n**Talk 3: David Whittington**\n\n**Exploring Clojure as a Theory of Constraints modeling environment**\nThe \"Theory of Constraints\" (TOC) is a management philosophy introduced by Dr. Eliyahu M. Goldratt in his 1984 book titled \"The Goal\". It is designed to help organizations continually achieve their goals by identifying and managing constraints that hinder performance. The central premise of TOC is that every system, regardless of how well it performs, has at least one constraint that limits its ability to achieve more of its goals.\n\nVarious software software tools exist to support the TOC modeling process, but they're generally not hacker friendly. Can we do better in Clojure? Let's tinker and find out.\n\n**Bio**\nDavid Whittington is a system architect at PDS, Inc. where he is helping build [ar.io](http://ar.io/), an access protocol for the Arweave perpetual data storage network. Previously he has worked on streaming metrics indexing and simulation testing for satellite systems, a ClojureScript strategy game (Zetawar), pharmacy claims processing systems, and early IaaC systems. He enjoys free software, permissionless systems, functional programming, optimizing databases, and immutability.",
+              "dateTime": "2024-05-08T18:30-05:00",
+              "venue": {
+                "name": "StartingBlock Madison",
+                "lat": 43.081245,
+                "lng": -89.374054,
+                "address": "821 E Washington Ave 2nd floor",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [
+                {
+                  "id": "520477718",
+                  "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                  "preview": null
+                }
+              ],
+              "going": 14,
+              "speakerDetails": null,
+              "comments": {
+                "count": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "id": "532223834",
+                      "text": "Video: https://www.youtube.com/watch?v=M6-lDuIyAIQ",
+                      "created": "2024-05-09T01:13:02-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/299879262/comments/532223834/",
+                      "member": {
+                        "name": "Ambrose Bonnaire-Sergeant",
+                        "id": "283874225"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "532226453",
+                      "text": "My slides: https://ericnormand.me/slides/Virtual-Threads-in-Clojure.pdf",
+                      "created": "2024-05-09T09:17:13-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/299879262/comments/532226453/",
+                      "member": {
+                        "name": "Eric Normand",
+                        "id": "11948626"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "James Elliott",
+                "id": "135770182"
+              },
+              "id": "300436477",
+              "title": "Beat Link Trigger: Clojure for DJ shows",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/300436477",
+              "description": "You might have seen James’ [Afterglow demo](https://www.youtube.com/watch?v=mvNN0SMMZDQ) at the [Meetup in 2016](https://www.meetup.com/Madison-Clojure-Meetup/events/229842513/), now you can see what has devoured his spare time since then. At that meetup James mentioned he’d started to reverse-engineer the protocol used by Pioneer DJ pro gear so he could sync light shows to it. That spawned its own set of projects which have blown up, and he’s been contacted by several artists who feature prominently in his own music collection for help using the software in their tours and streams, and even tricked Deadmau5 into learning a little Clojure.\n\nThis presentation will explore how DJ performances work today, give highlights of the degree to which we can now tap into the hardware over the network, and demonstrate some of the cool tricks this enables. Clojure has been the glue that allowed James to accidentally create an integration environment for performances, in response to interesting ideas from club resident techs, touring performers, and their front-of-house tech crews.",
+              "dateTime": "2024-06-05T18:30-05:00",
+              "venue": {
+                "name": "Singlewire Software",
+                "lat": 43.07964,
+                "lng": -89.53527,
+                "address": "1002 Deming Way",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53717"
+              },
+              "onlineVenue": null,
+              "images": [
+                {
+                  "id": "520436787",
+                  "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                  "preview": null
+                }
+              ],
+              "going": 14,
+              "speakerDetails": {
+                "name": "James Elliott",
+                "description": "James is a software developer who grew up hopping between continents, and got hooked on computers as a teenager in Mexico in the ’80s, to the extent of writing his own word processor in 6502 assembly language so he could turn in high school papers with proper fonts and justification long before he could afford a Mac. He’s written a few books for O’Reilly, and is now delighted to be working in Clojure professionally, helping Singlewire build platforms for mass notification. Having settled in Madison since graduate school, he has recently rekindled a passion for electronic music by discovering the fun of mixing it for an energetic crowd as [Deep Symmetry](https://deepsymmetry.org/) and connecting with people around the world looking for new ways to integrate their shows.",
+                "photo": {
+                  "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                  "id": "520436712"
+                }
+              },
+              "comments": {
+                "count": 0,
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "James Elliott",
+                "id": "135770182"
+              },
+              "id": "301041771",
+              "title": "Immutable Web of Values (Downtown @ StartingBlock)",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/301041771",
+              "description": "This month we will help David develop a talk he's proposing for Clojure/conj 2024. It will not be live streamed but we will record the practice talk to be submitted along with the proposal.\n\nLocation is **downtown** at StartingBlock.\n\nAgenda:\n\\- 6:30pm arrive and eat \\(pizza\\)\n\\- 7:00pm talk\n\\- 8:00pm official business ends\\, stay for informal discussion and food\n\n**Speaker**: David Whittington\n\n**Talk**: Immutable Web of Values\n\n**Description:**\n\nDo you like immutable values? Do you ever wish the web was made out of persistent data structures? There are real projects underway to make this happen.\nCome to this talk to learn about the various efforts to construct large-scale decentralized storage systems, so we can finally have an immutable web of values. We'll cover things like IPFS, IPLD, Arweave, Filecoin, and other related technologies.\nWarning: this talk will mention blockchains! If this is off-putting, do not fear! There will be plenty of non-blockchain content, and blockchains will be discussed purely as an implementation strategy to solve particular technical problems.\n\n**Bio**\nDavid Whittington is a system architect at PDS, Inc. where he is helping build [ar.io](http://ar.io/), an access protocol for the Arweave perpetual data storage network. Previously he has worked on streaming metrics indexing and simulation testing for satellite systems, a ClojureScript strategy game (Zetawar), pharmacy claims processing systems, and early IaaC systems. He enjoys free software, permissionless systems, functional programming, optimizing databases, and immutability.",
+              "dateTime": "2024-07-10T18:30-05:00",
+              "venue": {
+                "name": "StartingBlock Madison",
+                "lat": 43.081245,
+                "lng": -89.374054,
+                "address": "821 E Washington Ave 2nd floor",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [
+                {
+                  "id": "521926494",
+                  "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                  "preview": null
+                }
+              ],
+              "going": 9,
+              "speakerDetails": null,
+              "comments": {
+                "count": 3,
+                "edges": [
+                  {
+                    "node": {
+                      "id": "533003206",
+                      "text": "I probably won't be able to make it today, but I hope ya'll have fun!",
+                      "created": "2024-07-10T17:42:12-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/301041771/comments/533003206/",
+                      "member": {
+                        "name": "Sayan Sivakumaran",
+                        "id": "244891150"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "533004102",
+                      "text": "Hello! I'm downstairs. Would someone be kind enough to fetch me?",
+                      "created": "2024-07-10T18:52:22-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/301041771/comments/533004102/",
+                      "member": {
+                        "name": "Eric Normand",
+                        "id": "11948626"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "533075404",
+                      "text": "Just in case some Clojure/conj organizer ends up here looking for the video, send me an email (or otherwise reach out) and I'll send you the link. I was uncertain whether publicly posting the video of what could turn into a conj talk was appropriate.",
+                      "created": "2024-07-15T20:20:16-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/301041771/comments/533075404/",
+                      "member": {
+                        "name": "David Whittington",
+                        "id": "7909030"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "Ambrose Bonnaire-Sergeant",
+                "id": "283874225"
+              },
+              "id": "302380344",
+              "title": "Reconsidering Malli Scope",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/302380344",
+              "description": "\\-\\-\\-\\> [STREAM](https://youtube.com/live/y30fUDvEcnc?feature=share) <---\n\nAgenda:\n\n* 6:30pm arrive and eat. At least one vegan and vegetarian pizza will be available, plus fruit and soda.\n* start [stream](https://youtube.com/live/y30fUDvEcnc?feature=share), 7pm talk\n* 7:45pm all questions\n* 8pm end stream, offline questions\n* 9pm end meetup\n\nTalk:\n[Malli](https://github.com/metosin/malli) is a popular runtime verification library for Clojure. In this talk we will review how Malli approaches scope via registries and refs then motivate alternative (backwards-compatible) designs.",
+              "dateTime": "2024-08-07T18:30-05:00",
+              "venue": {
+                "name": "StartingBlock Madison",
+                "lat": 43.081245,
+                "lng": -89.374054,
+                "address": "821 E Washington Ave 2nd floor",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": {
+                "url": null
+              },
+              "images": [
+                {
+                  "id": "522476453",
+                  "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                  "preview": null
+                }
+              ],
+              "going": 8,
+              "speakerDetails": {
+                "name": "Ambrose Bonnaire-Sergeant",
+                "description": "Ambrose has been an active member of the Clojure community since 2011. He has participated in the development of many dynamic verification tools for Clojure, including trammel, core.contracts, dynalint, Schema, Spec, test.chuck, typed.clj.spec and Malli. He is the creator of Typed Clojure, the subject of his PhD thesis, and a maintainer of Plumatic Schema.",
+                "photo": {
+                  "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                  "id": "522476484"
+                }
+              },
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "id": "533365745",
+                      "text": "I'm at the door.",
+                      "created": "2024-08-07T18:59:23-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/302380344/comments/533365745/",
+                      "member": {
+                        "name": "David Whittington",
+                        "id": "7909030"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "Ambrose Bonnaire-Sergeant",
+                "id": "283874225"
+              },
+              "id": "302948127",
+              "title": "Constraining Malli Schemas, by Ambrose Bonnaire-Sergeant",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/302948127",
+              "description": "\\>\\>\\>\\> [STREAM](https://www.youtube.com/live/28S96Ms8WOc) <<<<\n\nThis event is not at our usual time in order for the stream to be accessible from a cross-section of time-zones.\n\nA video will be posted after the event.\n\nFood will be provided. Please RSVP so we can prepare.\n\nFor in-person attendees, please remember [Eric's practice talk next month](https://www.meetup.com/madison-clojure-meetup/events/301041832/?eventOrigin=group_upcoming_events).\n\nAgenda:\n\n* 11:30am feel free to arrive, use the stairs in the lobby to get to the 2nd floor at our usual room.\n* 12pm talk and stream starts\n* 12:45pm talk ends, online questions.\n* 1pm end stream, offline questions\n* 2pm end meetup\n\nTalk Title: Constraining Malli Schemas\n\nTalk Abstract:\nIn this talk we look at some ways Malli schemas are not expressive enough and must resort to partial workarounds. For example, to specify a map with one key or another but not both, the dreaded addition of :and + :fn is needed to assert a postcondition on the map. This then negatively affects error messages and generating examples.\n\nWe then propose a clean solution to this problem, and many problems like it, by adding support for constraints on individual schemas.",
+              "dateTime": "2024-08-29T11:30-05:00",
+              "venue": {
+                "name": "StartingBlock Madison",
+                "lat": 43.081245,
+                "lng": -89.374054,
+                "address": "821 E Washington Ave 2nd floor",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [
+                {
+                  "id": "523072396",
+                  "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                  "preview": null
+                }
+              ],
+              "going": 5,
+              "speakerDetails": {
+                "name": "Ambrose Bonnaire-Sergeant",
+                "description": "Ambrose has been an active member of the Clojure community since 2011. He has participated in the development of many dynamic verification tools for Clojure, including trammel, core.contracts, dynalint, Schema, Spec, test.chuck, typed.clj.spec and Malli. He is the creator of Typed Clojure, the subject of his PhD thesis, and a maintainer of Plumatic Schema.",
+                "photo": {
+                  "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                  "id": "522476484"
+                }
+              },
+              "comments": {
+                "count": 0,
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "James Elliott",
+                "id": "135770182"
+              },
+              "id": "301041832",
+              "title": "The Wonders of Abstraction, by Eric Normand (Keynote Rehearsal)",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/301041832",
+              "description": "Eric is Keynoting Heart of Clojure! This will be a rehearsal.\n\nAgenda:\n\n* 6:30pm arrive and eat. At least one vegan and vegetarian pizza will be available, plus fruit and soda.\n* 7pm talk\n* (TBD) 7:45pm all questions\n* (TBD) 8pm Talk feedback\n* 9pm end meetup",
+              "dateTime": "2024-09-11T18:30-05:00",
+              "venue": {
+                "name": "StartingBlock Madison",
+                "lat": 43.081245,
+                "lng": -89.374054,
+                "address": "821 E Washington Ave 2nd floor",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [
+                {
+                  "id": "522617640",
+                  "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                  "preview": null
+                }
+              ],
+              "going": 7,
+              "speakerDetails": {
+                "name": "Eric Normand",
+                "description": "Eric Normand has been programming functionally since 2001. He teaches, speaks, and writes. He consults with companies to help them build better software one function at a time. He lives with his family in Madison, Wisconsin. You can find his writing and other projects at [ericnormand.me](https://ericnormand.me/).",
+                "photo": {
+                  "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                  "id": "522617893"
+                }
+              },
+              "comments": {
+                "count": 0,
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "Ambrose Bonnaire-Sergeant",
+                "id": "283874225"
+              },
+              "id": "301052487",
+              "title": "Madison Clojure/conj Community Day",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/301052487",
+              "description": "This year, the final day of Clojure/conj will be an online gathering that's encouraging groups around the world to participate. Let's make a day of it!\n\nThe full agenda in Central time is [here](https://madclj.com/#clojureconj-2024-community-day).\n\nBagels and coffee will be available during the first session 8am-10:30am. We'll order lunch during the second session 12pm-3:15pm.\n\nhttps://clojure.org/news/2024/02/02/conj-24",
+              "dateTime": "2024-10-25T08:00-05:00",
+              "venue": {
+                "name": "StartingBlock Madison",
+                "lat": 43.081245,
+                "lng": -89.374054,
+                "address": "821 E Washington Ave 2nd floor",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [
+                {
+                  "id": "521090265",
+                  "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+                  "preview": null
+                }
+              ],
+              "going": 9,
+              "speakerDetails": null,
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "id": "534309632",
+                      "text": "I'm arriving to let people in about 8:15am.",
+                      "created": "2024-10-25T07:47:09-05:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/301052487/comments/534309632/",
+                      "member": {
+                        "name": "Ambrose Bonnaire-Sergeant",
+                        "id": "283874225"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "Ambrose Bonnaire-Sergeant",
+                "id": "283874225"
+              },
+              "id": "304256352",
+              "title": "Clojure Conference Takeaways and Inspirations",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/304256352",
+              "description": "**Announcement**: We might be moving off Meetup.com in December 2024. Our permanent website is [madclj.com](https://madclj.com) which has a [Web Calendar](https://madclj.com/calendar/) you can also [subscribe to](https://madclj.com/events.ics). RSVP will be via GitHub Discussions for now ([this event](https://github.com/orgs/madclj/discussions/6)).\n\nThe Clojure community held two large conferences over the last two months. Several of our regulars attended and/or spoke, and last meetup we phoned in to catch the last day of Clojure/conj.\n\nA lot happened at these conferences. This meetup will provide space to discuss our experience, takeaways and inspirations.\n\nTopics:\n\\- hallway track reports\n\\- favorite talks\n\\- conference followups \\(new projects/collaborations\\, ideas\\, initiatives\\)\n\\- industry and community trends\n\nNo online stream is planned.\n\nAgenda:\n\\- 6:30pm arrive\\, food & drink provided \\(pizza\\, bottled water\\, sparkling water\\, candy\\, fruit\\)\n\\- 7pm start structured discussion\n\\- 8pm end structured discussion\n\\- 9pm end meetup",
+              "dateTime": "2024-11-13T18:30-06:00",
+              "venue": {
+                "name": "StartingBlock Madison",
+                "lat": 43.081245,
+                "lng": -89.374054,
+                "address": "821 E Washington Ave 2nd floor",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [],
+              "going": 8,
+              "speakerDetails": null,
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "id": "534543013",
+                      "text": "I'm at the door now.",
+                      "created": "2024-11-13T19:01:13-06:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/304256352/comments/534543013/",
+                      "member": {
+                        "name": "David Whittington",
+                        "id": "7909030"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "host": {
+                "name": "Ambrose Bonnaire-Sergeant",
+                "id": "283874225"
+              },
+              "id": "304256369",
+              "title": "Celebrating A Year of (Madison) Clojure",
+              "eventUrl": "https://www.meetup.com/madison-clojure-meetup/events/304256369",
+              "description": "**Announcement**: We might be moving off Meetup.com in December 2024. Our permanent website is [madclj.com](https://madclj.com) which has a [Web Calendar](https://madclj.com/calendar/) you can also [subscribe to](https://madclj.com/events.ics). RSVP will be via GitHub Discussions for now ([this event](https://github.com/orgs/madclj/discussions/7)).\n\nIt's been a busy year! This will be our 11th and final meetup of 2024.\n\nLet's wind down and celebrate the year together. We'll have a loosely structured discussion about our year with an eye towards Madison Clojure in 2025.\n\nTopics:\n\\- what characterized Clojure in 2024 for you?\n\\- feedback on Madison Clojure in 2024\n\\- planning 2025\n\nWhether this is streamed will be determined closer to the event.\n\nAgenda:\n\\- 6:30pm arrive\\, food & drink provided \\(TBD\\)\n\\- 7pm start structured discussion\n\\- 8pm end structured discussion\n\\- 9pm end meetup",
+              "dateTime": "2024-12-11T18:30-06:00",
+              "venue": {
+                "name": "StartingBlock Madison",
+                "lat": 43.081245,
+                "lng": -89.374054,
+                "address": "821 E Washington Ave 2nd floor",
+                "city": "Madison",
+                "state": "WI",
+                "postalCode": "53703"
+              },
+              "onlineVenue": null,
+              "images": [],
+              "going": 4,
+              "speakerDetails": null,
+              "comments": {
+                "count": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "id": "534434365",
+                      "text": "We should also, probably ahead of this, see if anyone wants to pick up the Meetup Pro sponsorship fees for the next year. My renewal payment of $180 for the next six months is coming due December 6th, and I don’t plan to give them the updated credit card information they need even if I am unable to navigate their dark patterns of canceling it by contacting their billing department. Can we find a less overpriced way to organize and keep in touch with people?",
+                      "created": "2024-11-04T10:19:15-06:00",
+                      "link": "https://www.meetup.com/madison-clojure-meetup/events/304256369/comments/534434365/",
+                      "member": {
+                        "name": "James Elliott",
+                        "id": "135770182"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

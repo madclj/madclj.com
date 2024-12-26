@@ -4,3 +4,4 @@
 /static/calendar
 /events.ics
 .nrepl-*
+.DS_Store
