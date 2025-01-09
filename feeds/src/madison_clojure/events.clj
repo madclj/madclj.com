@@ -134,8 +134,8 @@
     :location startingblock
     :start (madison-time "2025-01-08T18:30")
     :end   (madison-time "2025-01-08T21:00")}
-   {:full-title "February Meetup (TBD)"
-    :summary "February Meetup (TBD)"
+   {:full-title "Causal Profiling"
+    :summary "Causal Profiling"
     :uid "https://github.com/orgs/madclj/discussions/11"
     :description
     (text
