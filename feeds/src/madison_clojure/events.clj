@@ -134,8 +134,37 @@
     :location startingblock
     :start (madison-time "2025-01-08T18:30")
     :end   (madison-time "2025-01-08T21:00")}
-   {:full-title "Causal Profiling"
-    :summary "Causal Profiling"
+   {:full-title "Planning Lunch: Causal Profiling"
+    :summary "Planning Lunch Causal Profiling"
+    :uid "https://github.com/orgs/madclj/discussions/22"
+    :description
+    (text
+      "Want to be involved in our [next meetup on Causal Profiling (Feb 12th)](https://github.com/orgs/madclj/discussions/11)? Let's have lunch and plan something cool!"
+      ""
+      "Causal profiling is a benchmarking strategy that runs experiments by slowing parts of your program down until it can determine which lines would improve overall performance if improved."
+      ""
+      "Clojure doesn't have a causal profiler yet. Naively, it doesn't seem that hard! Perhaps we can divide and conquer, and present our results at the meetup."
+      ""
+      "It might be fun to plan another lunch before the meetup to check in."
+      ""
+      "Ideas:"
+      "- write causal profiler based on clj-async-profiler"
+      "- write pure clojure causal profiler based on https://github.com/taoensso/tufte"
+      "- write smallest and simplest clojure causal profiler displaying essence"
+      "- adapt JCoz to clojure https://github.com/Byte-Lab/JCoz/issues/23"
+      "- bench https://github.com/tonsky/fast-edn/ using JCoz (already implemented in Java)"
+      "  - can we predict where clojure.edn reader is slow? (also Java)"
+      "- summarize theory behind causal profiling"
+      "  - https://www.sigops.org/s/conferences/sosp/2015/current/2015-Monterey/printable/090-curtsinger.pdf"
+      "- existing discussion"
+      "  - https://www.reddit.com/r/Clojure/comments/kstuvl/anyone_tried_using_jcoz_java_causal_profiler_with/"
+      "  - https://clojureverse.org/t/avoiding-recursive-function-replacement-with-redefs-fn/5399/11")
+    :rsvp "https://github.com/orgs/madclj/discussions/22"
+    :location startingblock
+    :start (madison-time "2025-01-21T12:00")
+    :end   (madison-time "2025-01-21T14:00")}
+   {:full-title "Meetup: Causal Profiling"
+    :summary "Meetup: Causal Profiling"
     :uid "https://github.com/orgs/madclj/discussions/11"
     :description
     (text
