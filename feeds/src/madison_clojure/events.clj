@@ -135,7 +135,7 @@
     :start (madison-time "2025-01-08T18:30")
     :end   (madison-time "2025-01-08T21:00")}
    {:full-title "Planning Lunch: Causal Profiling"
-    :summary "Planning Lunch Causal Profiling"
+    :summary "Planning Lunch: Causal Profiling"
     :uid "https://github.com/orgs/madclj/discussions/22"
     :description
     (text
