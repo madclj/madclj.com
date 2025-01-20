@@ -137,6 +137,7 @@
    {:full-title "CANCELLED Planning Lunch: Causal Profiling"
     :summary "CANCELLED Planning Lunch: Causal Profiling"
     :uid "https://github.com/orgs/madclj/discussions/22"
+    :cancelled true
     :description
     (text
       "NOTE: This event has been cancelled due to weather."

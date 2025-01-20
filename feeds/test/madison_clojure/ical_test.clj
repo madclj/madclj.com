@@ -31,7 +31,22 @@
             ["URL" "https://github.com/orgs/madclj/discussions/6"]
             ["END" "VEVENT"]]]
           ["END" "VCALENDAR"]]
-         (sut/ical-doc [example-event-1]))))
+         (sut/ical-doc [example-event-1])))
+  (is (= [["BEGIN" "VCALENDAR"]
+          ["VERSION" "2.0"]
+          ["PRODID" "-//hacksw/handcal//NONSGML v1.0//EN"]
+          ["X-WR-CALNAME" "Madison Clojure Events"]
+          [[["BEGIN" "VEVENT"]
+            ["UID" "uid"]
+            ["DTSTART" "20201205T003000Z"] ["DTEND" "20201205T030000Z"]
+            ["SUMMARY" nil]
+            ["LOCATION" " Foo"]
+            ["DESCRIPTION" "Foo\\n\\n\\n\\nRSVP: https://github.com/orgs/madclj/discussions/6"]
+            ["URL" "https://github.com/orgs/madclj/discussions/6"]
+            ["STATUS" "CANCELLED"]
+            ["END" "VEVENT"]]]
+          ["END" "VCALENDAR"]]
+         (sut/ical-doc [(assoc example-event-1 :cancelled true)]))))
 
 (deftest render-ical-doc-test
   (is (= ["BEGIN:VCALENDAR"
