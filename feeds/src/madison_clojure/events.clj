@@ -166,16 +166,16 @@
     :location startingblock
     :start (madison-time "2025-01-21T12:00")
     :end   (madison-time "2025-01-21T14:00")}
-   {:full-title "Meetup: Causal Profiling"
-    :summary "Meetup: Causal Profiling"
+   {:full-title "[NEW DATE] Meetup: Causal Profiling"
+    :summary "[NEW DATE] Meetup: Causal Profiling"
     :uid "https://github.com/orgs/madclj/discussions/11"
     :description
     (text
       "TBD")
     :rsvp "https://github.com/orgs/madclj/discussions/11"
     :location startingblock
-    :start (madison-time "2025-02-12T18:30")
-    :end   (madison-time "2025-02-12T21:00")}
+    :start (madison-time "2025-02-19T18:30")
+    :end   (madison-time "2025-02-19T21:00")}
    {:full-title "March Meetup (TBD)"
     :summary "March Meetup (TBD)"
     :uid "https://github.com/orgs/madclj/discussions/12"
