@@ -176,12 +176,20 @@
     :location startingblock
     :start (madison-time "2025-02-19T18:30")
     :end   (madison-time "2025-02-19T21:00")}
-   {:full-title "March Meetup (TBD)"
-    :summary "March Meetup (TBD)"
+   {:full-title "Meetup: Decompilation and clang plugins"
+    :summary "Meetup: Decompilation and clang plugins"
     :uid "https://github.com/orgs/madclj/discussions/12"
     :description
     (text
-      "TBD")
+      "Sayan will give a presentation on a clang plugin she is designing."
+      ""
+      "Ambrose will demonstrate how to to decompile Clojure to inspect the equivalent Java code. We will use this to show how let{fn} is implemented in Clojure, then compare this to jank's actual LLVM IR output."
+      ""
+      "Agenda:"
+      ""
+      "- 6:30pm arrive, food & drink provided"
+      "- 7pm, start talks"
+      "- 9pm end meetup")
     :rsvp "https://github.com/orgs/madclj/discussions/12"
     :location startingblock
     :start (madison-time "2025-03-12T18:30")
