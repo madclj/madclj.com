@@ -194,12 +194,28 @@
     :location startingblock
     :start (madison-time "2025-03-12T18:30")
     :end   (madison-time "2025-03-12T21:00")}
-   {:full-title "April Meetup (TBD)"
-    :summary "April Meetup (TBD)"
+   {:full-title "Discussion: fast-edn and its broader implications"
+    :summary "Discussion: fast-edn and its broader implications"
     :uid "https://github.com/orgs/madclj/discussions/13"
     :description
     (text
-      "TBD")
+      "[fast-edn](https://github.com/tonsky/fast-edn) claims to parse EDN 6x faster than Clojure."
+      "It is based on [charred](https://github.com/cnuernber/charred), a similar library but for JSON."
+      ""
+      "Questions:"
+      "- How does fast-edn manage to outperform other approaches?"
+      "- Are you aware of applications that might run faster with 6x faster EDN parsing?"
+      "- Can these insights be used elsewhere in the Clojure compiler?"
+      "- fast-edn claims parity with clojure.edn. Which correspondences are important?"
+      "- How would you test these correspondences hold?"
+      "- Why is clojure.edn separate from Clojure's parser, despite EDN being a subset of Clojure syntax?"
+      "- fast-edn is faster than transit. When would use choose transit over fast-edn?"
+      ""
+      "Schedule:"
+      ""
+      "- 6:30pm arrive, food & drink provided"
+      "- 7pm, start discussion"
+      "- 9pm end meetup")
     :rsvp "https://github.com/orgs/madclj/discussions/13"
     :location startingblock
     :start (madison-time "2025-04-09T18:30")
