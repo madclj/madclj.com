@@ -2,7 +2,6 @@
   (:require
     [babashka.process :as proc]
     [cheshire.core :as json]
-    [clojure.pprint :as pp]
     [clojure.set :as set]))
 
 (def rsvp-emojis #{"THUMBS_UP"})
@@ -29,7 +28,6 @@
                 }
               }'"))
       (json/parse-string true)
-      (doto pp/pprint)
       ;;TODO figure out how to filter and select in graphql
       (get-in [:data :repository :pinnedDiscussions :nodes])
       (->> (into {} (map (fn [{{:keys [url reactions]} :discussion}]

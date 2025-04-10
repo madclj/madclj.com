@@ -1,8 +1,7 @@
 #!/usr/bin/env bb
 
 (ns madison-clojure.gen
-  (:require [clojure.pprint :as pp]
-            [clojure.string :as str]
+  (:require [clojure.string :as str]
             [madison-clojure.events :as e]
             [madison-clojure.ical :as ical]
             [madison-clojure.rsvp :as rsvp]
@@ -76,8 +75,6 @@
 
 (defn -main []
   (let [events (rsvp/add-rsvps-to-events e/events (rsvp/rsvps-for-pinned-discussions))]
-    (prn "events")
-    (pp/pprint events)
     (gen-ics events)
     (gen-table events)))
 
