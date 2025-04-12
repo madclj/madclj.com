@@ -220,6 +220,22 @@
     :location startingblock
     :start (madison-time "2025-04-09T18:30")
     :end   (madison-time "2025-04-09T21:00")}
+   {:full-title "fast-edn Bug Hunt (Round 2)"
+    :summary "fast-edn Bug Hunt (Round 2)"
+    :uid "https://github.com/orgs/madclj/discussions/23"
+    :description
+    (text
+      "Continuing from our [previous meetup](https://github.com/orgs/madclj/discussions/13), we will learn about and hunt for bugs in [fast-edn](https://github.com/tonsky/fast-edn)."
+      ""
+      "Schedule:"
+      ""
+      "- 6:30pm arrive, food & drink provided"
+      "- 7pm, start meetup"
+      "- 9pm end meetup")
+    :rsvp "https://github.com/orgs/madclj/discussions/23"
+    :location startingblock
+    :start (madison-time "2025-04-16T18:30")
+    :end   (madison-time "2025-04-16T21:00")}
    {:full-title "May Meetup (TBD)"
     :summary "May Meetup (TBD)"
     :uid "https://github.com/orgs/madclj/discussions/14"
