@@ -74,7 +74,13 @@
       (->> (spit index-md))))
 
 (defn -main []
-  (let [events (rsvp/add-rsvps-to-events e/events (rsvp/rsvps-for-pinned-discussions))]
+  (let [rsvps (try (rsvp/rsvps-for-pinned-discussions)
+                   (catch Exception e
+                     (println "Error retreiving RSVP's!")
+                     (prn e)
+                     ;; events will still render without RSVP's
+                     {}))
+        events (rsvp/add-rsvps-to-events e/events rsvps)]
     (gen-ics events)
     (gen-table events)))
 

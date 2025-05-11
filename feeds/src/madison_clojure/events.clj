@@ -6,6 +6,7 @@
   (str/join "\n" strs))
 
 (def startingblock "StartingBlock Madison, 821 E Washington Ave 2nd floor, Madison, WI")
+(def startingblock-pop "StartingBlock Madison, 821 E Washington Ave 3rd floor (\"Pop\" Conference Room), Madison, WI")
 
 ;; :uid should be stable and unique for each event
 (def events
@@ -236,14 +237,21 @@
     :location startingblock
     :start (madison-time "2025-04-16T18:30")
     :end   (madison-time "2025-04-16T21:00")}
-   {:full-title "May Meetup (TBD)"
-    :summary "May Meetup (TBD)"
+   {:full-title "Secure Clojure Supply Chains"
+    :summary "Secure Clojure Supply Chains"
     :uid "https://github.com/orgs/madclj/discussions/14"
     :description
     (text
-      "TBD")
+      "I've been interested in supply-chain attacks for a few years now. I think Clojure has a ways to go in protecting from them in practice. It would be great to get everyone's take on it and maybe we can prototype some ideas."
+      ""
+      "Questions:"
+      "- What are ways Clojure programs can be exploited via supply chain attacks?"
+      "- Are jars always what they seem? When is a git SHA not enough? What can we do to detect and prevent attacks?"
+      "- What can we do to detect and prevent attacks?"
+      ""
+      "Let's try and design and prototype some detection tools during the meetup.")
     :rsvp "https://github.com/orgs/madclj/discussions/14"
-    :location startingblock
+    :location startingblock-pop
     :start (madison-time "2025-05-14T18:30")
     :end   (madison-time "2025-05-14T21:00")}
    {:full-title "June Meetup (TBD)"
