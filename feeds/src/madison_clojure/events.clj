@@ -254,12 +254,12 @@
     :location startingblock-pop
     :start (madison-time "2025-05-14T18:30")
     :end   (madison-time "2025-05-14T21:00")}
-   {:full-title "June Meetup (TBD)"
-    :summary "June Meetup (TBD)"
+   {:full-title "Multiversion concurrency control"
+    :summary "Multiversion concurrency control"
     :uid "https://github.com/orgs/madclj/discussions/15"
     :description
     (text
-      "TBD")
+      "This week, the subject is multiversion concurrency control, the basis of Clojure refs and a key concept in databases. Sayan will give a talk and we will follow the talk with a hack session to help relate the concepts of the talk to concrete Clojure code.")
     :rsvp "https://github.com/orgs/madclj/discussions/15"
     :location startingblock
     :start (madison-time "2025-06-11T18:30")
