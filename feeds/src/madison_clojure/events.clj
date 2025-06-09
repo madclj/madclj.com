@@ -261,7 +261,7 @@
     (text
       "This week, the subject is multiversion concurrency control, the basis of Clojure refs and a key concept in databases. Sayan will give a talk and we will follow the talk with a hack session to help relate the concepts of the talk to concrete Clojure code.")
     :rsvp "https://github.com/orgs/madclj/discussions/15"
-    :location startingblock
+    :location startingblock-pop
     :start (madison-time "2025-06-11T18:30")
     :end   (madison-time "2025-06-11T21:00")}
    {:full-title "July Meetup (TBD)"
