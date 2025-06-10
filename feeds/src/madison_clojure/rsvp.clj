@@ -35,7 +35,7 @@
                                                   (-> (:user %)
                                                       (set/rename-keys {:avatarUrl :avatar-url})
                                                       ;; name is optional
-                                                      (update :name #(or % "")))))
+                                                      (update :name (fn [n] (or n ""))))))
                                       (:nodes reactions))]))))))
 
 (comment
