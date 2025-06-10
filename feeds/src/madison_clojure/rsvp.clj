@@ -33,7 +33,9 @@
       (->> (into {} (map (fn [{{:keys [url reactions]} :discussion}]
                            [url (into [] (keep #(when (rsvp-emojis (:content %))
                                                   (-> (:user %)
-                                                      (set/rename-keys {:avatarUrl :avatar-url}))))
+                                                      (set/rename-keys {:avatarUrl :avatar-url})
+                                                      ;; name is optional
+                                                      (update :name #(or % "")))))
                                       (:nodes reactions))]))))))
 
 (comment
