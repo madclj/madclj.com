@@ -264,12 +264,37 @@
     :location startingblock-pop
     :start (madison-time "2025-06-11T18:30")
     :end   (madison-time "2025-06-11T21:00")}
-   {:full-title "July Meetup (TBD)"
-    :summary "July Meetup (TBD)"
+   {:full-title "deps.fnl"
+    :summary "deps.fnl"
     :uid "https://github.com/orgs/madclj/discussions/16"
     :description
     (text
-      "TBD")
+     "[Fennel](https://fennel-lang.org/) is the closest thing to a [Clojure for Lua](https://fennel-lang.org/from-clojure). Recently, the [deps.fnl](https://gitlab.com/andreyorst/deps.fnl) dependency manager was released, inspired by the Clojure CLI. It provides git deps and Luarocks integration (Lua packages)."
+     ""
+     "Ideas for discussion:"
+     "- deps.fnl vs deps.edn"
+     "  - special consideration for Luarocks transitive deps vs Maven transitive deps"
+     "    - version ranges thwart reproducibility"
+     "  - ability to provide e.g., `:paths` for deps"
+     "    - depend on Lua libs via git that don't know about deps.fnl"
+     "- Q: Many Clojure variants can use deps.edn (cljs, Clojure Dart, jank). Clojure CLR is an exception. Why do Clojure CLR and Fennel need their own tooling?"
+     "- deps.fnl blog posts"
+     "  - https://andreyor.st/posts/2025-01-10-depsfnl-a-new-dependency-manager-for-fennel-projects/"
+     "  - https://andreyor.st/posts/2025-02-16-depsfnl-022-released/"
+     "- [Fennel Tutorial](https://fennel-lang.org/tutorial)"
+     "- [Options for deploying Fennel code](https://fennel-lang.org/setup#embedding-fennel)"
+     "  - similar options to cljs"
+     "    - uberscript"
+     "    - embedded compiler/repl"
+     "- [fennel-cljlib](https://gitlab.com/andreyorst/fennel-cljlib)"
+     "- Clojure-like library for Fennel"
+     "- [8fl](https://git.sr.ht/~nasser/8fl-renoise)"
+     "  - Fennel live-coding for [Renoise](https://www.renoise.com/)"
+     "  - [Video: Fennel Conf 2022](https://conf.fennel-lang.org/2022#video7)"
+     "- [ambrosebs-reaper-scripts](https://github.com/frenchy64/ambrosebs-reaper-scripts/tree/main/fnl)"
+     "  - combines bb + clj + fnl => Lua scripts for [Reaper](https://www.reaper.fm/)"
+     "- [renoise-fennel-starter-kit](https://git.sr.ht/~ambrosebs/renoise-fennel-starter-kit)"
+     "  - example base for scripting [Renoise](https://www.renoise.com/) with Fennel")
     :rsvp "https://github.com/orgs/madclj/discussions/16"
     :location startingblock
     :start (madison-time "2025-07-09T18:30")
