@@ -299,6 +299,36 @@
     :location startingblock
     :start (madison-time "2025-07-09T18:30")
     :end   (madison-time "2025-07-09T21:00")}
+   {:full-title "July 23rd: Coworking day"
+    :summary "July 23rd: Coworking day"
+    :uid "https://github.com/orgs/madclj/discussions/25"
+    :description
+    (text
+      "TBD")
+    :rsvp "https://github.com/orgs/madclj/discussions/25"
+    :location startingblock
+    :start (madison-time "2025-07-23T11:00")
+    :end   (madison-time "2025-07-23T15:00")}
+   {:full-title "July 30th: Coworking day"
+    :summary "July 30th: Coworking day"
+    :uid "https://github.com/orgs/madclj/discussions/26"
+    :description
+    (text
+      "TBD")
+    :rsvp "https://github.com/orgs/madclj/discussions/26"
+    :location startingblock
+    :start (madison-time "2025-07-30T11:00")
+    :end   (madison-time "2025-07-30T15:00")}
+   {:full-title "August 6th: Coworking day"
+    :summary "August 6th: Coworking day"
+    :uid "https://github.com/orgs/madclj/discussions/27"
+    :description
+    (text
+      "TBD")
+    :rsvp "https://github.com/orgs/madclj/discussions/27"
+    :location startingblock
+    :start (madison-time "2025-08-06T11:00")
+    :end   (madison-time "2025-08-06T15:00")}
    {:full-title "August Meetup (TBD)"
     :summary "August Meetup (TBD)"
     :uid "https://github.com/orgs/madclj/discussions/17"
