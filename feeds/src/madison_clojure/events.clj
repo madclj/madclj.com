@@ -314,7 +314,11 @@
     :uid "https://github.com/orgs/madclj/discussions/26"
     :description
     (text
-      "TBD")
+      "The building will be open. Go up the main stairs in the lobby to the 2nd floor, turn right and go halfway down the hall. We have reserved the classroom on this floor (big room with circular tables)."
+      ""
+      "If you need to duck out to work or take a call, use the area overlooking the lobby stairs. If anyone asks who your host is, mention Madison Clojure and please bring them to see Ambrose."
+      ""
+      "See RVSP link for more details about activities.")
     :rsvp "https://github.com/orgs/madclj/discussions/26"
     :location startingblock
     :start (madison-time "2025-07-30T11:00")
