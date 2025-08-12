@@ -334,12 +334,12 @@
     :location startingblock
     :start (madison-time "2025-08-06T11:00")
     :end   (madison-time "2025-08-06T15:00")}
-   {:full-title "August Meetup (TBD)"
-    :summary "August Meetup (TBD)"
+   {:full-title "Superoptimization"
+    :summary "Superoptimization"
     :uid "https://github.com/orgs/madclj/discussions/17"
     :description
     (text
-      "TBD")
+      "Let's discuss [superoptimization](https://github.com/orgs/madclj/discussions/17#discussioncomment-14064503) and its [Clojure implementation](https://github.com/twhume/superoptimiser/tree/master/SuperOptimiser).")
     :rsvp "https://github.com/orgs/madclj/discussions/17"
     :location startingblock
     :start (madison-time "2025-08-13T18:30")
