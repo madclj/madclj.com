@@ -344,8 +344,8 @@
     :location startingblock
     :start (madison-time "2025-08-13T18:30")
     :end   (madison-time "2025-08-13T21:00")}
-   {:full-title "August 27th: Coworking day"
-    :summary "August 27: Coworking day"
+   {:full-title "Coworking day"
+    :summary "Coworking day"
     :uid "https://github.com/orgs/madclj/discussions/28"
     :description
     (text
@@ -354,6 +354,16 @@
     :location startingblock
     :start (madison-time "2025-08-27T11:00")
     :end   (madison-time "2025-08-27T15:00")}
+   {:full-title "Coworking day"
+    :summary "Coworking day"
+    :uid "https://github.com/orgs/madclj/discussions/30"
+    :description
+    (text
+      "Coworking.")
+    :rsvp "https://github.com/orgs/madclj/discussions/30"
+    :location startingblock
+    :start (madison-time "2025-09-03T11:00")
+    :end   (madison-time "2025-09-03T15:00")}
    {:full-title "September Meetup (TBD)"
     :summary "September Meetup (TBD)"
     :uid "https://github.com/orgs/madclj/discussions/18"
