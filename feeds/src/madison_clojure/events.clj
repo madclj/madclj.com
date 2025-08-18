@@ -389,7 +389,7 @@
     :uid "https://github.com/orgs/madclj/discussions/29"
     :description
     (text
-      "Day 1 of watch party for https://www.2025.clojure-conj.org/schedule")
+      "Day 2 of watch party for https://www.2025.clojure-conj.org/schedule")
     :rsvp "https://github.com/orgs/madclj/discussions/29"
     :location startingblock
     :start (madison-time "2025-11-14T08:30")
