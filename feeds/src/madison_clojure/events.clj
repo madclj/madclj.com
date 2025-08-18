@@ -374,16 +374,26 @@
     :location startingblock
     :start (madison-time "2025-10-08T18:30")
     :end   (madison-time "2025-10-08T21:00")}
-   {:full-title "November Meetup (TBD)"
-    :summary "November Meetup (TBD)"
+   {:full-title "Clojure/conj 2025 Day 1 Teleconference"
+    :summary "Clojure/conj 2025 Day 1 Teleconference"
     :uid "https://github.com/orgs/madclj/discussions/20"
     :description
     (text
-      "TBD")
+      "Day 1 of watch party for https://www.2025.clojure-conj.org/schedule")
     :rsvp "https://github.com/orgs/madclj/discussions/20"
     :location startingblock
-    :start (madison-time "2025-11-12T18:30")
-    :end   (madison-time "2025-11-12T21:00")}
+    :start (madison-time "2025-11-13T08:30")
+    :end   (madison-time "2025-11-13T16:00")}
+   {:full-title "Clojure/conj 2025 Day 2 Teleconference"
+    :summary "Clojure/conj 2025 Day 2 Teleconference"
+    :uid "https://github.com/orgs/madclj/discussions/29"
+    :description
+    (text
+      "Day 1 of watch party for https://www.2025.clojure-conj.org/schedule")
+    :rsvp "https://github.com/orgs/madclj/discussions/29"
+    :location startingblock
+    :start (madison-time "2025-11-14T08:30")
+    :end   (madison-time "2025-11-14T16:00")}
    {:full-title "December Meetup (TBD)"
     :summary "December Meetup (TBD)"
     :uid "https://github.com/orgs/madclj/discussions/21"
