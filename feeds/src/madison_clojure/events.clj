@@ -374,12 +374,16 @@
     :location startingblock
     :start (madison-time "2025-09-10T18:30")
     :end   (madison-time "2025-09-10T21:00")}
-   {:full-title "October Meetup (TBD)"
-    :summary "October Meetup (TBD)"
+   {:full-title "Workshop: Practical Domain Modeling in Clojure"
+    :summary "Workshop: Practical Domain Modeling in Clojure"
     :uid "https://github.com/orgs/madclj/discussions/19"
     :description
     (text
-      "TBD")
+      "Eric Normand will give us a preview of his [Clojure/conj 2025 workshop](https://www.2025.clojure-conj.org/workshops):"
+      ""
+      "The biggest source of unnecessary code complexity and maintenance expense is a poor domain model."
+      ""
+      "This workshop will equip you with the tools to create, evaluate, and improve models for any domain. Based on the material for my upcoming book on domain modeling and 12+ years of teaching Clojure, you will be guided through exercises and discussions about what makes a domain model. Join us to deepen your software design skills that improve the maintainability and expressivity of your code.")
     :rsvp "https://github.com/orgs/madclj/discussions/19"
     :location startingblock
     :start (madison-time "2025-10-08T18:30")
