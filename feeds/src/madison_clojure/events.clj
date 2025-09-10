@@ -364,12 +364,13 @@
     :location startingblock
     :start (madison-time "2025-09-03T11:00")
     :end   (madison-time "2025-09-03T15:00")}
-   {:full-title "September Meetup (TBD)"
-    :summary "September Meetup (TBD)"
+   {:full-title "CANCELLED September Meetup"
+    :summary "CANCELLED September Meetup"
+    :cancelled true
     :uid "https://github.com/orgs/madclj/discussions/18"
     :description
     (text
-      "TBD")
+      "CANCELLED")
     :rsvp "https://github.com/orgs/madclj/discussions/18"
     :location startingblock
     :start (madison-time "2025-09-10T18:30")
