@@ -409,12 +409,19 @@
     :location startingblock
     :start (madison-time "2025-11-14T08:30")
     :end   (madison-time "2025-11-14T16:00")}
-   {:full-title "December Meetup (TBD)"
-    :summary "December Meetup (TBD)"
+   {:full-title "Madison Clojure End of Year Celebration"
+    :summary "Madison Clojure End of Year Celebration"
     :uid "https://github.com/orgs/madclj/discussions/21"
     :description
     (text
-      "TBD")
+      "Let's eat, hang out and celebrate another year of Madison Clojure."
+      "We'll have a loose meetup structure to help make the most of our time together:"
+      ""
+      "Topics:"
+      ""
+      "- personal achievements you'd like to share"
+      "- exciting Clojure developments in 2025"
+      "- Clojure topics for 2026?")
     :rsvp "https://github.com/orgs/madclj/discussions/21"
     :location startingblock
     :start (madison-time "2025-12-10T18:30")
