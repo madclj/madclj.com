@@ -56,7 +56,7 @@
   (is (= 8 (sut/second-wednesday 2026 4))))
 
 (deftest init-discussion-body-test
-  (is (= "👍 to RSVP\n\nhttps://madclj.com/\n\nWednesday, January 14th, 2026\n6:30 PM to 9:00 PM CT\n\nStartingBlock Madison, 821 E Washington Ave 2nd floor · Madison · WI\n\nTBD"
+  (is (= "👍 to RSVP\n\nhttps://madclj.com/\n\nWednesday, January 14th, 2026\n6:30 PM to 9:00 PM CT\n\nStartingBlock Madison\n821 E Washington Ave 2nd floor · Madison · WI\n\nTBD"
          (sut/init-discussion-body {:full-title "January Meetup",
                                     :summary "January Meetup",
                                     :uid "https://github.com/orgs/madclj/discussions/32",
