@@ -10,42 +10,42 @@
 (set! *warn-on-reflection* true)
 
 (defn discussion-exists?
-  "Check if a discussion with the given ID exists and is a discussion."
+  "Check if a discussion with the given ID exists and is a discussion.
+  Returns true if it exists, false if it doesn't exist, throws if the check fails."
   [discussion-id]
   {:pre [(int? discussion-id)]}
-  (try
-    (let [result (proc/shell
-                   {:out :string
-                    :err :string
-                    :continue true}
-                   (format "gh api graphql -H 'GraphQL-Features: discussions_api' -F owner='madclj' -F number='%d'
-                           -f query='query($owner: String!, $number: Int!) {
-                             organization(login: $owner) {
-                               discussion(number: $number) {
-                                 id
-                                 number
-                               }
+  (let [result (proc/shell
+                 {:out :string
+                  :err :string
+                  :continue true}
+                 (format "gh api graphql -H 'GraphQL-Features: discussions_api' -F owner='madclj' -F name='madclj.com' -F number='%d'
+                         -f query='query($owner: String!, $name: String!, $number: Int!) {
+                           repository(owner: $owner, name: $name) {
+                             discussion(number: $number) {
+                               id
+                               number
                              }
-                           }'" discussion-id))]
-      (if (zero? (:exit result))
-        (let [data (-> (:out result)
-                       (json/parse-string true)
-                       (get-in [:data :organization :discussion]))]
-          (boolean data))
-        false))
-    (catch Exception e
-      (println "Error checking discussion" discussion-id ":" (.getMessage e))
-      false)))
+                           }
+                         }'" discussion-id))]
+    (when-not (zero? (:exit result))
+      (throw (ex-info (str "Failed to check discussion existence: " (:err result))
+                      {:discussion-id discussion-id
+                       :exit-code (:exit result)
+                       :stderr (:err result)})))
+    (let [data (-> (:out result)
+                   (json/parse-string true)
+                   (get-in [:data :repository :discussion]))]
+      (boolean data))))
 
 (defn get-category-id
-  "Get the Announcements category ID for the organization."
+  "Get the Announcements category ID for the repository."
   []
   (let [result (proc/shell
                  {:out :string
                   :err :string}
-                 "gh api graphql -H 'GraphQL-Features: discussions_api' -F owner='madclj'
-                 -f query='query($owner: String!) {
-                   organization(login: $owner) {
+                 "gh api graphql -H 'GraphQL-Features: discussions_api' -F owner='madclj' -F name='madclj.com'
+                 -f query='query($owner: String!, $name: String!) {
+                   repository(owner: $owner, name: $name) {
                      discussionCategories(first: 10) {
                        nodes {
                          id
@@ -56,7 +56,7 @@
                  }'")
         categories (-> (:out result)
                        (json/parse-string true)
-                       (get-in [:data :organization :discussionCategories :nodes]))
+                       (get-in [:data :repository :discussionCategories :nodes]))
         announcement-cat (first (filter #(= "Announcements" (:name %)) categories))]
     (when-not announcement-cat
       (throw (ex-info "Announcements category not found" {:categories categories})))
