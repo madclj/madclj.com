@@ -436,14 +436,14 @@
     :location startingblock,
     :start (madison-time "2026-01-14T18:30"),
     :end (madison-time "2026-01-14T21:00")}
-   {:full-title "February 11th 2026 Meetup",
-    :summary "February 11th 2026 Meetup",
+   {:full-title "February 4th 2026 Meetup",
+    :summary "February 4th 2026 Meetup",
     :uid "https://github.com/orgs/madclj/discussions/33",
     :description (text "TBD"),
     :rsvp "https://github.com/orgs/madclj/discussions/33",
     :location startingblock,
-    :start (madison-time "2026-02-11T18:30"),
-    :end (madison-time "2026-02-11T21:00")}
+    :start (madison-time "2026-02-04T18:30"),
+    :end (madison-time "2026-02-04T21:00")}
    {:full-title "March 11th 2026 Meetup",
     :summary "March 11th 2026 Meetup",
     :uid "https://github.com/orgs/madclj/discussions/34",
