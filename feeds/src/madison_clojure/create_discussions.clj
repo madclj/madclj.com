@@ -27,15 +27,18 @@
                              }
                            }
                          }'" discussion-id))]
-    (when-not (zero? (:exit result))
-      (throw (ex-info (str "Failed to check discussion existence: " (:err result))
-                      {:discussion-id discussion-id
-                       :exit-code (:exit result)
-                       :stderr (:err result)})))
-    (let [data (-> (:out result)
-                   (json/parse-string true)
-                   (get-in [:data :repository :discussion]))]
-      (boolean data))))
+    (if (zero? (:exit result))
+      (let [data (-> (:out result)
+                     (json/parse-string true)
+                     (get-in [:data :repository :discussion]))]
+        (boolean data))
+      ;; Non-zero exit: check if it's "discussion not found" vs real error
+      (if (str/includes? (:err result) "Could not resolve to a Discussion")
+        false
+        (throw (ex-info (str "Failed to check discussion existence: " (:err result))
+                        {:discussion-id discussion-id
+                         :exit-code (:exit result)
+                         :stderr (:err result)}))))))
 
 (defn get-category-id
   "Get the Announcements category ID for the repository."
