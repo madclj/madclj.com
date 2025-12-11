@@ -124,6 +124,9 @@
         (json/parse-string true)
         (get-in [:data :createDiscussion :discussion]))))
 
+;; FIXME for 2027 script, note issues, pr's and discussions all share id's,
+;; we need some other way to check if the January 2027 discussion was created than
+;; checking if the latest discussion id + 1 is a discussion.
 (defn -main []
   (println "Checking if discussion #32 exists...")
   (if (discussion-exists? 32)
