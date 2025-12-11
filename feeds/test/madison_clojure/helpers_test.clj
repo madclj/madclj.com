@@ -48,3 +48,20 @@
   (is (not (sut/unpost-event? (sut/madison-time "2024-12-12T09:00") {:end (sut/madison-time "2024-12-11T21:00")})))
   (is (sut/unpost-event? (sut/madison-time "2024-12-12T10:00") {:end (sut/madison-time "2024-12-11T21:00")}))
   (is (sut/unpost-event? (sut/madison-time "2024-12-11T21:00") {:end (sut/madison-time "2024-12-10T21:00")})))
+
+(deftest second-wednesday-test
+  (is (= 14 (sut/second-wednesday 2026 1)))
+  (is (= 11 (sut/second-wednesday 2026 2)))
+  (is (= 11 (sut/second-wednesday 2026 3)))
+  (is (= 8 (sut/second-wednesday 2026 4))))
+
+(deftest init-discussion-body-test
+  (is (= "👍 to RSVP\n\nhttps://madclj.com/\n\nWednesday, January 14th, 2026\n6:30 PM to 9:00 PM CT\n\n[StartingBlock Madison](https://www.google.com/maps/search/?api=1&query=43.081245%2C%20-89.374054)\n821 E Washington Ave 2nd floor · Madison · WI\n\nTBD"
+         (sut/init-discussion-body {:full-title "January Meetup",
+                                    :summary "January Meetup",
+                                    :uid "https://github.com/orgs/madclj/discussions/32",
+                                    :description "TBD",
+                                    :rsvp "https://github.com/orgs/madclj/discussions/32",
+                                    :location "StartingBlock Madison, 821 E Washington Ave 2nd floor, Madison, WI"
+                                    :start (sut/madison-time "2026-01-14T18:30"),
+                                    :end (sut/madison-time "2026-01-14T21:00")}))))
