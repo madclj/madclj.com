@@ -430,131 +430,133 @@
 (def events-2026
   [{:full-title "January 14th 2026 Meetup",
     :summary "January 14th 2026 Meetup",
-    :uid "https://github.com/orgs/madclj/discussions/32",
+    :uid "https://github.com/orgs/madclj/discussions/37",
     :description (text "TBD"),
-    :rsvp "https://github.com/orgs/madclj/discussions/32",
+    :rsvp "https://github.com/orgs/madclj/discussions/37",
     :location startingblock,
     :start (madison-time "2026-01-14T18:30"),
     :end (madison-time "2026-01-14T21:00")}
    {:full-title "February 4th 2026 Meetup",
     :summary "February 4th 2026 Meetup",
-    :uid "https://github.com/orgs/madclj/discussions/33",
+    :uid "https://github.com/orgs/madclj/discussions/38",
     :description (text "TBD"),
-    :rsvp "https://github.com/orgs/madclj/discussions/33",
+    :rsvp "https://github.com/orgs/madclj/discussions/38",
     :location startingblock,
     :start (madison-time "2026-02-04T18:30"),
     :end (madison-time "2026-02-04T21:00")}
    {:full-title "March 11th 2026 Meetup",
     :summary "March 11th 2026 Meetup",
-    :uid "https://github.com/orgs/madclj/discussions/34",
+    :uid "https://github.com/orgs/madclj/discussions/39",
     :description (text "TBD"),
-    :rsvp "https://github.com/orgs/madclj/discussions/34",
+    :rsvp "https://github.com/orgs/madclj/discussions/39",
     :location startingblock,
     :start (madison-time "2026-03-11T18:30"),
     :end (madison-time "2026-03-11T21:00")}
    {:full-title "April 8th 2026 Meetup",
     :summary "April 8th 2026 Meetup",
-    :uid "https://github.com/orgs/madclj/discussions/35",
+    :uid "https://github.com/orgs/madclj/discussions/40",
     :description (text "TBD"),
-    :rsvp "https://github.com/orgs/madclj/discussions/35",
+    :rsvp "https://github.com/orgs/madclj/discussions/40",
     :location startingblock,
     :start (madison-time "2026-04-08T18:30"),
     :end (madison-time "2026-04-08T21:00")}
    {:full-title "May 13th 2026 Meetup",
     :summary "May 13th 2026 Meetup",
-    :uid "https://github.com/orgs/madclj/discussions/36",
+    :uid "https://github.com/orgs/madclj/discussions/41",
     :description (text "TBD"),
-    :rsvp "https://github.com/orgs/madclj/discussions/36",
+    :rsvp "https://github.com/orgs/madclj/discussions/41",
     :location startingblock,
     :start (madison-time "2026-05-13T18:30"),
     :end (madison-time "2026-05-13T21:00")}
    {:full-title "June 10th 2026 Meetup",
     :summary "June 10th 2026 Meetup",
-    :uid "https://github.com/orgs/madclj/discussions/37",
+    :uid "https://github.com/orgs/madclj/discussions/42",
     :description (text "TBD"),
-    :rsvp "https://github.com/orgs/madclj/discussions/37",
+    :rsvp "https://github.com/orgs/madclj/discussions/42",
     :location startingblock,
     :start (madison-time "2026-06-10T18:30"),
     :end (madison-time "2026-06-10T21:00")}
    {:full-title "July 8th 2026 Meetup",
     :summary "July 8th 2026 Meetup",
-    :uid "https://github.com/orgs/madclj/discussions/38",
+    :uid "https://github.com/orgs/madclj/discussions/43",
     :description (text "TBD"),
-    :rsvp "https://github.com/orgs/madclj/discussions/38",
+    :rsvp "https://github.com/orgs/madclj/discussions/43",
     :location startingblock,
     :start (madison-time "2026-07-08T18:30"),
     :end (madison-time "2026-07-08T21:00")}
    {:full-title "August 12th 2026 Meetup",
     :summary "August 12th 2026 Meetup",
-    :uid "https://github.com/orgs/madclj/discussions/39",
+    :uid "https://github.com/orgs/madclj/discussions/44",
     :description (text "TBD"),
-    :rsvp "https://github.com/orgs/madclj/discussions/39",
+    :rsvp "https://github.com/orgs/madclj/discussions/44",
     :location startingblock,
     :start (madison-time "2026-08-12T18:30"),
     :end (madison-time "2026-08-12T21:00")}
    {:full-title "September 9th 2026 Meetup",
     :summary "September 9th 2026 Meetup",
-    :uid "https://github.com/orgs/madclj/discussions/40",
+    :uid "https://github.com/orgs/madclj/discussions/45",
     :description (text "TBD"),
-    :rsvp "https://github.com/orgs/madclj/discussions/40",
+    :rsvp "https://github.com/orgs/madclj/discussions/45",
     :location startingblock,
     :start (madison-time "2026-09-09T18:30"),
     :end (madison-time "2026-09-09T21:00")}
    {:full-title "October 14th 2026 Meetup",
     :summary "October 14th 2026 Meetup",
-    :uid "https://github.com/orgs/madclj/discussions/41",
+    :uid "https://github.com/orgs/madclj/discussions/46",
     :description (text "TBD"),
-    :rsvp "https://github.com/orgs/madclj/discussions/41",
+    :rsvp "https://github.com/orgs/madclj/discussions/46",
     :location startingblock,
     :start (madison-time "2026-10-14T18:30"),
     :end (madison-time "2026-10-14T21:00")}
    {:full-title "November 11th 2026 Meetup",
     :summary "November 11th 2026 Meetup",
-    :uid "https://github.com/orgs/madclj/discussions/42",
+    :uid "https://github.com/orgs/madclj/discussions/47",
     :description (text "TBD"),
-    :rsvp "https://github.com/orgs/madclj/discussions/42",
+    :rsvp "https://github.com/orgs/madclj/discussions/47",
     :location startingblock,
     :start (madison-time "2026-11-11T18:30"),
     :end (madison-time "2026-11-11T21:00")}
    {:full-title "December 9th 2026 Meetup",
     :summary "December 9th 2026 Meetup",
-    :uid "https://github.com/orgs/madclj/discussions/43",
+    :uid "https://github.com/orgs/madclj/discussions/48",
     :description (text "TBD"),
-    :rsvp "https://github.com/orgs/madclj/discussions/43",
+    :rsvp "https://github.com/orgs/madclj/discussions/48",
     :location startingblock,
     :start (madison-time "2026-12-09T18:30"),
-    :end (madison-time "2026-12-09T21:00")}]
-  )
+    :end (madison-time "2026-12-09T21:00")}])
 
 (def events
   (-> events-2024-2025
-      ;;TODO uncomment once the discussions are created
-      #_(into events-2026)))
+      (into events-2026)))
 
 (assert (every? :uid events))
 (assert (apply distinct? (map :rsvp events)))
 
-(defn seed-events
+(defn seed-events-2026
   "Generate code to seed monthly events for the year."
-  [year highest-existing-discussion-id]
-  (into [] (map-indexed (fn [i ^java.time.LocalDate ld]
-                          (let [discussion-id (+ 1 i highest-existing-discussion-id)
-                                day (.getDayOfMonth ld)
-                                month (.getMonthValue ld)
-                                month-string (str/capitalize (str/lower-case (.toString (.getMonth ld))))
-                                day-suffix (case day
-                                             (1 21 31) "st"
-                                             (2 22) "nd"
-                                             (3 23) "rd"
-                                             "th")
-                                title (format "%s %d%s %d Meetup" month-string day day-suffix year)
-                                discussion-link (format "https://github.com/orgs/madclj/discussions/%d" discussion-id)]
-                            {:full-title title
-                             :summary title
-                             :uid discussion-link
-                             :description (list 'text "TBD")
-                             :rsvp discussion-link
-                             :location 'startingblock
-                             :start (list 'madison-time (format "%d-%02d-%02dT18:30" year month day))
-                             :end   (list 'madison-time (format "%d-%02d-%02dT21:00" year month day))})))
-        (h/second-wednesdays year)))
+  []
+  (let [january-discussion-id 37 
+        year 2026]
+    (into [] (map-indexed (fn [i ^java.time.LocalDate ld]
+                            (let [discussion-id (+ i january-discussion-id)
+                                  month (.getMonthValue ld)
+                                  day (if (= 2 month)
+                                        4 ;;conflict in Feb
+                                        (.getDayOfMonth ld))
+                                  month-string (str/capitalize (str/lower-case (.toString (.getMonth ld))))
+                                  day-suffix (case day
+                                               (1 21 31) "st"
+                                               (2 22) "nd"
+                                               (3 23) "rd"
+                                               "th")
+                                  title (format "%s %d%s %d Meetup" month-string day day-suffix year)
+                                  discussion-link (format "https://github.com/orgs/madclj/discussions/%d" discussion-id)]
+                              {:full-title title
+                               :summary title
+                               :uid discussion-link
+                               :description (list 'text "TBD")
+                               :rsvp discussion-link
+                               :location 'startingblock
+                               :start (list 'madison-time (format "%d-%02d-%02dT18:30" year month day))
+                               :end   (list 'madison-time (format "%d-%02d-%02dT21:00" year month day))})))
+          (h/second-wednesdays year))))
