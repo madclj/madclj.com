@@ -86,7 +86,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: ./script/build
       - name: Upload artifact
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/main' && github.repository == 'madclj/madclj.com'
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
