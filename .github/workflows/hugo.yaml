@@ -44,7 +44,7 @@ jobs:
     env:
       HUGO_VERSION: 0.137.1
     # deactivate scheduled job on forks
-    if: ${{ github.event_name != 'schedule' || github.repository == 'madclj/madclj.com' }}
+    if: github.event_name != 'schedule' || github.repository == 'madclj/madclj.com'
     steps:
       - name: Install Hugo CLI
         run: |
@@ -93,7 +93,7 @@ jobs:
 
   # Deployment job
   deploy:
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/main' && github.repository == 'madclj/madclj.com'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
