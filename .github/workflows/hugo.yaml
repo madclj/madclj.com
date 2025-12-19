@@ -43,6 +43,8 @@ jobs:
     runs-on: ubuntu-24.04
     env:
       HUGO_VERSION: 0.137.1
+    # deactivate scheduled job on forks
+    if: ${{ github.event_name != 'schedule' || github.repository == 'madclj/madclj.com' }}
     steps:
       - name: Install Hugo CLI
         run: |
