@@ -50,6 +50,7 @@ jobs:
       - name: Download dependencies
         if: steps.cache-deps.outputs.cache-hit != 'true'
         run: |
+          cd feeds
           clojure -A:test -Stree
           bb prepare
 
