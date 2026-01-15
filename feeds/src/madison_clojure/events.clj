@@ -436,6 +436,35 @@
     :location startingblock,
     :start (madison-time "2026-01-14T18:30"),
     :end (madison-time "2026-01-14T21:00")}
+   {:full-title "January 21st 2026: Huddle to propose doseq fix upstream",
+    :summary "January 21st 2026: Huddle to propose doseq fix upstream",
+    :uid "https://github.com/orgs/madclj/discussions/53",
+    :description
+    (text
+      "Following up from last week, there are a few outstanding tasks."
+      ""
+      "I need to construct benchmarks to determine the runtime cost of optimizing the expansion of doseq. this might help proposing it upstream to clojure core."
+      "we could play with cloogle (indexed analysis results of clojure libs) to understand how doseq is used in practice https://cloogle.phronemophobic.com/name-search.html?q=clojure.core%2Fdoseq&tables=var-usages"
+      ""
+      "Extra fun:"
+      ""
+      "we could port doseq to https://gitlab.com/andreyorst/fennel-cljlib"
+      ""
+      "Context:"
+      ""
+      "- code: https://github.com/frenchy64/fully-satisfies/blob/main/src/io/github/frenchy64/fully_satisfies/linear_expansion.clj"
+      "- tests: https://github.com/frenchy64/fully-satisfies/blob/main/test/io/github/frenchy64/fully_satisfies/linear_expansion_test.clj"
+      "- upstream ticket: https://clojure.atlassian.net/browse/CLJ-2900"
+      ""
+      "Agenda:"
+      ""
+      "- 6:30pm Arrive"
+      "- 7pm start meetup"
+      "- 8-9pm end meetup"),
+    :rsvp "https://github.com/orgs/madclj/discussions/53",
+    :location startingblock,
+    :start (madison-time "2026-01-21T18:30"),
+    :end (madison-time "2026-01-21T21:00")}
    {:full-title "February 4th 2026 Meetup",
     :summary "February 4th 2026 Meetup",
     :uid "https://github.com/orgs/madclj/discussions/38",
