@@ -1,0 +1,65 @@
+name: Copilot Setup Steps
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/copilot-setup-steps.yml'
+
+env:
+  ACTIONS_CACHE_VERSION: 1
+
+jobs:
+  copilot-setup-steps:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+
+      - name: Install Clojure CLI (latest official installer)
+        run: |
+          curl -O https://download.clojure.org/install/linux-install.sh
+          chmod +x linux-install.sh
+          sudo ./linux-install.sh
+          clojure --version
+
+      - name: Install babashka
+        run: |
+          bash < <(curl -s https://raw.githubusercontent.com/babashka/babashka/master/install)
+          bb --version
+
+      - name: Restore dependency cache
+        id: cache-deps
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            ~/.m2/repository
+            ~/.gitlibs
+            ~/.deps.clj
+          key: ${{ env.ACTIONS_CACHE_VERSION }}-deps-${{ hashFiles('**/deps.edn', '**/bb.edn', '.github/workflows/copilot-setup-steps.yml') }}
+
+      - name: Download dependencies
+        if: steps.cache-deps.outputs.cache-hit != 'true'
+        run: |
+          cd feeds
+          clojure -A:test:runner -Stree
+          bb prepare
+
+      - name: Save dependency cache
+        if: steps.cache-deps.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            ~/.m2/repository
+            ~/.gitlibs
+            ~/.deps.clj
+          key: ${{ env.ACTIONS_CACHE_VERSION }}-deps-${{ hashFiles('**/deps.edn', '**/bb.edn', '.github/workflows/copilot-setup-steps.yml') }}
