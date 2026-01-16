@@ -8,7 +8,20 @@ title: Home
 "/> 
 
 <!--◊(events-table-->
-<!-- sourced from madison-clojure.events/events -->
+| Date | Link | RSVPs |
+| ------------- | ------------- | ------------- |
+|Jan 21st 2026|[January 21st 2026: Huddle to propose doseq fix upstream](https://github.com/orgs/madclj/discussions/53)||
+|Feb 4th 2026|[February 4th 2026 Meetup](https://github.com/orgs/madclj/discussions/38)||
+|Mar 11th 2026|[March 11th 2026 Meetup](https://github.com/orgs/madclj/discussions/39)||
+|Apr 8th 2026|[April 8th 2026 Meetup](https://github.com/orgs/madclj/discussions/40)||
+|May 13th 2026|[May 13th 2026 Meetup](https://github.com/orgs/madclj/discussions/41)||
+|Jun 10th 2026|[June 10th 2026 Meetup](https://github.com/orgs/madclj/discussions/42)||
+|Jul 8th 2026|[July 8th 2026 Meetup](https://github.com/orgs/madclj/discussions/43)||
+|Aug 12th 2026|[August 12th 2026 Meetup](https://github.com/orgs/madclj/discussions/44)||
+|Sep 9th 2026|[September 9th 2026 Meetup](https://github.com/orgs/madclj/discussions/45)||
+|Oct 14th 2026|[October 14th 2026 Meetup](https://github.com/orgs/madclj/discussions/46)||
+|Nov 11th 2026|[November 11th 2026 Meetup](https://github.com/orgs/madclj/discussions/47)||
+|Dec 9th 2026|[December 9th 2026 Meetup](https://github.com/orgs/madclj/discussions/48)||
 <!--events-table)◊-->
 
 [Web Calendar (Settings -> Madison Clojure -> Enable)](https://invertisment.gitlab.io/cljcalendar/)
