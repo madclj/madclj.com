@@ -81,7 +81,7 @@
 (defn -main []
   (let [rsvps-and-labels (try (rsvp/rsvps-and-labels-for-pinned-discussions)
                               (catch Exception e
-                                (println "Error retreiving RSVP's!")
+                                (println "Error retrieving RSVP's!")
                                 (prn e)
                                 ;; events will still render without RSVP's
                                 {}))
