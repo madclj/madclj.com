@@ -6,6 +6,35 @@
 
 (def rsvp-emojis #{"THUMBS_UP"})
 
+(defn rsvps-and-labels-for-pinned-discussions []
+  {:post [(or (assert (and (map? %)
+                           (every? string? (keys %))
+                           (every? map? (vals %)))
+                      (pr-str %))
+              true)]}
+  (-> (:out (proc/shell
+              {:out :string
+               :err :string}
+              "gh api graphql -H 'GraphQL-Features: discussions_api' -F owner='madclj' -F name='madclj.com'
+              -f query='query($name: String!, $owner: String!) {
+                repository(owner: $owner, name: $name) {
+                  pinnedDiscussions(first: 10) {
+                   nodes {discussion {url reactions(first: 10) {nodes {user {name url avatarUrl} content}} labels(first: 10) {nodes {name}}}}
+                  }
+                }
+              }'"))
+      (json/parse-string true)
+      ;;TODO figure out how to filter and select in graphql
+      (get-in [:data :repository :pinnedDiscussions :nodes])
+      (->> (into {} (map (fn [{{:keys [url reactions labels]} :discussion}]
+                           [url {:attendees (into [] (keep #(when (rsvp-emojis (:content %))
+                                                              (-> (:user %)
+                                                                  (set/rename-keys {:avatarUrl :avatar-url})
+                                                                  ;; name is optional
+                                                                  (update :name (fn [n] (or n "")))))
+                                                      (:nodes reactions)))
+                                 :labels (into [] (map :name) (:nodes labels))}]))))))
+
 (defn rsvps-for-pinned-discussions []
   {:post [(or (assert (and (map? %)
                            (every? string? (keys %))
@@ -16,27 +45,8 @@
                                    (vals %)))
                       (pr-str %))
               true)]}
-  (-> (:out (proc/shell
-              {:out :string
-               :err :string}
-              "gh api graphql -H 'GraphQL-Features: discussions_api' -F owner='madclj' -F name='madclj.com'
-              -f query='query($name: String!, $owner: String!) {
-                repository(owner: $owner, name: $name) {
-                  pinnedDiscussions(first: 10) {
-                   nodes {discussion {url reactions(first: 10) {nodes {user {name url avatarUrl} content}}}}
-                  }
-                }
-              }'"))
-      (json/parse-string true)
-      ;;TODO figure out how to filter and select in graphql
-      (get-in [:data :repository :pinnedDiscussions :nodes])
-      (->> (into {} (map (fn [{{:keys [url reactions]} :discussion}]
-                           [url (into [] (keep #(when (rsvp-emojis (:content %))
-                                                  (-> (:user %)
-                                                      (set/rename-keys {:avatarUrl :avatar-url})
-                                                      ;; name is optional
-                                                      (update :name (fn [n] (or n ""))))))
-                                      (:nodes reactions))]))))))
+  (-> (rsvps-and-labels-for-pinned-discussions)
+      (update-vals :attendees)))
 
 (comment
   (rsvps-for-pinned-discussions)
@@ -49,12 +59,13 @@
                                                     :avatar-url "https://avatars.githubusercontent.com/u/287396?u=2aa22e9ddcc23256939aa36dbd3ca60f3e260e69&v=4"}]}
   )
 
-(defn add-rsvps-to-events [events rsvps]
+(defn add-rsvps-to-events [events rsvps-and-labels]
   (mapv (fn [{:keys [rsvp] :as event}]
-          (if-some [attendees (get rsvps rsvp)]
-            (let [attendees (sort-by (juxt :name :url) attendees)]
+          (if-some [data (get rsvps-and-labels rsvp)]
+            (let [attendees (sort-by (juxt :name :url) (:attendees data))]
               (-> event
                   (assoc :attendees attendees)
+                  (assoc :labels (:labels data))
                   (update :description
                           str "\n\nRSVPs:"
                           (str " " (count attendees))
