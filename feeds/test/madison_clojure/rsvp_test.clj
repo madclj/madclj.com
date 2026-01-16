@@ -6,6 +6,16 @@
   [{:summary "1", :uid "1", :rsvp "https://github.com/orgs/madclj/discussions/6", :description "desc1"}
    {:summary "2", :uid "2", :rsvp "https://github.com/orgs/madclj/discussions/7", :description "desc2"}])
 
+(def dummy-rsvps-and-labels
+  {"https://github.com/orgs/madclj/discussions/6" {:attendees [{:name "Ambrose Bonnaire-Sergeant",
+                                                                :url "https://github.com/frenchy64",
+                                                                :avatar-url "https://avatars.githubusercontent.com/u/287396?u=2aa22e9ddcc23256939aa36dbd3ca60f3e260e69&v=4"}]
+                                                    :labels ["in person" "jitsi room"]}
+   "https://github.com/orgs/madclj/discussions/7" {:attendees [{:name "User 2",
+                                                                :url "https://github.com/user2",
+                                                                :avatar-url "avatar-url"}]
+                                                    :labels ["youtube live stream"]}})
+
 (def dummy-rsvps
   {"https://github.com/orgs/madclj/discussions/6" [{:name "Ambrose Bonnaire-Sergeant",
                                                     :url "https://github.com/frenchy64",
@@ -19,10 +29,12 @@
            :description "desc1\n\nRSVPs: 1"
            :attendees [{:name "Ambrose Bonnaire-Sergeant",
                         :url "https://github.com/frenchy64",
-                        :avatar-url "https://avatars.githubusercontent.com/u/287396?u=2aa22e9ddcc23256939aa36dbd3ca60f3e260e69&v=4"}]}
+                        :avatar-url "https://avatars.githubusercontent.com/u/287396?u=2aa22e9ddcc23256939aa36dbd3ca60f3e260e69&v=4"}]
+           :labels ["in person" "jitsi room"]}
           {:summary "2", :uid "2", :rsvp "https://github.com/orgs/madclj/discussions/7",
            :description "desc2\n\nRSVPs: 1"
            :attendees [{:name "User 2",
                         :url "https://github.com/user2",
-                        :avatar-url "avatar-url"}]}]
-         (sut/add-rsvps-to-events dummy-events dummy-rsvps))))
+                        :avatar-url "avatar-url"}]
+           :labels ["youtube live stream"]}]
+         (sut/add-rsvps-to-events dummy-events dummy-rsvps-and-labels))))

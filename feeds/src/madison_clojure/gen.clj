@@ -37,32 +37,37 @@
          "| ------------- | ------------- | ------------- |"]
         (into (comp
                 (remove h/unpost-event?)
-                (map (fn [{:keys [start full-title summary rsvp attendees]}]
-                       (assert (not (str/includes? rsvp "(")))
-                       (assert (not (str/includes? rsvp ")")))
-                       (str "|"
-                            (str/join "|"
-                                      (eduction (map #(str/escape % {\| "\\|"}))
-                                                [(format-event-time start)
-                                                 (format "[%s](%s)"
-                                                         (str/escape full-title {\[ "\\[" \] "\\]"})
-                                                         rsvp)
-                                                 (if (seq attendees)
-                                                   (pr-str (count attendees))
-                                                   "")
-                                                 #_
-                                                 (str/join (mapcat
-                                                             (fn [{:keys [#_name #_url avatar-url]}]
-                                                               (assert (not (str/includes? avatar-url "\"")))
-                                                               ;(assert (not (str/includes? url "\"")))
-                                                               [;(format "<a href=\"%s\" title=\"%s\">" url name)
-                                                                (format "<img src=\"%s\" style=\"%s\"/>"
-                                                                        avatar-url
-                                                                        "height:3em;display: inline-block; position: relative; overflow: hidden; border-radius: 50%;")
-                                                                ;"</a>"
-                                                                ])
-                                                             attendees))]))
-                            "|"))))
+                (mapcat (fn [{:keys [start full-title summary rsvp attendees labels]}]
+                          (assert (not (str/includes? rsvp "(")))
+                          (assert (not (str/includes? rsvp ")")))
+                          (let [main-row (str "|"
+                                              (str/join "|"
+                                                        (eduction (map #(str/escape % {\| "\\|"}))
+                                                                  [(format-event-time start)
+                                                                   (format "[%s](%s)"
+                                                                           (str/escape full-title {\[ "\\[" \] "\\]"})
+                                                                           rsvp)
+                                                                   (if (seq attendees)
+                                                                     (pr-str (count attendees))
+                                                                     "")
+                                                                   #_
+                                                                   (str/join (mapcat
+                                                                               (fn [{:keys [#_name #_url avatar-url]}]
+                                                                                 (assert (not (str/includes? avatar-url "\"")))
+                                                                                 ;(assert (not (str/includes? url "\"")))
+                                                                                 [;(format "<a href=\"%s\" title=\"%s\">" url name)
+                                                                                  (format "<img src=\"%s\" style=\"%s\"/>"
+                                                                                          avatar-url
+                                                                                          "height:3em;display: inline-block; position: relative; overflow: hidden; border-radius: 50%;")
+                                                                                  ;"</a>"
+                                                                                  ])
+                                                                               attendees))]))
+                                              "|")
+                                labels-row (when (seq labels)
+                                             (str "||" (str/join " + " labels) "||"))]
+                            (if labels-row
+                              [main-row labels-row]
+                              [main-row])))))
               (sort-by (juxt :start :end :full-title :uid) events))
         (into extra-events)
         (->> (str/join "\n")))))
@@ -74,13 +79,13 @@
       (->> (spit index-md))))
 
 (defn -main []
-  (let [rsvps (try (rsvp/rsvps-for-pinned-discussions)
-                   (catch Exception e
-                     (println "Error retreiving RSVP's!")
-                     (prn e)
-                     ;; events will still render without RSVP's
-                     {}))
-        events (rsvp/add-rsvps-to-events e/events rsvps)]
+  (let [rsvps-and-labels (try (rsvp/rsvps-and-labels-for-pinned-discussions)
+                              (catch Exception e
+                                (println "Error retrieving RSVP's!")
+                                (prn e)
+                                ;; events will still render without RSVP's
+                                {}))
+        events (rsvp/add-rsvps-to-events e/events rsvps-and-labels)]
     (gen-ics events)
     (gen-table events)))
 
