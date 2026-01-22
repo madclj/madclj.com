@@ -40,7 +40,7 @@ env:
 jobs:
   # Build job
   build:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-slim
     env:
       HUGO_VERSION: 0.137.1
     # deactivate scheduled job on forks
@@ -97,7 +97,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-slim
     needs: build
     steps:
       - name: Deploy to GitHub Pages
