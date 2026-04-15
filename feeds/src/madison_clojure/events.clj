@@ -490,7 +490,7 @@
     :start (madison-time "2026-04-08T18:30"),
     :end (madison-time "2026-04-08T21:00")}
    {:full-title "CANCELLED Clojure Documentary Watch Party",
-    :summary "CANCELLEDClojure Documentary Watch Party",
+    :summary "CANCELLED Clojure Documentary Watch Party",
     :uid "https://github.com/orgs/madclj/discussions/58",
     :cancelled true
     :description
