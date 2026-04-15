@@ -489,12 +489,13 @@
     :location startingblock,
     :start (madison-time "2026-04-08T18:30"),
     :end (madison-time "2026-04-08T21:00")}
-   {:full-title "Clojure Documentary Watch Party",
-    :summary "Clojure Documentary Watch Party",
+   {:full-title "CANCELLED Clojure Documentary Watch Party",
+    :summary "CANCELLED Clojure Documentary Watch Party",
     :uid "https://github.com/orgs/madclj/discussions/58",
+    :cancelled true
     :description
     (text
-      "Let's watch the new [Clojure Documentary](https://clojure.org/news/2026/03/26/documentary_trailer) together! Pizza and fizzy drinks provided, please bring sides and dessert (post a comment on what you're bringing)."),
+      "CANCELLED")
     :rsvp "https://github.com/orgs/madclj/discussions/58",
     :location startingblock,
     :start (madison-time "2026-04-16T18:00"),
