@@ -516,72 +516,72 @@
     :location startingblock,
     :start (madison-time "2026-04-17T12:00"),
     :end (madison-time "2026-04-17T16:00")}
-   {:full-title "May 13th 2026 Meetup",
+   {:full-title "CANCELLED: May 13th 2026 Meetup",
     :cancelled true
-    :summary "May 13th 2026 Meetup",
+    :summary "CANCELLED: May 13th 2026 Meetup",
     :uid "https://github.com/orgs/madclj/discussions/41",
     :description (text "TBD"),
     :rsvp "https://github.com/orgs/madclj/discussions/41",
     :location startingblock,
     :start (madison-time "2026-05-13T18:30"),
     :end (madison-time "2026-05-13T21:00")}
-   {:full-title "June 10th 2026 Meetup",
+   {:full-title "CANCELLED: June 10th 2026 Meetup",
     :cancelled true
-    :summary "June 10th 2026 Meetup",
+    :summary "CANCELLED: June 10th 2026 Meetup",
     :uid "https://github.com/orgs/madclj/discussions/42",
     :description (text "TBD"),
     :rsvp "https://github.com/orgs/madclj/discussions/42",
     :location startingblock,
     :start (madison-time "2026-06-10T18:30"),
     :end (madison-time "2026-06-10T21:00")}
-   {:full-title "July 8th 2026 Meetup",
+   {:full-title "CANCELLED: July 8th 2026 Meetup",
     :cancelled true
-    :summary "July 8th 2026 Meetup",
+    :summary "CANCELLED: July 8th 2026 Meetup",
     :uid "https://github.com/orgs/madclj/discussions/43",
     :description (text "TBD"),
     :rsvp "https://github.com/orgs/madclj/discussions/43",
     :location startingblock,
     :start (madison-time "2026-07-08T18:30"),
     :end (madison-time "2026-07-08T21:00")}
-   {:full-title "August 12th 2026 Meetup",
+   {:full-title "CANCELLED: August 12th 2026 Meetup",
     :cancelled true
-    :summary "August 12th 2026 Meetup",
+    :summary "CANCELLED: August 12th 2026 Meetup",
     :uid "https://github.com/orgs/madclj/discussions/44",
     :description (text "TBD"),
     :rsvp "https://github.com/orgs/madclj/discussions/44",
     :location startingblock,
     :start (madison-time "2026-08-12T18:30"),
     :end (madison-time "2026-08-12T21:00")}
-   {:full-title "September 9th 2026 Meetup",
+   {:full-title "CANCELLED: September 9th 2026 Meetup",
     :cancelled true
-    :summary "September 9th 2026 Meetup",
+    :summary "CANCELLED: September 9th 2026 Meetup",
     :uid "https://github.com/orgs/madclj/discussions/45",
     :description (text "TBD"),
     :rsvp "https://github.com/orgs/madclj/discussions/45",
     :location startingblock,
     :start (madison-time "2026-09-09T18:30"),
     :end (madison-time "2026-09-09T21:00")}
-   {:full-title "October 14th 2026 Meetup",
+   {:full-title "CANCELLED: October 14th 2026 Meetup",
     :cancelled true
-    :summary "October 14th 2026 Meetup",
+    :summary "CANCELLED: October 14th 2026 Meetup",
     :uid "https://github.com/orgs/madclj/discussions/46",
     :description (text "TBD"),
     :rsvp "https://github.com/orgs/madclj/discussions/46",
     :location startingblock,
     :start (madison-time "2026-10-14T18:30"),
     :end (madison-time "2026-10-14T21:00")}
-   {:full-title "November 11th 2026 Meetup",
+   {:full-title "CANCELLED: November 11th 2026 Meetup",
     :cancelled true
-    :summary "November 11th 2026 Meetup",
+    :summary "CANCELLED: November 11th 2026 Meetup",
     :uid "https://github.com/orgs/madclj/discussions/47",
     :description (text "TBD"),
     :rsvp "https://github.com/orgs/madclj/discussions/47",
     :location startingblock,
     :start (madison-time "2026-11-11T18:30"),
     :end (madison-time "2026-11-11T21:00")}
-   {:full-title "December 9th 2026 Meetup",
+   {:full-title "CANCELLED: December 9th 2026 Meetup",
     :cancelled true
-    :summary "December 9th 2026 Meetup",
+    :summary "CANCELLED: December 9th 2026 Meetup",
     :uid "https://github.com/orgs/madclj/discussions/48",
     :description (text "TBD"),
     :rsvp "https://github.com/orgs/madclj/discussions/48",
