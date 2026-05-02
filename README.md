@@ -93,7 +93,8 @@ At the start of each year, create placeholder events (second Wednesday of each m
 **RSVP counts not updating?**
 - Ensure the discussion is pinned
 - Check the discussion URL in `events.clj` matches exactly
-- The workflow runs at 2 AM & 2 PM Madison time (or manually trigger from Actions tab)
+- [A scheduled workflow](https://github.com/madclj/madclj.com/actions/workflows/hugo.yaml) runs at 2 AM & 2 PM Madison time (or manually trigger from Actions tab)
+  - The workflow is automatically disabled after ~60 days of inactivity on this repo. Reenable it [here](https://github.com/madclj/madclj.com/actions/workflows/hugo.yaml).
 
 **Event not on calendar?**
 - Verify `:uid` matches the GitHub discussion URL exactly
