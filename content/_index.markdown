@@ -15,6 +15,17 @@ title: Home
 
 [Download Calendar (.ics)](events.ics)
 
+---
+
+### For Organizers
+
+Want to organize a meetup? See the [Organizer Guide](https://github.com/madclj/madclj.com#for-organizers-creating--managing-meetups) in the repository README for detailed instructions on:
+- Creating new events
+- Updating and cancelling events
+- Reminding attendees
+- Post-event procedures
+
+[📋 Full Organizer Guide](https://github.com/madclj/madclj.com#for-organizers-creating--managing-meetups)
 
 <!--
 |Nov 13th 2024 (Past)|[Clojure Conference Takeaways and Inspirations](https://github.com/orgs/madclj/discussions/6)|4|
