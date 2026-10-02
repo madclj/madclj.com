@@ -5,6 +5,7 @@
 (set! *warn-on-reflection* true)
 
 (def startingblock "[StartingBlock Madison](https://www.google.com/maps/search/?api=1&query=43.081245%2C%20-89.374054)\n821 E Washington Ave 2nd floor, Madison, WI")
+(def central-library-study-room "[Madison Central Library](https://maps.app.goo.gl/PCG7SVRPysycNqY77)\n201 W Mifflin St, Madison, WI 53703, Study Room 209, Madison, WI")
 (def startingblock-pop "[StartingBlock Madison](https://www.google.com/maps/search/?api=1&query=43.081245%2C%20-89.374054)\n821 E Washington Ave 3rd floor (\"Pop\" Conference Room), Madison, WI")
 
 ;; :uid should be stable and unique for each event
@@ -561,15 +562,15 @@
     :location startingblock,
     :start (madison-time "2026-09-09T18:30"),
     :end (madison-time "2026-09-09T21:00")}
-   {:full-title "CANCELLED: October 14th 2026 Meetup",
-    :cancelled true
-    :summary "CANCELLED: October 14th 2026 Meetup",
+   {:full-title "October 15th 2026 Meetup",
+    :cancelled false
+    :summary "October 15th 2026 Meetup",
     :uid "https://github.com/orgs/madclj/discussions/46",
     :description (text "TBD"),
     :rsvp "https://github.com/orgs/madclj/discussions/46",
-    :location startingblock,
-    :start (madison-time "2026-10-14T18:30"),
-    :end (madison-time "2026-10-14T21:00")}
+    :location central-library-study-room
+    :start (madison-time "2026-10-15T18:30"),
+    :end (madison-time "2026-10-15T21:00")}
    {:full-title "CANCELLED: November 11th 2026 Meetup",
     :cancelled true
     :summary "CANCELLED: November 11th 2026 Meetup",
