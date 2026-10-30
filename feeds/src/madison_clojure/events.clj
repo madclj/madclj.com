@@ -4,8 +4,10 @@
 
 (set! *warn-on-reflection* true)
 
+(def central-library-study-room-209 "[Madison Central Library](https://maps.app.goo.gl/PCG7SVRPysycNqY77)\n201 W Mifflin St, Madison, WI 53703, Study Room 209, Madison, WI")
+(def central-library-study-room-201 "[Madison Central Library](https://maps.app.goo.gl/PCG7SVRPysycNqY77)\n201 W Mifflin St, Madison, WI 53703, Study Room 201, Madison, WI")
+(def central-library-conference-room-104 "[Madison Central Library](https://maps.app.goo.gl/PCG7SVRPysycNqY77)\n201 W Mifflin St, Madison, WI 53703, Conference Room 104, Madison, WI")
 (def startingblock "[StartingBlock Madison](https://www.google.com/maps/search/?api=1&query=43.081245%2C%20-89.374054)\n821 E Washington Ave 2nd floor, Madison, WI")
-(def central-library-study-room "[Madison Central Library](https://maps.app.goo.gl/PCG7SVRPysycNqY77)\n201 W Mifflin St, Madison, WI 53703, Study Room 209, Madison, WI")
 (def startingblock-pop "[StartingBlock Madison](https://www.google.com/maps/search/?api=1&query=43.081245%2C%20-89.374054)\n821 E Washington Ave 3rd floor (\"Pop\" Conference Room), Madison, WI")
 
 ;; :uid should be stable and unique for each event
@@ -568,25 +570,25 @@
     :uid "https://github.com/orgs/madclj/discussions/46",
     :description (text "TBD"),
     :rsvp "https://github.com/orgs/madclj/discussions/46",
-    :location central-library-study-room
+    :location central-library-study-room-209
     :start (madison-time "2026-10-15T18:30"),
     :end (madison-time "2026-10-15T21:00")}
-   {:full-title "CANCELLED: November 11th 2026 Meetup",
-    :cancelled true
-    :summary "CANCELLED: November 11th 2026 Meetup",
+   {:full-title "November 18th 2026 Meetup",
+    :cancelled false
+    :summary "November 18th 2026 Meetup",
     :uid "https://github.com/orgs/madclj/discussions/47",
     :description (text "TBD"),
     :rsvp "https://github.com/orgs/madclj/discussions/47",
-    :location startingblock,
+    :location central-library-study-room-201
     :start (madison-time "2026-11-11T18:30"),
     :end (madison-time "2026-11-11T21:00")}
-   {:full-title "CANCELLED: December 9th 2026 Meetup",
-    :cancelled true
-    :summary "CANCELLED: December 9th 2026 Meetup",
+   {:full-title "December 9th 2026 Meetup",
+    :cancelled false
+    :summary "December 9th 2026 Meetup",
     :uid "https://github.com/orgs/madclj/discussions/48",
     :description (text "TBD"),
     :rsvp "https://github.com/orgs/madclj/discussions/48",
-    :location startingblock,
+    :location central-library-conference-room-104
     :start (madison-time "2026-12-09T18:30"),
     :end (madison-time "2026-12-09T21:00")}])
 
@@ -600,7 +602,7 @@
 (defn seed-events-2026
   "Generate code to seed monthly events for the year."
   []
-  (let [january-discussion-id 37 
+  (let [january-discussion-id 37
         year 2026]
     (into [] (map-indexed (fn [i ^java.time.LocalDate ld]
                             (let [discussion-id (+ i january-discussion-id)
